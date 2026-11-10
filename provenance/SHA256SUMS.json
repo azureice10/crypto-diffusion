@@ -7,8 +7,8 @@
       "sha256": "d055aa43216ed587a67e93e4629f7e3e44eb9bec059dcc86310f5f4e71529671"
     },
     ".github/workflows/validate.yml": {
-      "bytes": 1235,
-      "sha256": "3e51362383565f92afb9e87981f0ac217fe96027f84c9f897ca6a7f539ebe2f2"
+      "bytes": 3153,
+      "sha256": "26ba77f3df2de7308681e54b6f6ae91a060d932649aa6ca5e949a86b326bd09a"
     },
     ".gitignore": {
       "bytes": 465,
@@ -81,6 +81,10 @@
     "MODEL2C/validasi_referensi.py": {
       "bytes": 1980,
       "sha256": "9590fdb16f2248d71b9507207fd49c5be70986f88b83e7df09425921a30f6829"
+    },
+    "MODEL2C/validasi_referensi_linux.py": {
+      "bytes": 8225,
+      "sha256": "74237308872008d297cdc97ccd70b34dd005fee6d8b6d352a0793652c6f4fdd9"
     },
     "README.md": {
       "bytes": 6448,
@@ -1425,6 +1429,10 @@
     "docs/REPRODUCING.md": {
       "bytes": 4782,
       "sha256": "3d3afc47d08221dc837993f72510667b638dcd958e88c0116ad3214850e3b3d9"
+    },
+    "docs/SPARKLE_C_VALIDATION.md": {
+      "bytes": 2718,
+      "sha256": "72d29fd9c92930f266d4f15dea84f0a4028dde225eaec810c97b5e530da7f2ce"
     },
     "provenance/package_validation.json": {
       "bytes": 700,
