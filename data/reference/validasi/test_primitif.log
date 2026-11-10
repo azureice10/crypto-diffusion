@@ -1,0 +1,13 @@
+test_rectangle_matches_tool: OK
+test_clefia_matches_tool: OK
+test_sparkle_matches_tool: OK
+test_alzette_matches_tool: OK
+test_other_keys_match_tools: OK
+test_sparkle_family_matches_tool: OK
+test_slim_is_prefix_of_big: OK
+test_horizon_ignores_isolated_detections: OK
+test_zero_rate_of_a_known_map: OK
+test_corrected_statistics: OK
+test_official_vectors_and_scope: OK
+test_batch_traces_match_scalar_reference: OK
+All tests passed.

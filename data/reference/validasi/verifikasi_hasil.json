@@ -1,0 +1,18 @@
+{
+  "completed_runs": 6,
+  "primitive_configurations": 54,
+  "main_seed_replicates": 5,
+  "key_counts": {
+    "RECTANGLE-80": 8,
+    "CLEFIA-128": 8
+  },
+  "primary_png_figures": 15,
+  "large_sample_png_figures": 13,
+  "audit_png_figures": 2,
+  "finite_summary_json": true,
+  "source_syntax": "all parsed",
+  "reference_C_status": "execution blocked by Windows Application Control",
+  "heldout_linear_pairs_confirmed": 0,
+  "heldout_linear_pairs_tested": 2,
+  "heldout_inputs": 65536
+}

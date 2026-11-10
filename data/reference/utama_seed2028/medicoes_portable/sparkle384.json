@@ -1,0 +1,1495 @@
+{
+  "schema": "measurement-checkpoint/1",
+  "source_file": "../medicoes/sparkle384.pkl.gz",
+  "source_sha256": "19c9d6937bb1ae8b770d8b4c70bafa8a6bb5ea5de90ba2319296f9f27020f628",
+  "arrays_file": "sparkle384.npz",
+  "arrays_sha256": "b50261d27dd8a93cb58a8b311e0af47440116b97d5372f4b5a27eb6c02c366bd",
+  "arrays": {
+    "array_0000": {
+      "shape": [
+        2048,
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0001": {
+      "shape": [
+        2048,
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0002": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0003": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0004": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0005": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0006": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0007": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0008": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0009": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0010": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0011": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0012": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0013": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0014": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0015": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0016": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0017": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0018": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0019": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0020": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0021": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0022": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    },
+    "array_0023": {
+      "shape": [
+        384
+      ],
+      "dtype": "<f8"
+    }
+  },
+  "measurement": {
+    "ava": [
+      {
+        "round": 1,
+        "avalanche_mean": 0.19373819563123915,
+        "avalanche_min_input_bit": 0.0679931640625,
+        "completeness": 0.4159206814236111,
+        "sac_max_dev": 0.5,
+        "sac_violation_frac": 0.6561957465277778,
+        "sac_violations": 96760,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.0,
+        "sac_p_value": 1.5408596125127152e-107,
+        "sac_bonferroni_p": 1.5987211554601762e-14
+      },
+      {
+        "round": 2,
+        "avalanche_mean": 0.41647084554036456,
+        "avalanche_min_input_bit": 0.3228352864583333,
+        "completeness": 0.8333333333333334,
+        "sac_max_dev": 0.5,
+        "sac_violation_frac": 0.1671685112847222,
+        "sac_violations": 24650,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.0,
+        "sac_p_value": 1.5408596125127152e-107,
+        "sac_bonferroni_p": 1.5987211554601762e-14
+      },
+      {
+        "round": 3,
+        "avalanche_mean": 0.5000685585869683,
+        "avalanche_min_input_bit": 0.4919026692708333,
+        "completeness": 1.0,
+        "sac_max_dev": 0.28125,
+        "sac_violation_frac": 0.0006374782986111111,
+        "sac_violations": 94,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999990026636699,
+        "sac_p_value": 0.39182845588860565,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 4,
+        "avalanche_mean": 0.4999860127766927,
+        "avalanche_min_input_bit": 0.4864501953125,
+        "completeness": 1.0,
+        "sac_max_dev": 0.296875,
+        "sac_violation_frac": 0.0005967881944444445,
+        "sac_violations": 88,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999999518396505,
+        "sac_p_value": 0.6389207519322102,
+        "sac_bonferroni_p": 0.2773591557384602
+      },
+      {
+        "round": 5,
+        "avalanche_mean": 0.49989551968044704,
+        "avalanche_min_input_bit": 0.4908447265625,
+        "completeness": 1.0,
+        "sac_max_dev": 0.265625,
+        "sac_violation_frac": 0.0005425347222222222,
+        "sac_violations": 80,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999999995504825,
+        "sac_p_value": 0.8884938673862429,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 6,
+        "avalanche_mean": 0.4999987284342448,
+        "avalanche_min_input_bit": 0.4917805989583333,
+        "completeness": 1.0,
+        "sac_max_dev": 0.265625,
+        "sac_violation_frac": 0.0005967881944444445,
+        "sac_violations": 88,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999999518396505,
+        "sac_p_value": 0.6389207519322102,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 7,
+        "avalanche_mean": 0.5000334845648872,
+        "avalanche_min_input_bit": 0.4925130208333333,
+        "completeness": 1.0,
+        "sac_max_dev": 0.28125,
+        "sac_violation_frac": 0.0005832248263888889,
+        "sac_violations": 86,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999999839435789,
+        "sac_p_value": 0.7152482901025996,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 8,
+        "avalanche_mean": 0.4998283386230469,
+        "avalanche_min_input_bit": 0.4890950520833333,
+        "completeness": 1.0,
+        "sac_max_dev": 0.28125,
+        "sac_violation_frac": 0.0006442599826388889,
+        "sac_violations": 95,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999984076952348,
+        "sac_p_value": 0.3526220708766999,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 9,
+        "avalanche_mean": 0.5001692242092557,
+        "avalanche_min_input_bit": 0.4934895833333333,
+        "completeness": 1.0,
+        "sac_max_dev": 0.28125,
+        "sac_violation_frac": 0.0007052951388888889,
+        "sac_violations": 104,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999315692414914,
+        "sac_p_value": 0.09755837025463443,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 10,
+        "avalanche_mean": 0.5000263849894205,
+        "avalanche_min_input_bit": 0.4899088541666667,
+        "completeness": 1.0,
+        "sac_max_dev": 0.28125,
+        "sac_violation_frac": 0.0006917317708333334,
+        "sac_violations": 102,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.9999682463657339,
+        "sac_p_value": 0.1369492339037476,
+        "sac_bonferroni_p": 1.0
+      },
+      {
+        "round": 11,
+        "avalanche_mean": 0.5000136693318685,
+        "avalanche_min_input_bit": 0.489013671875,
+        "completeness": 1.0,
+        "sac_max_dev": 0.265625,
+        "sac_violation_frac": 0.0006171332465277778,
+        "sac_violations": 91,
+        "sac_effective_alpha": 0.0006173782640671316,
+        "sac_null_coupling_bound": 1.5408596125127152e-107,
+        "sac_p_value_legacy": 0.999999769913302,
+        "sac_p_value": 0.5154636247571784,
+        "sac_bonferroni_p": 1.0
+      }
+    ],
+    "lin": [
+      {
+        "round": 1,
+        "lin_max_abs_corr": 0.1171875,
+        "lin_max_corr_log2": -3.093,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.018333367042496645,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 2,
+        "lin_max_abs_corr": 0.1015625,
+        "lin_max_corr_log2": -3.3,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.6928214573946827,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 3,
+        "lin_max_abs_corr": 0.1044921875,
+        "lin_max_corr_log2": -3.259,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.36393771084720233,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 4,
+        "lin_max_abs_corr": 0.0986328125,
+        "lin_max_corr_log2": -3.342,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 1.0,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 5,
+        "lin_max_abs_corr": 0.1005859375,
+        "lin_max_corr_log2": -3.313,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.8553989343302324,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 6,
+        "lin_max_abs_corr": 0.1015625,
+        "lin_max_corr_log2": -3.3,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.6928214573946827,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 7,
+        "lin_max_abs_corr": 0.099609375,
+        "lin_max_corr_log2": -3.328,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 1.0,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 8,
+        "lin_max_abs_corr": 0.103515625,
+        "lin_max_corr_log2": -3.272,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.45190918372046884,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 9,
+        "lin_max_abs_corr": 0.0966796875,
+        "lin_max_corr_log2": -3.371,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 1.0,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 10,
+        "lin_max_abs_corr": 0.0986328125,
+        "lin_max_corr_log2": -3.342,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 1.0,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      },
+      {
+        "round": 11,
+        "lin_max_abs_corr": 0.103515625,
+        "lin_max_corr_log2": -3.272,
+        "lin_sig_pairs": 0,
+        "lin_sig_pairs_legacy": 0,
+        "lin_bonferroni_p": 0.45190918372046884,
+        "lin_sig_frac": 0.0,
+        "lin_noise_level": 0.12808009297317138
+      }
+    ],
+    "ys": {
+      "7": {
+        "$array": "array_0000"
+      },
+      "11": {
+        "$array": "array_0001"
+      }
+    },
+    "diff_rows": [
+      {
+        "round": 1,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 127,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 2,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 207,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 3,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 210,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 4,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 182,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 5,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 178,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 6,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 201,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 7,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 184,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 8,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 181,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 9,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 172,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 10,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 213,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 11,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 176,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 1,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 98,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 2,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 179,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 3,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 195,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 4,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 194,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 5,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 201,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 6,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 164,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 7,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 200,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 8,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 197,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 9,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 196,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 10,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 195,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 11,
+        "input_diff": "1 unit (4 bit)",
+        "dx_hex": "0xf",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 188,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 1,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 125,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 2,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 206,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 3,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 166,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 4,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 175,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 5,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 203,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 6,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 198,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 7,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 199,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 8,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 173,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 9,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 195,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 10,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 193,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 11,
+        "input_diff": "8 bit selaras",
+        "dx_hex": "0xff",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 200,
+        "diff_null_p_bound": 1.0
+      }
+    ],
+    "diff_best": [
+      {
+        "round": 1,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 127,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 2,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 207,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 3,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 210,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 4,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 182,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 5,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 178,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 6,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 201,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 7,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 184,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 8,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 181,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 9,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 172,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 10,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 213,
+        "diff_null_p_bound": 1.0
+      },
+      {
+        "round": 11,
+        "input_diff": "1 bit",
+        "dx_hex": "0x1",
+        "top_dy_count": 1,
+        "distinct_dy_frac": 1.0,
+        "dp_log2": null,
+        "top_dy_hw": 176,
+        "diff_null_p_bound": 1.0
+      }
+    ],
+    "zs4": [
+      {
+        "round": 1,
+        "active_bits": 4,
+        "balanced_bits": 132,
+        "balanced_frac": 0.34375,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 0.0,
+        "p_value": 8.771126989762884e-112,
+        "markov_p_bound": 4.438920454545455e-05,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 1.0,
+        "zero_rates": {
+          "$array": "array_0002"
+        },
+        "balanced_positions": [
+          145,
+          146,
+          147,
+          148,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ]
+      },
+      {
+        "round": 2,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0003"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 3,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0004"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 4,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0005"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 5,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0006"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 6,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0007"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 7,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.9375,
+        "zero_rates": {
+          "$array": "array_0008"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 8,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.9375,
+        "zero_rates": {
+          "$array": "array_0009"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 9,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0010"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 10,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0011"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 11,
+        "active_bits": 4,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 8.771126989762884e-112,
+        "zero_rate_max": 0.9375,
+        "zero_rates": {
+          "$array": "array_0012"
+        },
+        "balanced_positions": []
+      }
+    ],
+    "zs8": [
+      {
+        "round": 1,
+        "active_bits": 8,
+        "balanced_bits": 128,
+        "balanced_frac": 0.3333333333333333,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 0.0,
+        "p_value": 2.136256706840027e-109,
+        "markov_p_bound": 4.57763671875e-05,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 1.0,
+        "zero_rates": {
+          "$array": "array_0013"
+        },
+        "balanced_positions": [
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ]
+      },
+      {
+        "round": 2,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.9375,
+        "zero_rates": {
+          "$array": "array_0014"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 3,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0015"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 4,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0016"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 5,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0017"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 6,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0018"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 7,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0019"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 8,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0020"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 9,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0021"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 10,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.875,
+        "zero_rates": {
+          "$array": "array_0022"
+        },
+        "balanced_positions": []
+      },
+      {
+        "round": 11,
+        "active_bits": 8,
+        "balanced_bits": 0,
+        "balanced_frac": 0.0,
+        "expected_false_pos": 0.005859375,
+        "p_value_legacy": 1.0,
+        "p_value": 1.0,
+        "markov_p_bound": 1.0,
+        "null_coupling_bound": 2.136256706840027e-109,
+        "zero_rate_max": 0.8125,
+        "zero_rates": {
+          "$array": "array_0023"
+        },
+        "balanced_positions": []
+      }
+    ]
+  }
+}

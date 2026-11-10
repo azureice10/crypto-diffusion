@@ -1,0 +1,51 @@
+
+== RECTANGLE-80 (64 bit, 25 ronde) ==
+  selesai dalam 12.9 s
+
+== CLEFIA-128 (128 bit, 18 ronde asli CLEFIA) ==
+  selesai dalam 7.2 s
+
+== Sparkle256 (256 bit, 10 step) ==
+  selesai dalam 11.3 s
+
+== Sparkle384 (384 bit, 11 step) ==
+  selesai dalam 28.3 s
+
+== Sparkle512 (512 bit, 12 step) ==
+  selesai dalam 62.0 s
+
+== Alzette (64 bit, 4 ronde ARX) ==
+  selesai dalam 2.3 s
+  RECTANGLE-80: horizon distinguisher = 6/25
+  CLEFIA-128: horizon distinguisher = 5/18
+  Sparkle256: horizon distinguisher = 2/10
+  Sparkle256-slim: horizon distinguisher = 2/7
+  Sparkle384: horizon distinguisher = 2/11
+  Sparkle384-slim: horizon distinguisher = 2/7
+  Sparkle512: horizon distinguisher = 2/12
+  Sparkle512-slim: horizon distinguisher = 2/8
+  Alzette: horizon distinguisher = 4/4
+
+== RECTANGLE-80: 8 kunci ==
+  default: horizon 6/25
+  semua 0: horizon 6/25
+  semua 1: horizon 6/25
+  acak 1: horizon 6/25
+  acak 2: horizon 6/25
+  acak 3: horizon 6/25
+  acak 4: horizon 6/25
+  acak 5: horizon 6/25
+  selesai dalam 230.1 s
+
+== CLEFIA-128: 8 kunci ==
+  default: horizon 5/18
+  semua 0: horizon 5/18
+  semua 1: horizon 5/18
+  acak 1: horizon 5/18
+  acak 2: horizon 5/18
+  acak 3: horizon 5/18
+  acak 4: horizon 5/18
+  acak 5: horizon 5/18
+  selesai dalam 135.5 s
+
+Hasil tersimpan di <original-workspace>\eksperimen_ulang\utama_seed2026 (laporan.md, ringkasan.json, *.csv)

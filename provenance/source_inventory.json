@@ -1,0 +1,1693 @@
+{
+  "date": "2026-11-10",
+  "scope": "Original workspace paths are relative; source hashes preserve the pre-packaging audit trail.",
+  "files": [
+    {
+      "source": "MODEL2C/audit_eksperimen.py",
+      "packaged": "MODEL2C/audit_eksperimen.py",
+      "source_sha256": "ed323d4bf99a8ed91bea7ecbf5c256f4a84b55201934c5a070bde9f1e354740c",
+      "packaged_sha256": "ed323d4bf99a8ed91bea7ecbf5c256f4a84b55201934c5a070bde9f1e354740c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/bandingkan.py",
+      "packaged": "MODEL2C/bandingkan.py",
+      "source_sha256": "877c9d1f80ce87e12c5b2465e22d50bbbd957b7201f612fd87d8f1c38609d65b",
+      "packaged_sha256": "877c9d1f80ce87e12c5b2465e22d50bbbd957b7201f612fd87d8f1c38609d65b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/buat_grafik.py",
+      "packaged": "MODEL2C/buat_grafik.py",
+      "source_sha256": "ccbad7dfc1e8c0e1ee20b10966a26de1618c574e2d39de2ad9c1a43f9700f5ba",
+      "packaged_sha256": "ccbad7dfc1e8c0e1ee20b10966a26de1618c574e2d39de2ad9c1a43f9700f5ba",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/clefia.py",
+      "packaged": "MODEL2C/clefia.py",
+      "source_sha256": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+      "packaged_sha256": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/metrik.py",
+      "packaged": "MODEL2C/metrik.py",
+      "source_sha256": "05a38eed3d32c70093f43f58394d64ac03c5c5d0f7145bd110682cbaf369a704",
+      "packaged_sha256": "05a38eed3d32c70093f43f58394d64ac03c5c5d0f7145bd110682cbaf369a704",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/primitif.py",
+      "packaged": "MODEL2C/primitif.py",
+      "source_sha256": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+      "packaged_sha256": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/README.md",
+      "packaged": "MODEL2C/README.md",
+      "source_sha256": "d2f00fac086ce1de07bf105147863258f310042b9bec9142fb652fe469a32673",
+      "packaged_sha256": "d2f00fac086ce1de07bf105147863258f310042b9bec9142fb652fe469a32673",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/rectangle.py",
+      "packaged": "MODEL2C/rectangle.py",
+      "source_sha256": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85",
+      "packaged_sha256": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/requirements.txt",
+      "packaged": "MODEL2C/requirements.txt",
+      "source_sha256": "67ca867be6c15fff020cec1570e0b241254170f76ef7743fdd84d9184032d85d",
+      "packaged_sha256": "67ca867be6c15fff020cec1570e0b241254170f76ef7743fdd84d9184032d85d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/sparkle.py",
+      "packaged": "MODEL2C/sparkle.py",
+      "source_sha256": "71963cefd560a95968d65f09fbd59345a95efc43ed9102debcdaab7f578a590e",
+      "packaged_sha256": "71963cefd560a95968d65f09fbd59345a95efc43ed9102debcdaab7f578a590e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/test_primitif.py",
+      "packaged": "MODEL2C/test_primitif.py",
+      "source_sha256": "9bbd718b4b6824b0a2ef7554c4c8398602b688c9aa39c28ab2070a0b7c114a0a",
+      "packaged_sha256": "9bbd718b4b6824b0a2ef7554c4c8398602b688c9aa39c28ab2070a0b7c114a0a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/ulang_eksperimen.py",
+      "packaged": "MODEL2C/ulang_eksperimen.py",
+      "source_sha256": "0c7fdf5464d58b7101ee6f69c12d8d3e6b20028473b3fcf1ac8b40ebee9ab3ba",
+      "packaged_sha256": "0c7fdf5464d58b7101ee6f69c12d8d3e6b20028473b3fcf1ac8b40ebee9ab3ba",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/validasi_batch.py",
+      "packaged": "MODEL2C/validasi_batch.py",
+      "source_sha256": "5344933ba1d087fabb9156d83cd03a76b0510fc1f573b88f5d2fd4c91cbb2e73",
+      "packaged_sha256": "5344933ba1d087fabb9156d83cd03a76b0510fc1f573b88f5d2fd4c91cbb2e73",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "MODEL2C/validasi_referensi.py",
+      "packaged": "MODEL2C/validasi_referensi.py",
+      "source_sha256": "9590fdb16f2248d71b9507207fd49c5be70986f88b83e7df09425921a30f6829",
+      "packaged_sha256": "9590fdb16f2248d71b9507207fd49c5be70986f88b83e7df09425921a30f6829",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/benchmark_ulang.csv",
+      "packaged": "data/reference/audit/benchmark_ulang.csv",
+      "source_sha256": "96b86a491a2fc4bd1e7e78c7d04ff17248ab001807fc295a028740fa1b65b54e",
+      "packaged_sha256": "96b86a491a2fc4bd1e7e78c7d04ff17248ab001807fc295a028740fa1b65b54e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/deteksi_per_ronde.csv",
+      "packaged": "data/reference/audit/deteksi_per_ronde.csv",
+      "source_sha256": "4fd1893b150c8f190741e95d206f6d7915a76784cf84182208f2044b079d55a5",
+      "packaged_sha256": "4fd1893b150c8f190741e95d206f6d7915a76784cf84182208f2044b079d55a5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/hipotesis_linear_sebelum_konfirmasi.json",
+      "packaged": "data/reference/audit/hipotesis_linear_sebelum_konfirmasi.json",
+      "source_sha256": "837f1991c07c1bf7167d7adf7598f214c128589bee8a1d82c030f5b247ffcf3d",
+      "packaged_sha256": "837f1991c07c1bf7167d7adf7598f214c128589bee8a1d82c030f5b247ffcf3d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/horizon_kunci_semua_aturan.csv",
+      "packaged": "data/reference/audit/horizon_kunci_semua_aturan.csv",
+      "source_sha256": "c9e2115e4994153f52170645b1b4b4f3ad99d4eefc97a51b9acfc24508b5f27d",
+      "packaged_sha256": "c9e2115e4994153f52170645b1b4b4f3ad99d4eefc97a51b9acfc24508b5f27d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/horizon_semua_aturan.csv",
+      "packaged": "data/reference/audit/horizon_semua_aturan.csv",
+      "source_sha256": "42f21031c035a0bb2fed5fbf3c4de6c73f5ed21bbbed6ec084a56a6b2ae6a9fc",
+      "packaged_sha256": "42f21031c035a0bb2fed5fbf3c4de6c73f5ed21bbbed6ec084a56a6b2ae6a9fc",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/horizon_sensitivitas.pdf",
+      "packaged": "data/reference/audit/horizon_sensitivitas.pdf",
+      "source_sha256": "3b6a00dc94a27c89c81adfcb80178ec04ca5619129835af32d8ea08ce885760e",
+      "packaged_sha256": "3b6a00dc94a27c89c81adfcb80178ec04ca5619129835af32d8ea08ce885760e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/horizon_sensitivitas.png",
+      "packaged": "data/reference/audit/horizon_sensitivitas.png",
+      "source_sha256": "9e3e201b1fc6f8c5d72b3a36574d56b7ad96404f9c68ad88e0ad2a61cb146c83",
+      "packaged_sha256": "9e3e201b1fc6f8c5d72b3a36574d56b7ad96404f9c68ad88e0ad2a61cb146c83",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/kalibrasi_null.csv",
+      "packaged": "data/reference/audit/kalibrasi_null.csv",
+      "source_sha256": "271d0787f1fb8e85641a9f0f9d433516ce11ecd4ad0a82832900ef5fa7f37ee6",
+      "packaged_sha256": "271d0787f1fb8e85641a9f0f9d433516ce11ecd4ad0a82832900ef5fa7f37ee6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/kemiripan_sensitivitas.csv",
+      "packaged": "data/reference/audit/kemiripan_sensitivitas.csv",
+      "source_sha256": "0fe025fa50f525e33f7dc53509cc5077d359bc986bac6c90862772c3343b62d0",
+      "packaged_sha256": "0fe025fa50f525e33f7dc53509cc5077d359bc986bac6c90862772c3343b62d0",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/korelasi_audit.csv",
+      "packaged": "data/reference/audit/korelasi_audit.csv",
+      "source_sha256": "72c1203512a2727f88fc3812584f62f16e6ac362877a964d6f25e0801563aca8",
+      "packaged_sha256": "72c1203512a2727f88fc3812584f62f16e6ac362877a964d6f25e0801563aca8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/korelasi_sebelum_sesudah.pdf",
+      "packaged": "data/reference/audit/korelasi_sebelum_sesudah.pdf",
+      "source_sha256": "cd7b0452adc07d7cd85349ec4ea0710a762205251c1ecc75ad1ac91566b9caf8",
+      "packaged_sha256": "cd7b0452adc07d7cd85349ec4ea0710a762205251c1ecc75ad1ac91566b9caf8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/korelasi_sebelum_sesudah.png",
+      "packaged": "data/reference/audit/korelasi_sebelum_sesudah.png",
+      "source_sha256": "c7db5048c480105f76505ab562ed20d4a8746ccbc618b9bc743b3e0fd074a34b",
+      "packaged_sha256": "c7db5048c480105f76505ab562ed20d4a8746ccbc618b9bc743b3e0fd074a34b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/linear_deteksi_terisolasi_konfirmasi.csv",
+      "packaged": "data/reference/audit/linear_deteksi_terisolasi_konfirmasi.csv",
+      "source_sha256": "706563cbb4abffa1410552fb8b86f586ede8847503009199fb8b46518d526b9b",
+      "packaged_sha256": "706563cbb4abffa1410552fb8b86f586ede8847503009199fb8b46518d526b9b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/null_permutasi_langsung.csv",
+      "packaged": "data/reference/audit/null_permutasi_langsung.csv",
+      "source_sha256": "3a7a7b95484b2d8a24e03f1c6d245c9c2e5829b5a5f8b43309f0ba5da13c0292",
+      "packaged_sha256": "3a7a7b95484b2d8a24e03f1c6d245c9c2e5829b5a5f8b43309f0ba5da13c0292",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/whitening_avalanche_kunci.csv",
+      "packaged": "data/reference/audit/whitening_avalanche_kunci.csv",
+      "source_sha256": "93b2de101ff60e1532f7a9f87cb77c349dabafcc3ed8626d10c85b009ff00326",
+      "packaged_sha256": "93b2de101ff60e1532f7a9f87cb77c349dabafcc3ed8626d10c85b009ff00326",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/audit/whitening_statistik.csv",
+      "packaged": "data/reference/audit/whitening_statistik.csv",
+      "source_sha256": "b704721110b66206bc754a2cd3ef7e3bedd5dea1ba7b673320e3ed08cb4e0cf6",
+      "packaged_sha256": "b704721110b66206bc754a2cd3ef7e3bedd5dea1ba7b673320e3ed08cb4e0cf6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/HASIL_EKSPERIMEN_ULANG.md",
+      "packaged": "docs/EXPERIMENT_REPORT_ID.md",
+      "source_sha256": "774d8a5a4beaf8d58fe7a901f639bebffcd81a6c574f33dcf39fc969cdf6eb51",
+      "packaged_sha256": "774d8a5a4beaf8d58fe7a901f639bebffcd81a6c574f33dcf39fc969cdf6eb51",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/METODOLOGI_KOREKSI.md",
+      "packaged": "docs/METHODOLOGY_ID.md",
+      "source_sha256": "023ce55a9d5fa234220d37ec7ca66cd0c551717bee8340e5e274688a54b4e047",
+      "packaged_sha256": "023ce55a9d5fa234220d37ec7ca66cd0c551717bee8340e5e274688a54b4e047",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/runner.log",
+      "packaged": "data/reference/runner.log",
+      "source_sha256": "a8b6ff9818e2dc0bef60c09ed6e9131065ae6714a9d46f0ce9b64479994b4755",
+      "packaged_sha256": "de70cbc6ab6ce4f40ce2541ee3db8c3570d7afd823d253c47ca05ad1779068f7",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/ambiente.json",
+      "packaged": "data/reference/sampel_besar_seed2026/ambiente.json",
+      "source_sha256": "b5bed29aad66a81158906b747d598b14c01b56326669f2c62b0b6e7dd6659dde",
+      "packaged_sha256": "f00c458325b9a1774be6497d43465281c3408403c26a2bba819716975c9640e0",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/diferensial_detail.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/diferensial_detail.csv",
+      "source_sha256": "4dfc6488c2154d0d87721075d96a5fb1aa99896db0bf6490e23fe17aa5973175",
+      "packaged_sha256": "4dfc6488c2154d0d87721075d96a5fb1aa99896db0bf6490e23fe17aa5973175",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/diferensial_dy_teratas.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/diferensial_dy_teratas.pdf",
+      "source_sha256": "a53880247604305979f65d95922b71a505e34120d2841dcdabfaefadb060d6bc",
+      "packaged_sha256": "a53880247604305979f65d95922b71a505e34120d2841dcdabfaefadb060d6bc",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/diferensial_dy_teratas.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/diferensial_dy_teratas.png",
+      "source_sha256": "3af1fccbdcb2f42f3ed4748bbe7439bd3014efa70ac683ba0649d91bd094c54a",
+      "packaged_sha256": "3af1fccbdcb2f42f3ed4748bbe7439bd3014efa70ac683ba0649d91bd094c54a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/horizon_margin.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/horizon_margin.pdf",
+      "source_sha256": "d5ed856224ad865bd1f9672218d587af9f946637cb90b39d34b102ff3eaca885",
+      "packaged_sha256": "d5ed856224ad865bd1f9672218d587af9f946637cb90b39d34b102ff3eaca885",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/horizon_margin.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/horizon_margin.png",
+      "source_sha256": "27338326697f3c52b81a7b7a013a9337b5c26eae361e666bbd6c42b354d8babf",
+      "packaged_sha256": "27338326697f3c52b81a7b7a013a9337b5c26eae361e666bbd6c42b354d8babf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/horizon_per_metrik.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/horizon_per_metrik.pdf",
+      "source_sha256": "b3c6467c8e1cff9302a4c1348ba792f2a61fbcd4e8691e6e9dd053434e5ff2e1",
+      "packaged_sha256": "b3c6467c8e1cff9302a4c1348ba792f2a61fbcd4e8691e6e9dd053434e5ff2e1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/horizon_per_metrik.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/horizon_per_metrik.png",
+      "source_sha256": "2828f528ad51169533089b147ee0e0ca2ce5aaa5cad2d358d7b9e0264201fcc6",
+      "packaged_sha256": "2828f528ad51169533089b147ee0e0ca2ce5aaa5cad2d358d7b9e0264201fcc6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kemiripan_kurva_pearson.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kemiripan_kurva_pearson.pdf",
+      "source_sha256": "533b5f4a2ccfd37207591f9120d0a00d2a1647612f602bd55f179486c25727e2",
+      "packaged_sha256": "533b5f4a2ccfd37207591f9120d0a00d2a1647612f602bd55f179486c25727e2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kemiripan_kurva_pearson.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kemiripan_kurva_pearson.png",
+      "source_sha256": "f0863bde9ee2ef8fe3d73aea3749f9197ba922f55570dd25772f11a857de3cd3",
+      "packaged_sha256": "f0863bde9ee2ef8fe3d73aea3749f9197ba922f55570dd25772f11a857de3cd3",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/korelasi_metrik_spearman.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/korelasi_metrik_spearman.pdf",
+      "source_sha256": "bddde15863f3a0c5e11eb59a68adf22769dd6c318d4df79c0d08deffed97ea9d",
+      "packaged_sha256": "bddde15863f3a0c5e11eb59a68adf22769dd6c318d4df79c0d08deffed97ea9d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/korelasi_metrik_spearman.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/korelasi_metrik_spearman.png",
+      "source_sha256": "c0f24d4d1c4000fbe5c16eb2c60f0d26efbc79c73bd1ad9abbb196b0c696aa61",
+      "packaged_sha256": "c0f24d4d1c4000fbe5c16eb2c60f0d26efbc79c73bd1ad9abbb196b0c696aa61",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_avalanche_mean.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_avalanche_mean.pdf",
+      "source_sha256": "4b793d9a020968e473b9bb55c6deae2950ed31b4a896a90b474b1dc4f5e671ee",
+      "packaged_sha256": "4b793d9a020968e473b9bb55c6deae2950ed31b4a896a90b474b1dc4f5e671ee",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_avalanche_mean.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_avalanche_mean.png",
+      "source_sha256": "055db062fca1aa8bcac95e7114cbb7a08d39a04c1456f75eafddb33513e9ee54",
+      "packaged_sha256": "055db062fca1aa8bcac95e7114cbb7a08d39a04c1456f75eafddb33513e9ee54",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_completeness.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_completeness.pdf",
+      "source_sha256": "207c754428e29b6a12732ad6e09d6795e5a4da035e9e305ecf5c70112c2e2ac1",
+      "packaged_sha256": "207c754428e29b6a12732ad6e09d6795e5a4da035e9e305ecf5c70112c2e2ac1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_completeness.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_completeness.png",
+      "source_sha256": "f37c3b537626fdddb28778bccb69e56fe0d9c99028dbc6ff4382348b59c4724b",
+      "packaged_sha256": "f37c3b537626fdddb28778bccb69e56fe0d9c99028dbc6ff4382348b59c4724b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_diff_top_frac.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_diff_top_frac.pdf",
+      "source_sha256": "80c67ee921d0b365ace879fc64e9babaffd5bc9c85eaea150423c6f52cf2efdf",
+      "packaged_sha256": "80c67ee921d0b365ace879fc64e9babaffd5bc9c85eaea150423c6f52cf2efdf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_diff_top_frac.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_diff_top_frac.png",
+      "source_sha256": "985fee448e34fa372d283297ecc678e9ffba3d22b99740e2e8d44513a9d49748",
+      "packaged_sha256": "985fee448e34fa372d283297ecc678e9ffba3d22b99740e2e8d44513a9d49748",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_lin_max_abs_corr.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_lin_max_abs_corr.pdf",
+      "source_sha256": "3bfaf91f3e52df501402b69455d727bc84a355625697ad23b73e785a0f7969f5",
+      "packaged_sha256": "3bfaf91f3e52df501402b69455d727bc84a355625697ad23b73e785a0f7969f5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_lin_max_abs_corr.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_lin_max_abs_corr.png",
+      "source_sha256": "c1a108d79a73fb6952daa631c81e5455f2b521cc1613f2969310664e5bf7c382",
+      "packaged_sha256": "c1a108d79a73fb6952daa631c81e5455f2b521cc1613f2969310664e5bf7c382",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_sac_violation_frac.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_sac_violation_frac.pdf",
+      "source_sha256": "83055655c63905f55d85bded8ccc91c3423e3e54cd6a25d73c8492a54ff74388",
+      "packaged_sha256": "83055655c63905f55d85bded8ccc91c3423e3e54cd6a25d73c8492a54ff74388",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_sac_violation_frac.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_sac_violation_frac.png",
+      "source_sha256": "392ee4b3cfeaaa1bd7882b19cc773da04db6c11efb26b2fa001574da710dfd5a",
+      "packaged_sha256": "392ee4b3cfeaaa1bd7882b19cc773da04db6c11efb26b2fa001574da710dfd5a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_zs8_balanced_frac.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_zs8_balanced_frac.pdf",
+      "source_sha256": "f4a1cdeecbf50a0525e1adad401d094e2cdf8307e4e7e53031f8f2a07f5bf826",
+      "packaged_sha256": "f4a1cdeecbf50a0525e1adad401d094e2cdf8307e4e7e53031f8f2a07f5bf826",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/kurva_zs8_balanced_frac.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/kurva_zs8_balanced_frac.png",
+      "source_sha256": "3b6fbf45ddc6604c3443c95f196a49f47974e7eb659f809c0a21a027679ca8f5",
+      "packaged_sha256": "3b6fbf45ddc6604c3443c95f196a49f47974e7eb659f809c0a21a027679ca8f5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/statistik_keluaran.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/statistik_keluaran.pdf",
+      "source_sha256": "72d8875426a7036a6084712b537474a6f3e30853c7ddef2af800d3bca428c30f",
+      "packaged_sha256": "72d8875426a7036a6084712b537474a6f3e30853c7ddef2af800d3bca428c30f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/statistik_keluaran.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/statistik_keluaran.png",
+      "source_sha256": "85bccd243a51363868c116e522e751c55df86dba1e528c1e5aca3fe2e79e1ae4",
+      "packaged_sha256": "85bccd243a51363868c116e522e751c55df86dba1e528c1e5aca3fe2e79e1ae4",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/throughput_python.pdf",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/throughput_python.pdf",
+      "source_sha256": "2b88d5e70aff92f8ba7ba4b664005419a68d4887c518d8af702e11ec5bf8cd2b",
+      "packaged_sha256": "2b88d5e70aff92f8ba7ba4b664005419a68d4887c518d8af702e11ec5bf8cd2b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/grafik/throughput_python.png",
+      "packaged": "data/reference/sampel_besar_seed2026/grafik/throughput_python.png",
+      "source_sha256": "81b050844b6da01b45ba51ccf78e75ee18df59c3bb2364cf9c94cfdbb2a18ee2",
+      "packaged_sha256": "81b050844b6da01b45ba51ccf78e75ee18df59c3bb2364cf9c94cfdbb2a18ee2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/horizon.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/horizon.csv",
+      "source_sha256": "f6ed9dd22012616b935a6e2293643b307f4c7c58995750b08c5c1aa953d539fe",
+      "packaged_sha256": "f6ed9dd22012616b935a6e2293643b307f4c7c58995750b08c5c1aa953d539fe",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/keacakan_dan_kecepatan.csv",
+      "source_sha256": "4fcbc327eda76e02dc65e49a4d7d09828be69c5fa097e89dd3d8e85e8fb532ab",
+      "packaged_sha256": "4fcbc327eda76e02dc65e49a4d7d09828be69c5fa097e89dd3d8e85e8fb532ab",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/kemiripan_kurva.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/kemiripan_kurva.csv",
+      "source_sha256": "b54ca0e174c23e34d4fe23d4ca56e1bfebc758cb70975c425fcdab3dfec6ba48",
+      "packaged_sha256": "b54ca0e174c23e34d4fe23d4ca56e1bfebc758cb70975c425fcdab3dfec6ba48",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/kombinasi_pasangan.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/kombinasi_pasangan.csv",
+      "source_sha256": "3c3d5e8670c53eb1d1ff61d908d06ce9bde373f7b52a0ee0ec9ae572f3623d3c",
+      "packaged_sha256": "3c3d5e8670c53eb1d1ff61d908d06ce9bde373f7b52a0ee0ec9ae572f3623d3c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/korelasi_metrik.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/korelasi_metrik.csv",
+      "source_sha256": "82d2cd4056a56fd8669f8a9261ee0f4c20cd7b84b2c57fdfbe55959fd9c71a3e",
+      "packaged_sha256": "82d2cd4056a56fd8669f8a9261ee0f4c20cd7b84b2c57fdfbe55959fd9c71a3e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/kurva_ternormalisasi.csv",
+      "source_sha256": "2e0137d1e7bf29b7e9994ba05670596971d0cd54f5e60767df2b13a042c30845",
+      "packaged_sha256": "2e0137d1e7bf29b7e9994ba05670596971d0cd54f5e60767df2b13a042c30845",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/laporan.md",
+      "packaged": "data/reference/sampel_besar_seed2026/laporan.md",
+      "source_sha256": "4501f9a37afd195b91272f68ada19a6daf7f2caaddf77383722efcf2d3c4ed37",
+      "packaged_sha256": "4501f9a37afd195b91272f68ada19a6daf7f2caaddf77383722efcf2d3c4ed37",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/alzette.pkl.gz",
+      "source_sha256": "f88e34d18b7271d8a01c6040929a760963470f25101a7fbdd209cf7107d71f27",
+      "packaged_sha256": "f88e34d18b7271d8a01c6040929a760963470f25101a7fbdd209cf7107d71f27",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/clefia.pkl.gz",
+      "source_sha256": "a536c85aae9a684a818275ced1fd290ccef7e339ebfb67e002526f364f44cc1d",
+      "packaged_sha256": "a536c85aae9a684a818275ced1fd290ccef7e339ebfb67e002526f364f44cc1d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/rectangle.pkl.gz",
+      "source_sha256": "7c438e52660af91af0df647db7b2c2a0459129b4c30b3eb6391d825b319bb837",
+      "packaged_sha256": "7c438e52660af91af0df647db7b2c2a0459129b4c30b3eb6391d825b319bb837",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "98363c8ed81216ee8439ec7ff4684fcf921934612e77bf869caa88c0bedbe0b2",
+      "packaged_sha256": "98363c8ed81216ee8439ec7ff4684fcf921934612e77bf869caa88c0bedbe0b2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "48748556cfd1e91233182446b63416f595791cc9194acb0c0dc26ad85d5763f6",
+      "packaged_sha256": "48748556cfd1e91233182446b63416f595791cc9194acb0c0dc26ad85d5763f6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/sampel_besar_seed2026/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "05c5649b0f986fc84957f1a7527cbbacbcc4d1e7750a0629c8b97755c7912a52",
+      "packaged_sha256": "05c5649b0f986fc84957f1a7527cbbacbcc4d1e7750a0629c8b97755c7912a52",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/per_ronde.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/per_ronde.csv",
+      "source_sha256": "20c4ba038f0235c5f4d8b96aa1fbbca34425d0391f48be42dc03bdcd61fe0609",
+      "packaged_sha256": "20c4ba038f0235c5f4d8b96aa1fbbca34425d0391f48be42dc03bdcd61fe0609",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/ringkasan.json",
+      "packaged": "data/reference/sampel_besar_seed2026/ringkasan.json",
+      "source_sha256": "b56d4a34afbc18c4d2bd5e27ffef5e0b9f778611c250f0507c2ff4c92522ce1c",
+      "packaged_sha256": "b56d4a34afbc18c4d2bd5e27ffef5e0b9f778611c250f0507c2ff4c92522ce1c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/sbox.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026/zero_sum_detail.csv",
+      "packaged": "data/reference/sampel_besar_seed2026/zero_sum_detail.csv",
+      "source_sha256": "04de644fe6bdbc373bed2097a8d71e82e0d3b547635ad9af8fd6145619f0c332",
+      "packaged_sha256": "04de644fe6bdbc373bed2097a8d71e82e0d3b547635ad9af8fd6145619f0c332",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/sampel_besar_seed2026.log",
+      "packaged": "data/reference/sampel_besar_seed2026.log",
+      "source_sha256": "f166c462e8a005082b1f7d7693d70ef9de8d4e33f661a7e85e0ee56b655c7f6f",
+      "packaged_sha256": "12357ff1876fc6216bf2342842e2909963cff020b94be26a1751ccbde8ae8181",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/ambiente.json",
+      "packaged": "data/reference/utama_seed2026/ambiente.json",
+      "source_sha256": "2e9782f42165b81b28e848630821e18b277d4bc78309cc416e298f02f74b461d",
+      "packaged_sha256": "d24335cc802d8732c713b47eb3e445c251fa3a120fcfe67897c60018cb96adf5",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/avalanche_kunci.csv",
+      "packaged": "data/reference/utama_seed2026/avalanche_kunci.csv",
+      "source_sha256": "61842bcd268b6326f19272efeb518a97e6b1aec68f02110bb8da60a86bf7e5a8",
+      "packaged_sha256": "61842bcd268b6326f19272efeb518a97e6b1aec68f02110bb8da60a86bf7e5a8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/avalanche_kunci_ringkas.csv",
+      "packaged": "data/reference/utama_seed2026/avalanche_kunci_ringkas.csv",
+      "source_sha256": "3261384421fa6c418e1d3d17682ba4f01ef9f5e2087750f1a10f496dece326e1",
+      "packaged_sha256": "3261384421fa6c418e1d3d17682ba4f01ef9f5e2087750f1a10f496dece326e1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/diferensial_detail.csv",
+      "packaged": "data/reference/utama_seed2026/diferensial_detail.csv",
+      "source_sha256": "27ce52b334eb3db34710bc9a4325230a1985869ca52eb5251b477b2c6ae21017",
+      "packaged_sha256": "27ce52b334eb3db34710bc9a4325230a1985869ca52eb5251b477b2c6ae21017",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/avalanche_kunci.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/avalanche_kunci.pdf",
+      "source_sha256": "6ee68f201a98aaca1b8d3944a471561d68382c2df183f7a0120c1bdd0c1ca333",
+      "packaged_sha256": "6ee68f201a98aaca1b8d3944a471561d68382c2df183f7a0120c1bdd0c1ca333",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/avalanche_kunci.png",
+      "packaged": "data/reference/utama_seed2026/grafik/avalanche_kunci.png",
+      "source_sha256": "8c25bc1cc524fe9e292e40981ec2b0a42b2c799e77e9da190c48c7d994f160d5",
+      "packaged_sha256": "8c25bc1cc524fe9e292e40981ec2b0a42b2c799e77e9da190c48c7d994f160d5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/diferensial_dy_teratas.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/diferensial_dy_teratas.pdf",
+      "source_sha256": "1fa54d2de44cb4e85b98f4e3d2410426d7daeeb4693c983072e1bb63bd2513b5",
+      "packaged_sha256": "1fa54d2de44cb4e85b98f4e3d2410426d7daeeb4693c983072e1bb63bd2513b5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/diferensial_dy_teratas.png",
+      "packaged": "data/reference/utama_seed2026/grafik/diferensial_dy_teratas.png",
+      "source_sha256": "4f16ae179fe08aa763a143e46e41bd3f73beae20153e73442cb5229db60d5098",
+      "packaged_sha256": "4f16ae179fe08aa763a143e46e41bd3f73beae20153e73442cb5229db60d5098",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_lintas_kunci.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_lintas_kunci.pdf",
+      "source_sha256": "2837a570d999976e830e9babe0458733bd5aef16f8d2924d63b38d3ed47de744",
+      "packaged_sha256": "2837a570d999976e830e9babe0458733bd5aef16f8d2924d63b38d3ed47de744",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_lintas_kunci.png",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_lintas_kunci.png",
+      "source_sha256": "9570fa26a77a13ccf4efc6c31de079688ead1459ea0be506f7996a89fbb1b942",
+      "packaged_sha256": "9570fa26a77a13ccf4efc6c31de079688ead1459ea0be506f7996a89fbb1b942",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_margin.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_margin.pdf",
+      "source_sha256": "f6c62ae1f05c6531dcaa529bcb390e8f0c58163a7ca2181126f54176ef09615b",
+      "packaged_sha256": "f6c62ae1f05c6531dcaa529bcb390e8f0c58163a7ca2181126f54176ef09615b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_margin.png",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_margin.png",
+      "source_sha256": "27338326697f3c52b81a7b7a013a9337b5c26eae361e666bbd6c42b354d8babf",
+      "packaged_sha256": "27338326697f3c52b81a7b7a013a9337b5c26eae361e666bbd6c42b354d8babf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_per_metrik.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_per_metrik.pdf",
+      "source_sha256": "c28d8e7ba47c4ca38f0b81c037e63049cc2dda74a3b799f043e2557feccd8b5d",
+      "packaged_sha256": "c28d8e7ba47c4ca38f0b81c037e63049cc2dda74a3b799f043e2557feccd8b5d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/horizon_per_metrik.png",
+      "packaged": "data/reference/utama_seed2026/grafik/horizon_per_metrik.png",
+      "source_sha256": "4f16e54564c45deccf25d7aa97776c68a67a63979175054cc8f792f507f4869d",
+      "packaged_sha256": "4f16e54564c45deccf25d7aa97776c68a67a63979175054cc8f792f507f4869d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kemiripan_kurva_pearson.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kemiripan_kurva_pearson.pdf",
+      "source_sha256": "5e6a93969483825395ed65235d06c231427e7ea251a26da3a54605fe943bacc4",
+      "packaged_sha256": "5e6a93969483825395ed65235d06c231427e7ea251a26da3a54605fe943bacc4",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kemiripan_kurva_pearson.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kemiripan_kurva_pearson.png",
+      "source_sha256": "35a6ba38c04cd420e47b6c37a0bcaa10687d7e4f2e564a9cdf2a0e36ab6a2290",
+      "packaged_sha256": "35a6ba38c04cd420e47b6c37a0bcaa10687d7e4f2e564a9cdf2a0e36ab6a2290",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/korelasi_metrik_spearman.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/korelasi_metrik_spearman.pdf",
+      "source_sha256": "2b1bb388f76b367363606b99bce37a5b31dd6d3165708046a0f52b3e8bb341df",
+      "packaged_sha256": "2b1bb388f76b367363606b99bce37a5b31dd6d3165708046a0f52b3e8bb341df",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/korelasi_metrik_spearman.png",
+      "packaged": "data/reference/utama_seed2026/grafik/korelasi_metrik_spearman.png",
+      "source_sha256": "6d351e9a49b50fbf818125cecb831df9d801aef720aad247cfae1d74d177a040",
+      "packaged_sha256": "6d351e9a49b50fbf818125cecb831df9d801aef720aad247cfae1d74d177a040",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_avalanche_mean.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_avalanche_mean.pdf",
+      "source_sha256": "550a3911a77b89a6757fd6f56b2e82f7f03d8a0c88d9f8858a02143dc8e5a2ac",
+      "packaged_sha256": "550a3911a77b89a6757fd6f56b2e82f7f03d8a0c88d9f8858a02143dc8e5a2ac",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_avalanche_mean.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_avalanche_mean.png",
+      "source_sha256": "3fe545b96304133675c0f9b1a92517dc67194fed77747cf216e887a9fe635328",
+      "packaged_sha256": "3fe545b96304133675c0f9b1a92517dc67194fed77747cf216e887a9fe635328",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_completeness.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_completeness.pdf",
+      "source_sha256": "bbc3362c1727911d474d5ba9264ff7abaa5e13a29bab2c78d3ff396535014346",
+      "packaged_sha256": "bbc3362c1727911d474d5ba9264ff7abaa5e13a29bab2c78d3ff396535014346",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_completeness.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_completeness.png",
+      "source_sha256": "7bed48ca7927ae837516cbdefb1a34b604f8cc447337fe339236cedc17551ea0",
+      "packaged_sha256": "7bed48ca7927ae837516cbdefb1a34b604f8cc447337fe339236cedc17551ea0",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_diff_top_frac.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_diff_top_frac.pdf",
+      "source_sha256": "9e1306896df206b32ccaf498646110c49260c23c359e17f3c4369418d8b42849",
+      "packaged_sha256": "9e1306896df206b32ccaf498646110c49260c23c359e17f3c4369418d8b42849",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_diff_top_frac.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_diff_top_frac.png",
+      "source_sha256": "3a7751a9db55b53428751d2b550dbefcef35a4534d2dcb298f48700fda11b6e6",
+      "packaged_sha256": "3a7751a9db55b53428751d2b550dbefcef35a4534d2dcb298f48700fda11b6e6",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_lin_max_abs_corr.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_lin_max_abs_corr.pdf",
+      "source_sha256": "3f5914eed317d4a25284c6ab8ae203dc3648f48b24c599a6acf9d52cab83242c",
+      "packaged_sha256": "3f5914eed317d4a25284c6ab8ae203dc3648f48b24c599a6acf9d52cab83242c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_lin_max_abs_corr.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_lin_max_abs_corr.png",
+      "source_sha256": "cc8c60dc2ba5a169f1e6d66dbf288f018c8f66fa6be827d55cb46d4db92996f1",
+      "packaged_sha256": "cc8c60dc2ba5a169f1e6d66dbf288f018c8f66fa6be827d55cb46d4db92996f1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_sac_violation_frac.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_sac_violation_frac.pdf",
+      "source_sha256": "71282d10155b894810724ac6a562cc655403b49f2b2a09f11713c926ce095d60",
+      "packaged_sha256": "71282d10155b894810724ac6a562cc655403b49f2b2a09f11713c926ce095d60",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_sac_violation_frac.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_sac_violation_frac.png",
+      "source_sha256": "e094a023876fa6fb82e02a25ad19becc9968baafa6cc5f6335ecdee575516c3b",
+      "packaged_sha256": "e094a023876fa6fb82e02a25ad19becc9968baafa6cc5f6335ecdee575516c3b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_zs8_balanced_frac.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_zs8_balanced_frac.pdf",
+      "source_sha256": "20b89abe1d57338fb34f67a78cf559144a80bfb5557ad13cac5f6beaabf0a5b2",
+      "packaged_sha256": "20b89abe1d57338fb34f67a78cf559144a80bfb5557ad13cac5f6beaabf0a5b2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/kurva_zs8_balanced_frac.png",
+      "packaged": "data/reference/utama_seed2026/grafik/kurva_zs8_balanced_frac.png",
+      "source_sha256": "07d5e95779d6a1d0f7a9d31bfd138ff799ad8911e21da5b8a7f683fcf00efb54",
+      "packaged_sha256": "07d5e95779d6a1d0f7a9d31bfd138ff799ad8911e21da5b8a7f683fcf00efb54",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/statistik_keluaran.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/statistik_keluaran.pdf",
+      "source_sha256": "8d3d59b301aef0e2df2f22b494e865ab5f21883fc15014ddc501317588bb408c",
+      "packaged_sha256": "8d3d59b301aef0e2df2f22b494e865ab5f21883fc15014ddc501317588bb408c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/statistik_keluaran.png",
+      "packaged": "data/reference/utama_seed2026/grafik/statistik_keluaran.png",
+      "source_sha256": "7593d165fa6ef6f8930e66d673cef0ce638eca2df5ebd34ff637ecda6cbdb41a",
+      "packaged_sha256": "7593d165fa6ef6f8930e66d673cef0ce638eca2df5ebd34ff637ecda6cbdb41a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/throughput_python.pdf",
+      "packaged": "data/reference/utama_seed2026/grafik/throughput_python.pdf",
+      "source_sha256": "50156888d14facef2eada89ac81296bf44251a416b1df953736af8173a3dcb89",
+      "packaged_sha256": "50156888d14facef2eada89ac81296bf44251a416b1df953736af8173a3dcb89",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/grafik/throughput_python.png",
+      "packaged": "data/reference/utama_seed2026/grafik/throughput_python.png",
+      "source_sha256": "54b2bc402440e7ea1d3f3980133d69f12f1708bd59b77a50644ac21d2074b77d",
+      "packaged_sha256": "54b2bc402440e7ea1d3f3980133d69f12f1708bd59b77a50644ac21d2074b77d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/horizon.csv",
+      "packaged": "data/reference/utama_seed2026/horizon.csv",
+      "source_sha256": "02f188a636c6692ec3c10fa004fce5b6e946c752ae21ede725fd710014111399",
+      "packaged_sha256": "02f188a636c6692ec3c10fa004fce5b6e946c752ae21ede725fd710014111399",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/utama_seed2026/keacakan_dan_kecepatan.csv",
+      "source_sha256": "4eb4af035cc03a4a0464abffe77eb4a19352edcbd18b939dbb6b62e89abf366e",
+      "packaged_sha256": "4eb4af035cc03a4a0464abffe77eb4a19352edcbd18b939dbb6b62e89abf366e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kemiripan_kurva.csv",
+      "packaged": "data/reference/utama_seed2026/kemiripan_kurva.csv",
+      "source_sha256": "a1e85299c3ba5f93422ccaf08c5dfd031cfe2bf802da2bb88536784d93c4e60e",
+      "packaged_sha256": "a1e85299c3ba5f93422ccaf08c5dfd031cfe2bf802da2bb88536784d93c4e60e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kombinasi_pasangan.csv",
+      "packaged": "data/reference/utama_seed2026/kombinasi_pasangan.csv",
+      "source_sha256": "0ffc82a2b2d069db9660df6025293e8852846f3ee0ed74187e783150a9d98c86",
+      "packaged_sha256": "0ffc82a2b2d069db9660df6025293e8852846f3ee0ed74187e783150a9d98c86",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/korelasi_metrik.csv",
+      "packaged": "data/reference/utama_seed2026/korelasi_metrik.csv",
+      "source_sha256": "4ea78117d15d81af4b27c7c4a476da7d8fbcf246e9233f6f93205f3b13a85850",
+      "packaged_sha256": "4ea78117d15d81af4b27c7c4a476da7d8fbcf246e9233f6f93205f3b13a85850",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kunci_horizon.csv",
+      "packaged": "data/reference/utama_seed2026/kunci_horizon.csv",
+      "source_sha256": "59adcd76af6a7ce393ea6040af8c0215cf48804b43bd3537cf39ba256ce0b20c",
+      "packaged_sha256": "59adcd76af6a7ce393ea6040af8c0215cf48804b43bd3537cf39ba256ce0b20c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kunci_horizon_ringkas.csv",
+      "packaged": "data/reference/utama_seed2026/kunci_horizon_ringkas.csv",
+      "source_sha256": "365fe5ed02ab21b945aae75febaba21603e0c14ce1b31001fed7045fea746f14",
+      "packaged_sha256": "365fe5ed02ab21b945aae75febaba21603e0c14ce1b31001fed7045fea746f14",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kunci_per_ronde.csv",
+      "packaged": "data/reference/utama_seed2026/kunci_per_ronde.csv",
+      "source_sha256": "c0d634ecd1290e6d3f2ce40251879199bc1befe96dd9bc0fb52df9b890f4a9bb",
+      "packaged_sha256": "c0d634ecd1290e6d3f2ce40251879199bc1befe96dd9bc0fb52df9b890f4a9bb",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kunci_zero_sum.csv",
+      "packaged": "data/reference/utama_seed2026/kunci_zero_sum.csv",
+      "source_sha256": "e3a272014515cbf2b56acc492e4a7bd0709850243a4c4a7905f235595fda127c",
+      "packaged_sha256": "e3a272014515cbf2b56acc492e4a7bd0709850243a4c4a7905f235595fda127c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/utama_seed2026/kurva_ternormalisasi.csv",
+      "source_sha256": "44a82f21366c2dd62ccacd46eb7640a9d00a94315e3b498726c244d3854c8ad8",
+      "packaged_sha256": "44a82f21366c2dd62ccacd46eb7640a9d00a94315e3b498726c244d3854c8ad8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/laporan.md",
+      "packaged": "data/reference/utama_seed2026/laporan.md",
+      "source_sha256": "0d7b31b45b4a226a793bb5bbaf1b39c2c9fd8daccb4e7b49a4afc13ce0954ffd",
+      "packaged_sha256": "0d7b31b45b4a226a793bb5bbaf1b39c2c9fd8daccb4e7b49a4afc13ce0954ffd",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/alzette.pkl.gz",
+      "source_sha256": "36c50c81b469e15c6fd121bac3581ac123d93be721a5978a88b689c3a9778803",
+      "packaged_sha256": "36c50c81b469e15c6fd121bac3581ac123d93be721a5978a88b689c3a9778803",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia.pkl.gz",
+      "source_sha256": "4529f90ce8c7e0876840c8240e7f0a9b3d29522dc7a86f9e6cfbd0d433c4b5d3",
+      "packaged_sha256": "4529f90ce8c7e0876840c8240e7f0a9b3d29522dc7a86f9e6cfbd0d433c4b5d3",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_0.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_0.pkl.gz",
+      "source_sha256": "54c43db5b63e1ae444636b04430fbc82b4cf4b6a76bf7cee36eb3629ac3fc582",
+      "packaged_sha256": "54c43db5b63e1ae444636b04430fbc82b4cf4b6a76bf7cee36eb3629ac3fc582",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_1.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_1.pkl.gz",
+      "source_sha256": "e77c0641f42bc7311f67be82c5dac98765ec355811aa8b8257931644a2b84c53",
+      "packaged_sha256": "e77c0641f42bc7311f67be82c5dac98765ec355811aa8b8257931644a2b84c53",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_2.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_2.pkl.gz",
+      "source_sha256": "f1024970defcf81712c164141de0b984a2274811f5e5bcc6be3a6db6ad0523a3",
+      "packaged_sha256": "f1024970defcf81712c164141de0b984a2274811f5e5bcc6be3a6db6ad0523a3",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_3.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_3.pkl.gz",
+      "source_sha256": "df34b0841a95068c39b45eef3f63ec5182cd239a3a874590115cedb9b7ce4082",
+      "packaged_sha256": "df34b0841a95068c39b45eef3f63ec5182cd239a3a874590115cedb9b7ce4082",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_4.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_4.pkl.gz",
+      "source_sha256": "75d5b5e3f5a51ff68b68f4032b8b3e8361fba9fe2fe85813652ffa565dad4810",
+      "packaged_sha256": "75d5b5e3f5a51ff68b68f4032b8b3e8361fba9fe2fe85813652ffa565dad4810",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_5.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_5.pkl.gz",
+      "source_sha256": "b5c7f30d024bcbccdbd9b791dd111b9d05b11d5a08f8272fa6601761181769f0",
+      "packaged_sha256": "b5c7f30d024bcbccdbd9b791dd111b9d05b11d5a08f8272fa6601761181769f0",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_6.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_6.pkl.gz",
+      "source_sha256": "ae2a4603a9acb8019538b5d68556d2ede2a858fdfe6c2542a359613e54dd235a",
+      "packaged_sha256": "ae2a4603a9acb8019538b5d68556d2ede2a858fdfe6c2542a359613e54dd235a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/clefia_kunci_7.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/clefia_kunci_7.pkl.gz",
+      "source_sha256": "a798948d7ecc7a2d21eb4dac10b06524b4211dae97dd9ac7401ab730ffb4154e",
+      "packaged_sha256": "a798948d7ecc7a2d21eb4dac10b06524b4211dae97dd9ac7401ab730ffb4154e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle.pkl.gz",
+      "source_sha256": "60cd1ccee580c43ffc605e03d2c6585f2297264c5ceb0762bce235122176bc4c",
+      "packaged_sha256": "60cd1ccee580c43ffc605e03d2c6585f2297264c5ceb0762bce235122176bc4c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_0.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_0.pkl.gz",
+      "source_sha256": "8aa7a6a4e430e3b2ceac4353fb66c44ce0ffcb89f9780ba186a610900c63bd64",
+      "packaged_sha256": "8aa7a6a4e430e3b2ceac4353fb66c44ce0ffcb89f9780ba186a610900c63bd64",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_1.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_1.pkl.gz",
+      "source_sha256": "5d4012b79343aa2c2d38d6b3da32ae81554836d9e0331982c13303757c2e78fa",
+      "packaged_sha256": "5d4012b79343aa2c2d38d6b3da32ae81554836d9e0331982c13303757c2e78fa",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_2.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_2.pkl.gz",
+      "source_sha256": "9ed0b6eaa3e6a1bb25055b290dc4a71b2f778fa0885c20a883d3e81b3d2d99c9",
+      "packaged_sha256": "9ed0b6eaa3e6a1bb25055b290dc4a71b2f778fa0885c20a883d3e81b3d2d99c9",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_3.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_3.pkl.gz",
+      "source_sha256": "8f66190b21e995050c569f2e45f5b761266579757b5f647f06210b01c9dcdd52",
+      "packaged_sha256": "8f66190b21e995050c569f2e45f5b761266579757b5f647f06210b01c9dcdd52",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_4.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_4.pkl.gz",
+      "source_sha256": "7841037ca4050781b77a9954c13c9510c6c49d9d95e865f270d4ecb01773805e",
+      "packaged_sha256": "7841037ca4050781b77a9954c13c9510c6c49d9d95e865f270d4ecb01773805e",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_5.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_5.pkl.gz",
+      "source_sha256": "3329c5ef38a110ef04cb7a2320f652245cd1c332e444538977c83053416c9721",
+      "packaged_sha256": "3329c5ef38a110ef04cb7a2320f652245cd1c332e444538977c83053416c9721",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_6.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_6.pkl.gz",
+      "source_sha256": "443a022c7170aae308040468121fa9b67652874bfede82a9d9da4feadbe49dc3",
+      "packaged_sha256": "443a022c7170aae308040468121fa9b67652874bfede82a9d9da4feadbe49dc3",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/rectangle_kunci_7.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/rectangle_kunci_7.pkl.gz",
+      "source_sha256": "492695772b8e2dffd3077ff368280b39d3391d595ca12f4f366896a7f67eb476",
+      "packaged_sha256": "492695772b8e2dffd3077ff368280b39d3391d595ca12f4f366896a7f67eb476",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "f4547437c3459c3670d32d48fcf3495ee1ccdc6eeba26c6b899e294a8badca67",
+      "packaged_sha256": "f4547437c3459c3670d32d48fcf3495ee1ccdc6eeba26c6b899e294a8badca67",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "0b42b412ea7da8240b5c5fffd1c7dff839298935d18962c97518e61dc54581f8",
+      "packaged_sha256": "0b42b412ea7da8240b5c5fffd1c7dff839298935d18962c97518e61dc54581f8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/utama_seed2026/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "31a99bc2b29400791e89663449a6a2c2de4671f7c128251bb45c7d8e4d50b7aa",
+      "packaged_sha256": "31a99bc2b29400791e89663449a6a2c2de4671f7c128251bb45c7d8e4d50b7aa",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/per_ronde.csv",
+      "packaged": "data/reference/utama_seed2026/per_ronde.csv",
+      "source_sha256": "23a9e9eccf52a494a8221d31063c75ee3e199673db126ea5548ffd36bd7e8033",
+      "packaged_sha256": "23a9e9eccf52a494a8221d31063c75ee3e199673db126ea5548ffd36bd7e8033",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/ringkasan.json",
+      "packaged": "data/reference/utama_seed2026/ringkasan.json",
+      "source_sha256": "4b002ae1e880c089a2f520ae42e23da15cfb02b51f2e21434befb56dce223eba",
+      "packaged_sha256": "4b002ae1e880c089a2f520ae42e23da15cfb02b51f2e21434befb56dce223eba",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/sbox.csv",
+      "packaged": "data/reference/utama_seed2026/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026/zero_sum_detail.csv",
+      "packaged": "data/reference/utama_seed2026/zero_sum_detail.csv",
+      "source_sha256": "d2ffed2d567bd50dd8a0a3f9d5b5e2628fb23c309fec2b4560bee5332755e295",
+      "packaged_sha256": "d2ffed2d567bd50dd8a0a3f9d5b5e2628fb23c309fec2b4560bee5332755e295",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2026.log",
+      "packaged": "data/reference/utama_seed2026.log",
+      "source_sha256": "8f26a9c1e468189fa88f8f89e3f48e0576247e99d78214d45794cd71c7a14d90",
+      "packaged_sha256": "8483f1df272a1287f7c59790bd1bd82cdb813da41895238a4dba90b6684b8415",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/ambiente.json",
+      "packaged": "data/reference/utama_seed2027/ambiente.json",
+      "source_sha256": "ed357fae0c10eb183864b77ff7204ff6d043043cd44c6edc30949f873e7a8d2c",
+      "packaged_sha256": "5b5ac185cd8f2c68a8877433426dc621d82e86ed7252b8f3476d5d2456176c8c",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/diferensial_detail.csv",
+      "packaged": "data/reference/utama_seed2027/diferensial_detail.csv",
+      "source_sha256": "15b336b85b6862d03664fbdefcd829d88fbbef61ec257c1690fe614bb829113c",
+      "packaged_sha256": "15b336b85b6862d03664fbdefcd829d88fbbef61ec257c1690fe614bb829113c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/horizon.csv",
+      "packaged": "data/reference/utama_seed2027/horizon.csv",
+      "source_sha256": "f9dbed9c2a2ebbbfe22c7a1f8c5945c3ed8c2116e4b214ad7c9de2c535e46e32",
+      "packaged_sha256": "f9dbed9c2a2ebbbfe22c7a1f8c5945c3ed8c2116e4b214ad7c9de2c535e46e32",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/utama_seed2027/keacakan_dan_kecepatan.csv",
+      "source_sha256": "aca588254cc8fea1a30c4b5c899bf844af8616ce0a13bdfe5d641c387070924d",
+      "packaged_sha256": "aca588254cc8fea1a30c4b5c899bf844af8616ce0a13bdfe5d641c387070924d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/kemiripan_kurva.csv",
+      "packaged": "data/reference/utama_seed2027/kemiripan_kurva.csv",
+      "source_sha256": "bfdfc43749ad9b76fb9dffb8b647e729d1ad1f2e9eb0b83de8f7a2315c6f1a39",
+      "packaged_sha256": "bfdfc43749ad9b76fb9dffb8b647e729d1ad1f2e9eb0b83de8f7a2315c6f1a39",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/kombinasi_pasangan.csv",
+      "packaged": "data/reference/utama_seed2027/kombinasi_pasangan.csv",
+      "source_sha256": "d408d7cde2d8141ebfc99230841042738fd14b1974d8d27826c26d720cd7f419",
+      "packaged_sha256": "d408d7cde2d8141ebfc99230841042738fd14b1974d8d27826c26d720cd7f419",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/korelasi_metrik.csv",
+      "packaged": "data/reference/utama_seed2027/korelasi_metrik.csv",
+      "source_sha256": "aa74b8363aab662ec498c79357ff1f1792b542ed6c5f5a67c38fac0063a5a3bc",
+      "packaged_sha256": "aa74b8363aab662ec498c79357ff1f1792b542ed6c5f5a67c38fac0063a5a3bc",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/utama_seed2027/kurva_ternormalisasi.csv",
+      "source_sha256": "2ea3f4de29be3561bea64a55abd201eef388e162e9d7b6482104b3fae3d52c44",
+      "packaged_sha256": "2ea3f4de29be3561bea64a55abd201eef388e162e9d7b6482104b3fae3d52c44",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/laporan.md",
+      "packaged": "data/reference/utama_seed2027/laporan.md",
+      "source_sha256": "7c40317f08b4dbf844c51f25795bc61423f9a8d1ca84a5d5c351d8e91d814977",
+      "packaged_sha256": "7c40317f08b4dbf844c51f25795bc61423f9a8d1ca84a5d5c351d8e91d814977",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/alzette.pkl.gz",
+      "source_sha256": "b32c851d8eac278561e8e51a661584539c30cd9848dc026c7eba9e1f99da126d",
+      "packaged_sha256": "b32c851d8eac278561e8e51a661584539c30cd9848dc026c7eba9e1f99da126d",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/clefia.pkl.gz",
+      "source_sha256": "a00a921051738ff3bf68dcc3965d2697aad884d1345d90f5069f0e2420246047",
+      "packaged_sha256": "a00a921051738ff3bf68dcc3965d2697aad884d1345d90f5069f0e2420246047",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/rectangle.pkl.gz",
+      "source_sha256": "421fa86480601dcff4070975f595237b249130c9dafd857ee6fb99927c1c54ac",
+      "packaged_sha256": "421fa86480601dcff4070975f595237b249130c9dafd857ee6fb99927c1c54ac",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "b8f08ca99630fe719eb6646c2a1bdedcfda209f0709b864c3991a222846ecd6a",
+      "packaged_sha256": "b8f08ca99630fe719eb6646c2a1bdedcfda209f0709b864c3991a222846ecd6a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "a8a2c614ea76e4f2b21e06ba5e5dad2600c3453aa8047541672358d51ab73088",
+      "packaged_sha256": "a8a2c614ea76e4f2b21e06ba5e5dad2600c3453aa8047541672358d51ab73088",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/utama_seed2027/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "352cd439e0ef8670fdb03824d475c2655c5a0ed662da194aab980da910307e37",
+      "packaged_sha256": "352cd439e0ef8670fdb03824d475c2655c5a0ed662da194aab980da910307e37",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/per_ronde.csv",
+      "packaged": "data/reference/utama_seed2027/per_ronde.csv",
+      "source_sha256": "169c349e7d0920d51da81effa214d4718ccc959d980bf1d1c15bab8cb6664b3c",
+      "packaged_sha256": "169c349e7d0920d51da81effa214d4718ccc959d980bf1d1c15bab8cb6664b3c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/ringkasan.json",
+      "packaged": "data/reference/utama_seed2027/ringkasan.json",
+      "source_sha256": "ae18107b85627535e518e1711cf02d65ecc872e10850d2a47298d4c5b16f4c97",
+      "packaged_sha256": "ae18107b85627535e518e1711cf02d65ecc872e10850d2a47298d4c5b16f4c97",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/sbox.csv",
+      "packaged": "data/reference/utama_seed2027/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027/zero_sum_detail.csv",
+      "packaged": "data/reference/utama_seed2027/zero_sum_detail.csv",
+      "source_sha256": "74cbeec3b4f6be32c3ea83c799ec62bbf1517db12ba4d1f5e98be61e4e5833cf",
+      "packaged_sha256": "74cbeec3b4f6be32c3ea83c799ec62bbf1517db12ba4d1f5e98be61e4e5833cf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2027.log",
+      "packaged": "data/reference/utama_seed2027.log",
+      "source_sha256": "81e41ba6ddcdf10d16b225c5dff762f22bc41c6b21ba0d1c3d688f8a2990f3a7",
+      "packaged_sha256": "f694239324010c44fb18ef8cf88af0c480121ad931f00f526c598449dabcfabf",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/ambiente.json",
+      "packaged": "data/reference/utama_seed2028/ambiente.json",
+      "source_sha256": "c56fad3e8251b997072f709096f9aafd9a50654b4e9d2b019ee773fd198a917f",
+      "packaged_sha256": "0d0375be66f6b1fa8d3da98db1c8a3503d012f89b3fd69caf04fbc8a36e7b723",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/diferensial_detail.csv",
+      "packaged": "data/reference/utama_seed2028/diferensial_detail.csv",
+      "source_sha256": "992d8210cb8a7e274f843ad9e944cb879e28db26f8f83bd62ca5e767a40665b2",
+      "packaged_sha256": "992d8210cb8a7e274f843ad9e944cb879e28db26f8f83bd62ca5e767a40665b2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/horizon.csv",
+      "packaged": "data/reference/utama_seed2028/horizon.csv",
+      "source_sha256": "49c8748440154966511dfb0369b40b108ebdff16c62994d343fc1529031e44ea",
+      "packaged_sha256": "49c8748440154966511dfb0369b40b108ebdff16c62994d343fc1529031e44ea",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/utama_seed2028/keacakan_dan_kecepatan.csv",
+      "source_sha256": "c3d6ea01df33fd272a19b8f5456f818aef13d67659e080dd0b61c06998342049",
+      "packaged_sha256": "c3d6ea01df33fd272a19b8f5456f818aef13d67659e080dd0b61c06998342049",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/kemiripan_kurva.csv",
+      "packaged": "data/reference/utama_seed2028/kemiripan_kurva.csv",
+      "source_sha256": "76417fddcaa84ec009e1e0c8a6eed69dbbb2b4dd7ebb57b7f57ad6e9e0c4aff1",
+      "packaged_sha256": "76417fddcaa84ec009e1e0c8a6eed69dbbb2b4dd7ebb57b7f57ad6e9e0c4aff1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/kombinasi_pasangan.csv",
+      "packaged": "data/reference/utama_seed2028/kombinasi_pasangan.csv",
+      "source_sha256": "47e2ffe832903c45525f294edada10aace04c2a5afadf60f39e7ffe5b5a54f88",
+      "packaged_sha256": "47e2ffe832903c45525f294edada10aace04c2a5afadf60f39e7ffe5b5a54f88",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/korelasi_metrik.csv",
+      "packaged": "data/reference/utama_seed2028/korelasi_metrik.csv",
+      "source_sha256": "ee3bd8695c6bb42630fdba3c2a39065fc0ffe59c7b167e14e3736d9e93413905",
+      "packaged_sha256": "ee3bd8695c6bb42630fdba3c2a39065fc0ffe59c7b167e14e3736d9e93413905",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/utama_seed2028/kurva_ternormalisasi.csv",
+      "source_sha256": "8750d4cbe2700eb41983152382d2711dee2c6e2d9ec84d068492660fbdbbcbe9",
+      "packaged_sha256": "8750d4cbe2700eb41983152382d2711dee2c6e2d9ec84d068492660fbdbbcbe9",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/laporan.md",
+      "packaged": "data/reference/utama_seed2028/laporan.md",
+      "source_sha256": "023f4adf4e9a2860cc3b3fdbfbab4492f9c5e3f14b87878a00a82ce157fe2f1b",
+      "packaged_sha256": "023f4adf4e9a2860cc3b3fdbfbab4492f9c5e3f14b87878a00a82ce157fe2f1b",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/alzette.pkl.gz",
+      "source_sha256": "1145c17cba647abb3b05a906602cb1b616b5352c891f45b7819776794f4d6ebe",
+      "packaged_sha256": "1145c17cba647abb3b05a906602cb1b616b5352c891f45b7819776794f4d6ebe",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/clefia.pkl.gz",
+      "source_sha256": "0b1af8ddd9326c4872b27298bb25aa1cc2c3d3fa8a50e94c9c1348caa3832c6c",
+      "packaged_sha256": "0b1af8ddd9326c4872b27298bb25aa1cc2c3d3fa8a50e94c9c1348caa3832c6c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/rectangle.pkl.gz",
+      "source_sha256": "c3d6df16d3ebeabf93759e870ca6a0de72a7958bbac7e3f746d93076bf362e96",
+      "packaged_sha256": "c3d6df16d3ebeabf93759e870ca6a0de72a7958bbac7e3f746d93076bf362e96",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "09e6b1ec26ba1462eda22569d7fce8e8d21c94ac6f975d3b7dc359c9f277a484",
+      "packaged_sha256": "09e6b1ec26ba1462eda22569d7fce8e8d21c94ac6f975d3b7dc359c9f277a484",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "19c9d6937bb1ae8b770d8b4c70bafa8a6bb5ea5de90ba2319296f9f27020f628",
+      "packaged_sha256": "19c9d6937bb1ae8b770d8b4c70bafa8a6bb5ea5de90ba2319296f9f27020f628",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/utama_seed2028/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "939648b0145aa608d9b6ff8704aed76f886b24543634e803793e998a1562a0e1",
+      "packaged_sha256": "939648b0145aa608d9b6ff8704aed76f886b24543634e803793e998a1562a0e1",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/per_ronde.csv",
+      "packaged": "data/reference/utama_seed2028/per_ronde.csv",
+      "source_sha256": "5b1f046bab332bf05ca0a99a27cbf96e4db706bd7ab05a419869ff55d0ebd8c5",
+      "packaged_sha256": "5b1f046bab332bf05ca0a99a27cbf96e4db706bd7ab05a419869ff55d0ebd8c5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/ringkasan.json",
+      "packaged": "data/reference/utama_seed2028/ringkasan.json",
+      "source_sha256": "8d7927e4f1397476b68fbf8cce321d3a7e47d741948ce5062494fc5dfc3e1a50",
+      "packaged_sha256": "8d7927e4f1397476b68fbf8cce321d3a7e47d741948ce5062494fc5dfc3e1a50",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/sbox.csv",
+      "packaged": "data/reference/utama_seed2028/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028/zero_sum_detail.csv",
+      "packaged": "data/reference/utama_seed2028/zero_sum_detail.csv",
+      "source_sha256": "3991a590731eb8b73784a0960b0bb69dafd447047cc7513709ef86720e4d3d4f",
+      "packaged_sha256": "3991a590731eb8b73784a0960b0bb69dafd447047cc7513709ef86720e4d3d4f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2028.log",
+      "packaged": "data/reference/utama_seed2028.log",
+      "source_sha256": "1a74ff4aa0b99814015e87d8f0a0944802e245614a4a5ab0d662e4fe7c38efd3",
+      "packaged_sha256": "18dc1efd4ad5b5eaaf47028910191fcb87499e13b0b5c6670eaef8d306734414",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/ambiente.json",
+      "packaged": "data/reference/utama_seed2029/ambiente.json",
+      "source_sha256": "9a8f5c4b8484b23889c69096c7c8321a0e6cc12398df98989ab7fc4860df5c61",
+      "packaged_sha256": "5ae50d8b42e0406623953ac2fcffb2d598810821729581b1b80267b91a4c9d21",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/diferensial_detail.csv",
+      "packaged": "data/reference/utama_seed2029/diferensial_detail.csv",
+      "source_sha256": "6bc27b83f417cca8c729f694a1c3370949d5ee6ccdab523c8e1ffe9de6c707ce",
+      "packaged_sha256": "6bc27b83f417cca8c729f694a1c3370949d5ee6ccdab523c8e1ffe9de6c707ce",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/horizon.csv",
+      "packaged": "data/reference/utama_seed2029/horizon.csv",
+      "source_sha256": "c5cf325768d181f6f768c303027b0efc9a8801bf17fa505729ab5b29a13652bf",
+      "packaged_sha256": "c5cf325768d181f6f768c303027b0efc9a8801bf17fa505729ab5b29a13652bf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/utama_seed2029/keacakan_dan_kecepatan.csv",
+      "source_sha256": "879668f74920693e07de440fddfc37da6d89ef69b0cee8d9aa823c7b401c31ac",
+      "packaged_sha256": "879668f74920693e07de440fddfc37da6d89ef69b0cee8d9aa823c7b401c31ac",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/kemiripan_kurva.csv",
+      "packaged": "data/reference/utama_seed2029/kemiripan_kurva.csv",
+      "source_sha256": "c96a79549c9bc36068f7722538c792f5df7ca5b3e18fe834749608a3daddaa34",
+      "packaged_sha256": "c96a79549c9bc36068f7722538c792f5df7ca5b3e18fe834749608a3daddaa34",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/kombinasi_pasangan.csv",
+      "packaged": "data/reference/utama_seed2029/kombinasi_pasangan.csv",
+      "source_sha256": "edba903fec9c7c3d7df28510c7f466e04bce37be5eb09dc9a6cfc6c87f51159b",
+      "packaged_sha256": "edba903fec9c7c3d7df28510c7f466e04bce37be5eb09dc9a6cfc6c87f51159b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/korelasi_metrik.csv",
+      "packaged": "data/reference/utama_seed2029/korelasi_metrik.csv",
+      "source_sha256": "d205ec957c2aa13eaa346ce79f47e7bac3831d3ee09b9ca45e8f541b555ab09b",
+      "packaged_sha256": "d205ec957c2aa13eaa346ce79f47e7bac3831d3ee09b9ca45e8f541b555ab09b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/utama_seed2029/kurva_ternormalisasi.csv",
+      "source_sha256": "d528549f0652911c9669ad7ee889c16b9f9871817b80d153bf65c4f0ef6e50c5",
+      "packaged_sha256": "d528549f0652911c9669ad7ee889c16b9f9871817b80d153bf65c4f0ef6e50c5",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/laporan.md",
+      "packaged": "data/reference/utama_seed2029/laporan.md",
+      "source_sha256": "8f6964f37747c769d23949d8244bd7d3764dc77b7439785424eb28bdc8221e08",
+      "packaged_sha256": "8f6964f37747c769d23949d8244bd7d3764dc77b7439785424eb28bdc8221e08",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/alzette.pkl.gz",
+      "source_sha256": "83140eb98ee84d0d2bd60439c828d3563e19aebbdde18d6afee298d50649004c",
+      "packaged_sha256": "83140eb98ee84d0d2bd60439c828d3563e19aebbdde18d6afee298d50649004c",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/clefia.pkl.gz",
+      "source_sha256": "9cb4f01de42aa1c26ef1070f77b637af4157797050a5ea077c03b2700deed65b",
+      "packaged_sha256": "9cb4f01de42aa1c26ef1070f77b637af4157797050a5ea077c03b2700deed65b",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/rectangle.pkl.gz",
+      "source_sha256": "65f3f277a7f88827f34f7b10af97233da9c91a6468a733226043653c7c8d101f",
+      "packaged_sha256": "65f3f277a7f88827f34f7b10af97233da9c91a6468a733226043653c7c8d101f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "be04656c5e40aaab8d5309dafeab4854839cd54c10c5529cf612da1ac2f7f511",
+      "packaged_sha256": "be04656c5e40aaab8d5309dafeab4854839cd54c10c5529cf612da1ac2f7f511",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "140c2360d56ba8670486e3ba6f9de0ce321cc3afa394fa8b6a253eec3da64aa7",
+      "packaged_sha256": "140c2360d56ba8670486e3ba6f9de0ce321cc3afa394fa8b6a253eec3da64aa7",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/utama_seed2029/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "2eec43d353b2765603046cb5cd9331302f0cbe76c116c3281c039fbf5893afc2",
+      "packaged_sha256": "2eec43d353b2765603046cb5cd9331302f0cbe76c116c3281c039fbf5893afc2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/per_ronde.csv",
+      "packaged": "data/reference/utama_seed2029/per_ronde.csv",
+      "source_sha256": "0b6065a77d2a9b54ef5ce5cd912d8d2ce93986f0d4b8c495892e2fc01445aed3",
+      "packaged_sha256": "0b6065a77d2a9b54ef5ce5cd912d8d2ce93986f0d4b8c495892e2fc01445aed3",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/ringkasan.json",
+      "packaged": "data/reference/utama_seed2029/ringkasan.json",
+      "source_sha256": "7f87c2a2dd8b4ec90754d1cd0b09d1d2e62be100cea1dc36e354c65b7b26b6bf",
+      "packaged_sha256": "7f87c2a2dd8b4ec90754d1cd0b09d1d2e62be100cea1dc36e354c65b7b26b6bf",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/sbox.csv",
+      "packaged": "data/reference/utama_seed2029/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029/zero_sum_detail.csv",
+      "packaged": "data/reference/utama_seed2029/zero_sum_detail.csv",
+      "source_sha256": "f5b443e524996022bda20ee7d7188bf71a1accf5e0300740f603d987287c26af",
+      "packaged_sha256": "f5b443e524996022bda20ee7d7188bf71a1accf5e0300740f603d987287c26af",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2029.log",
+      "packaged": "data/reference/utama_seed2029.log",
+      "source_sha256": "8a047b930c184e59f687d7e86faaa7eed9750be6899ecd8382e295493ca79557",
+      "packaged_sha256": "7abdf1212da1a815b660f52e59c571e8a7e52e4def8dabcedb1aea13e7a39f61",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/ambiente.json",
+      "packaged": "data/reference/utama_seed2030/ambiente.json",
+      "source_sha256": "cb3d69ac57082a0cffe57875c30d3172f23639dbe3ceb13890adb189d7b925af",
+      "packaged_sha256": "f7728522981e52c91b8eee871c29bd167bad67405aaa448ede9fd6af1f2a28af",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/diferensial_detail.csv",
+      "packaged": "data/reference/utama_seed2030/diferensial_detail.csv",
+      "source_sha256": "573c1472cd39528132478672d338c2c3ac1eb6cce8425319d77d14c359a47772",
+      "packaged_sha256": "573c1472cd39528132478672d338c2c3ac1eb6cce8425319d77d14c359a47772",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/horizon.csv",
+      "packaged": "data/reference/utama_seed2030/horizon.csv",
+      "source_sha256": "67b6211c0f5c21edbb2ab1559ce71592f5826cb07150fcd8b63fef72537ee693",
+      "packaged_sha256": "67b6211c0f5c21edbb2ab1559ce71592f5826cb07150fcd8b63fef72537ee693",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/keacakan_dan_kecepatan.csv",
+      "packaged": "data/reference/utama_seed2030/keacakan_dan_kecepatan.csv",
+      "source_sha256": "43834cecea26d41abfd104a22bdc51d0a2c3a15702d0e2b5c6370cbe178361eb",
+      "packaged_sha256": "43834cecea26d41abfd104a22bdc51d0a2c3a15702d0e2b5c6370cbe178361eb",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/kemiripan_kurva.csv",
+      "packaged": "data/reference/utama_seed2030/kemiripan_kurva.csv",
+      "source_sha256": "49b905325fe6d5dddef600fb7d86c4c43c409da68a78178aec39dc13ecd231b8",
+      "packaged_sha256": "49b905325fe6d5dddef600fb7d86c4c43c409da68a78178aec39dc13ecd231b8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/kombinasi_pasangan.csv",
+      "packaged": "data/reference/utama_seed2030/kombinasi_pasangan.csv",
+      "source_sha256": "714c950ee7c711335221b0126006b19189585a9d29638b459c48df22e5eef3ff",
+      "packaged_sha256": "714c950ee7c711335221b0126006b19189585a9d29638b459c48df22e5eef3ff",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/korelasi_metrik.csv",
+      "packaged": "data/reference/utama_seed2030/korelasi_metrik.csv",
+      "source_sha256": "55925a797663592edfc51a6fd7af9bb9e07511b9833c581ad2ecaf3ca8a53521",
+      "packaged_sha256": "55925a797663592edfc51a6fd7af9bb9e07511b9833c581ad2ecaf3ca8a53521",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/kurva_ternormalisasi.csv",
+      "packaged": "data/reference/utama_seed2030/kurva_ternormalisasi.csv",
+      "source_sha256": "08d3fe9575afab58e1763890c0c3e241b6625441213f22635f7bf64039a2adb8",
+      "packaged_sha256": "08d3fe9575afab58e1763890c0c3e241b6625441213f22635f7bf64039a2adb8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/laporan.md",
+      "packaged": "data/reference/utama_seed2030/laporan.md",
+      "source_sha256": "df5fa7f3388874f326b41917c405b9570568c5906c5b06fb005bc3fdc56295fc",
+      "packaged_sha256": "df5fa7f3388874f326b41917c405b9570568c5906c5b06fb005bc3fdc56295fc",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/alzette.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/alzette.pkl.gz",
+      "source_sha256": "64044f826fee130b9864839a211db8e3e87f7790bf05f3bcd1428a4aa3a14c05",
+      "packaged_sha256": "64044f826fee130b9864839a211db8e3e87f7790bf05f3bcd1428a4aa3a14c05",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/clefia.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/clefia.pkl.gz",
+      "source_sha256": "85acae7be3654ca4ee998ac5b41f9fca850717f8d230a2effe3c05f52cfc9773",
+      "packaged_sha256": "85acae7be3654ca4ee998ac5b41f9fca850717f8d230a2effe3c05f52cfc9773",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/rectangle.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/rectangle.pkl.gz",
+      "source_sha256": "48db755912924a184d8f33f5abaf1ca0591655a19f43d2dd47b855957563f620",
+      "packaged_sha256": "48db755912924a184d8f33f5abaf1ca0591655a19f43d2dd47b855957563f620",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/sparkle256.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/sparkle256.pkl.gz",
+      "source_sha256": "8738074b90a1c1accdf070b8aead313299301d028f02d2864c406e3ebd468b16",
+      "packaged_sha256": "8738074b90a1c1accdf070b8aead313299301d028f02d2864c406e3ebd468b16",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/sparkle384.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/sparkle384.pkl.gz",
+      "source_sha256": "bd31869ba677071758cde156079ac05fab34ca4ce62c1bc65b64c5ecb4462a19",
+      "packaged_sha256": "bd31869ba677071758cde156079ac05fab34ca4ce62c1bc65b64c5ecb4462a19",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/medicoes/sparkle512.pkl.gz",
+      "packaged": "data/reference/utama_seed2030/medicoes/sparkle512.pkl.gz",
+      "source_sha256": "ca9b92be5153c8f6adc4cfdf259f804944131f20fefc9e68daa24e76481dce0f",
+      "packaged_sha256": "ca9b92be5153c8f6adc4cfdf259f804944131f20fefc9e68daa24e76481dce0f",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/per_ronde.csv",
+      "packaged": "data/reference/utama_seed2030/per_ronde.csv",
+      "source_sha256": "7dece3f194132706145880aa2b6fbf074ef39c3e845c812358c13ea0718765cc",
+      "packaged_sha256": "7dece3f194132706145880aa2b6fbf074ef39c3e845c812358c13ea0718765cc",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/ringkasan.json",
+      "packaged": "data/reference/utama_seed2030/ringkasan.json",
+      "source_sha256": "d28055a67d5741272192fd0449edf2afda2ad7608e569628b5c65e40f6ecad78",
+      "packaged_sha256": "d28055a67d5741272192fd0449edf2afda2ad7608e569628b5c65e40f6ecad78",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/sbox.csv",
+      "packaged": "data/reference/utama_seed2030/sbox.csv",
+      "source_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "packaged_sha256": "c390c62d9285c12f7ac5de1b16f077f636c83c057fffb1cf6f16f51e63988dda",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030/zero_sum_detail.csv",
+      "packaged": "data/reference/utama_seed2030/zero_sum_detail.csv",
+      "source_sha256": "a55b57b652adffc9b14a40e17abe40db09346bd766f966c4189604e42188ebc8",
+      "packaged_sha256": "a55b57b652adffc9b14a40e17abe40db09346bd766f966c4189604e42188ebc8",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/utama_seed2030.log",
+      "packaged": "data/reference/utama_seed2030.log",
+      "source_sha256": "e8005144fcee5ded60df320c38e335839b18e0235f8a0bb1f1c06591fa342097",
+      "packaged_sha256": "f95c1f04de9e77c630762004f5d6d16347a0ee529f55376a1b9567027dabbbcb",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/driver.c",
+      "packaged": "third_party/sparkle/driver.c",
+      "source_sha256": "11012191050a7f3b548efd5062dccda677dc94fbbabebb0e6773bbd89fa53384",
+      "packaged_sha256": "11012191050a7f3b548efd5062dccda677dc94fbbabebb0e6773bbd89fa53384",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/hasil_referensi_c.json",
+      "packaged": "data/reference/validasi/hasil_referensi_c.json",
+      "source_sha256": "da6fae5d2e7ae1e41f0e3574a582b34aa006c7c302f565e30fe886016c1849c2",
+      "packaged_sha256": "da6fae5d2e7ae1e41f0e3574a582b34aa006c7c302f565e30fe886016c1849c2",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/kesetaraan_batch.json",
+      "packaged": "data/reference/validasi/kesetaraan_batch.json",
+      "source_sha256": "84383449f85dd7ec170514aab6d267dd9c26360d0655487fc0983d4c43648b6a",
+      "packaged_sha256": "84383449f85dd7ec170514aab6d267dd9c26360d0655487fc0983d4c43648b6a",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/kesetaraan_batch.log",
+      "packaged": "data/reference/validasi/kesetaraan_batch.log",
+      "source_sha256": "85f91d3b9b8b1f3b9b62c2bc3b39861e589f0013f51ea94d405f79b6d27cd4cb",
+      "packaged_sha256": "fc7b3d4aad1cfa0947a9a53c945fbe6e3bbbec6acd68f795011672e64d2c9bcf",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/konfirmasi_linear.log",
+      "packaged": "data/reference/validasi/konfirmasi_linear.log",
+      "source_sha256": "fa37c6cbd88425aef165a3d947a14f30a109615bde05ccdc43f1f76a2a7e40e4",
+      "packaged_sha256": "017bf45a4a3323c0f886db6c41ee9b9dd199f6ea069a11679dc1093ff2c62a6c",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/LICENSE_SPARKLE.md",
+      "packaged": "LICENSES/GPL-3.0.txt",
+      "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "packaged_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/sparkle.h",
+      "packaged": "third_party/sparkle/sparkle.h",
+      "source_sha256": "3976b367bd30f1cf0973bd3e76f07769049fedc69ec723b0705231b07b0cc996",
+      "packaged_sha256": "3976b367bd30f1cf0973bd3e76f07769049fedc69ec723b0705231b07b0cc996",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/sparkle_ref.c",
+      "packaged": "third_party/sparkle/sparkle_ref.c",
+      "source_sha256": "a670d9ae8084270eda2de955d4225212d01672778303ca16e33ef850da9a3c79",
+      "packaged_sha256": "a670d9ae8084270eda2de955d4225212d01672778303ca16e33ef850da9a3c79",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/test_primitif.log",
+      "packaged": "data/reference/validasi/test_primitif.log",
+      "source_sha256": "f46dc96d0c3b9b4b3f0d35fd500a19c7296b1b742e4259912842146cd3dc17c4",
+      "packaged_sha256": "1f1584f827242a60c340aebfbe61d544a6dd21dd831bdc11ba22d8b6a4cd6f70",
+      "transformation": "portable paths / UTF-8 LF"
+    },
+    {
+      "source": "eksperimen_ulang/validasi/verifikasi_hasil.json",
+      "packaged": "data/reference/validasi/verifikasi_hasil.json",
+      "source_sha256": "6b8d2eb7bbbae318e7e87bda7f89a80156debb5292adbedd56585ac4889387b8",
+      "packaged_sha256": "6b8d2eb7bbbae318e7e87bda7f89a80156debb5292adbedd56585ac4889387b8",
+      "transformation": "byte-for-byte copy"
+    }
+  ]
+}

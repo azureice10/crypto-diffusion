@@ -1,0 +1,8 @@
+{
+  "status": "compiled_but_execution_blocked",
+  "compiler": "zig cc 0.13.0 -O2",
+  "source": "https://github.com/cryptolu/sparkle/tree/master/software/sparkle",
+  "reason": "Windows Application Control blocked the locally compiled executable (WinError 4551).",
+  "passed_comparisons": 0,
+  "interpretation": "No independent C execution validation is claimed. Existing Python adapter comparisons and official RECTANGLE/CLEFIA vectors passed."
+}

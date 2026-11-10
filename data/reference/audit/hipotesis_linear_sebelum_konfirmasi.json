@@ -1,0 +1,22 @@
+{
+  "holdout_seed": 20261110,
+  "holdout_n": 65536,
+  "selected": [
+    {
+      "round": 13,
+      "input_bit": 71,
+      "output_bit": 114,
+      "discovery_n": 8192,
+      "discovery_corr": 0.062255859375,
+      "discovery_bonferroni_p": 0.00030312194193917884
+    },
+    {
+      "round": 14,
+      "input_bit": 71,
+      "output_bit": 18,
+      "discovery_n": 8192,
+      "discovery_corr": 0.062255859375,
+      "discovery_bonferroni_p": 0.00030312194193917884
+    }
+  ]
+}

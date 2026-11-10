@@ -1,0 +1,47 @@
+{
+  "python": "3.13.14",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "logical_cpus": 12,
+  "parameters": {
+    "primitif": [
+      "rectangle",
+      "clefia",
+      "sparkle256",
+      "sparkle256s",
+      "sparkle384",
+      "sparkle384s",
+      "sparkle512",
+      "sparkle512s",
+      "alzette"
+    ],
+    "sampel_avalanche": 64,
+    "sampel_linear": 2048,
+    "pasangan_diff": 1024,
+    "koset": 16,
+    "kunci": 0,
+    "sampel_kunci_avalanche": 32,
+    "seed": 2030,
+    "cepat": false,
+    "output_dir": "data/reference/utama_seed2030",
+    "perbarui_kecepatan": false
+  },
+  "source_sha256": {
+    "audit_eksperimen.py": "9b5a65944a5eef0bc2a99301e3ae91f719a723a7efba466e30a05260bb62e499",
+    "bandingkan.py": "877c9d1f80ce87e12c5b2465e22d50bbbd957b7201f612fd87d8f1c38609d65b",
+    "buat_grafik.py": "ccbad7dfc1e8c0e1ee20b10966a26de1618c574e2d39de2ad9c1a43f9700f5ba",
+    "clefia.py": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+    "metrik.py": "05a38eed3d32c70093f43f58394d64ac03c5c5d0f7145bd110682cbaf369a704",
+    "primitif.py": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+    "rectangle.py": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85",
+    "sparkle.py": "71963cefd560a95968d65f09fbd59345a95efc43ed9102debcdaab7f578a590e",
+    "test_primitif.py": "9bbd718b4b6824b0a2ef7554c4c8398602b688c9aa39c28ab2070a0b7c114a0a",
+    "ulang_eksperimen.py": "ca06550ba3afb7f8e53929908c6e7cc2bdb9a78d7869824f31bace550fd174b6",
+    "validasi_batch.py": "5344933ba1d087fabb9156d83cd03a76b0510fc1f573b88f5d2fd4c91cbb2e73",
+    "validasi_referensi.py": "9590fdb16f2248d71b9507207fd49c5be70986f88b83e7df09425921a30f6829"
+  },
+  "rules": "SAC actual discrete size + coupling; linear exact Bonferroni; ZS binomial + coupling; differential triple bound",
+  "scope": "per metric per round; no global experiment-wise error control in main table",
+  "trace": "round functions retain round keys and input whitening; final output whitening omitted"
+}

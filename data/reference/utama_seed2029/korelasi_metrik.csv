@@ -1,0 +1,9 @@
+metrik,r_norm,avalanche_mean,completeness,sac_violation_frac,lin_sig_frac,lin_max_abs_corr,diff_top_frac,zs8_balanced_frac
+r_norm,1.0,0.463,0.631,-0.386,-0.24,-0.005,-0.343,-0.635
+avalanche_mean,0.463,1.0,0.739,-0.67,-0.238,-0.097,-0.466,-0.649
+completeness,0.631,0.739,1.0,-0.742,-0.323,-0.056,-0.598,-0.75
+sac_violation_frac,-0.386,-0.67,-0.742,1.0,0.236,0.01,0.472,0.608
+lin_sig_frac,-0.24,-0.238,-0.323,0.236,1.0,0.24,0.483,0.34
+lin_max_abs_corr,-0.005,-0.097,-0.056,0.01,0.24,1.0,-0.087,-0.065
+diff_top_frac,-0.343,-0.466,-0.598,0.472,0.483,-0.087,1.0,0.625
+zs8_balanced_frac,-0.635,-0.649,-0.75,0.608,0.34,-0.065,0.625,1.0

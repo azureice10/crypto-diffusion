@@ -1,0 +1,6 @@
+{'primitif': 'RECTANGLE-80', 'status': 'all saved values exactly equal', 'seconds': 12.749701299937442}
+{'primitif': 'CLEFIA-128', 'status': 'all saved values exactly equal', 'seconds': 5.7827710000565276}
+{'primitif': 'Sparkle256', 'status': 'all saved values exactly equal', 'seconds': 0.7165179000003263}
+{'primitif': 'Sparkle384', 'status': 'all saved values exactly equal', 'seconds': 1.3882599000353366}
+{'primitif': 'Sparkle512', 'status': 'all saved values exactly equal', 'seconds': 2.390782200032845}
+{'primitif': 'Alzette', 'status': 'all saved values exactly equal', 'seconds': 0.06674849998671561}

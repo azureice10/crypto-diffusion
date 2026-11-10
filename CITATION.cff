@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this supplement and the associated article once its publication details are available."
+type: software
+title: "Supplementary artifacts: Empirical Comparison of Diffusion and Statistical Distinguisher Horizons in RECTANGLE-80, CLEFIA-128, SPARKLE and Alzette"
+repository-code: "https://github.com/azureice10/crypto-diffusion"
+url: "https://github.com/azureice10/crypto-diffusion"
+version: "0.1.0"
+authors:
+  - family-names: Setiawan
+    given-names: Hermawan
+    affiliation: Politeknik Siber dan Sandi Negara
+  - family-names: Hadiprakoso
+    given-names: Raden Budiarto
+    affiliation: Politeknik Siber dan Sandi Negara
+  - family-names: Rosdiana
+    given-names: Sri
+    affiliation: Politeknik Siber dan Sandi Negara
+abstract: "Code, synthetic-input measurements, statistical audits, portable checkpoints, and figures for a reproducible empirical study of diffusion and selected statistical distinguishers."
+keywords:
+  - cryptography
+  - diffusion
+  - statistical distinguishers
+  - reproducibility
+  - SPARKLE
+  - CLEFIA
+  - RECTANGLE
+  - Alzette

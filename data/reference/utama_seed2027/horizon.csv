@@ -1,0 +1,10 @@
+primitif,R,difusi_lengkap_ronde,sac_horizon,linear_horizon,diferensial_horizon,zero_sum4_horizon,zero_sum8_horizon,deteksi_terisolasi,distinguisher_horizon,horizon_frac,margin_ronde,margin_frac
+RECTANGLE-80,25,5,6,1,4,6,6,,6,0.24,19,0.76
+CLEFIA-128,18,5,4,1,2,4,5,,5,0.278,13,0.722
+Sparkle256,10,3,2,,,1,1,,2,0.2,8,0.8
+Sparkle256-slim,7,3,2,,,1,1,,2,0.286,5,0.714
+Sparkle384,11,3,2,,,1,1,,2,0.182,9,0.818
+Sparkle384-slim,7,3,2,,,1,1,,2,0.286,5,0.714
+Sparkle512,12,3,2,,,1,1,,2,0.167,10,0.833
+Sparkle512-slim,8,3,2,,,1,1,,2,0.25,6,0.75
+Alzette,4,4,4,,3,3,2,,4,1.0,0,0.0

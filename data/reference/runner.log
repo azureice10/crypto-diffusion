@@ -1,0 +1,49 @@
+Sudah lengkap: utama_seed2026
+Mulai: utama_seed2027
+Selesai: utama_seed2027
+Mulai: utama_seed2028
+Selesai: utama_seed2028
+Mulai: utama_seed2029
+Selesai: utama_seed2029
+Mulai: utama_seed2030
+Selesai: utama_seed2030
+Mulai: sampel_besar_seed2026
+Selesai: sampel_besar_seed2026
+Null permutasi langsung 64 bit: 500 ulangan
+Null permutasi langsung 128 bit: 500 ulangan
+Null permutasi langsung 256 bit: 500 ulangan
+Null permutasi langsung 384 bit: 500 ulangan
+Null permutasi langsung 512 bit: 500 ulangan
+Audit selesai: <original-workspace>\eksperimen_ulang\audit
+Grafik dibuat: kurva_avalanche_mean (png, pdf)
+Grafik dibuat: kurva_completeness (png, pdf)
+Grafik dibuat: kurva_sac_violation_frac (png, pdf)
+Grafik dibuat: kurva_lin_max_abs_corr (png, pdf)
+Grafik dibuat: kurva_diff_top_frac (png, pdf)
+Grafik dibuat: kurva_zs8_balanced_frac (png, pdf)
+Grafik dibuat: horizon_margin (png, pdf)
+Grafik dibuat: horizon_per_metrik (png, pdf)
+Grafik dibuat: statistik_keluaran (png, pdf)
+Grafik dibuat: throughput_python (png, pdf)
+Grafik dibuat: kemiripan_kurva_pearson (png, pdf)
+Grafik dibuat: korelasi_metrik_spearman (png, pdf)
+Grafik dibuat: horizon_lintas_kunci (png, pdf)
+Grafik dibuat: avalanche_kunci (png, pdf)
+Grafik dibuat: diferensial_dy_teratas (png, pdf)
+Selesai: 15 grafik di <original-workspace>\eksperimen_ulang\utama_seed2026\grafik
+Grafik dibuat: kurva_avalanche_mean (png, pdf)
+Grafik dibuat: kurva_completeness (png, pdf)
+Grafik dibuat: kurva_sac_violation_frac (png, pdf)
+Grafik dibuat: kurva_lin_max_abs_corr (png, pdf)
+Grafik dibuat: kurva_diff_top_frac (png, pdf)
+Grafik dibuat: kurva_zs8_balanced_frac (png, pdf)
+Grafik dibuat: horizon_margin (png, pdf)
+Grafik dibuat: horizon_per_metrik (png, pdf)
+Grafik dibuat: statistik_keluaran (png, pdf)
+Grafik dibuat: throughput_python (png, pdf)
+Grafik dibuat: kemiripan_kurva_pearson (png, pdf)
+Grafik dibuat: korelasi_metrik_spearman (png, pdf)
+Lewati kunci_horizon_ringkas.csv: berkas tidak ditemukan
+Lewati avalanche_kunci.csv: berkas tidak ditemukan
+Grafik dibuat: diferensial_dy_teratas (png, pdf)
+Selesai: 13 grafik di <original-workspace>\eksperimen_ulang\sampel_besar_seed2026\grafik

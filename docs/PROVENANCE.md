@@ -1,0 +1,47 @@
+# Provenance and packaging
+
+The supplied research workspace was measured and audited on 10 November 2026
+(Asia/Jakarta). This package is a separate local copy; the draft manuscript,
+journal template, and original experiment folders remain outside it.
+
+`provenance/source_inventory.json` records, for every copied source artifact:
+
+- a relative path in the original workspace;
+- a relative path in this repository;
+- the original SHA-256 hash;
+- the packaged SHA-256 hash;
+- the packaging transformation, if any.
+
+The Python measurement scripts are copied byte-for-byte. Numeric CSV files,
+summary JSON, original measurement checkpoints, and figures retain their
+measured bytes. Only `ambiente.json` output-directory fields were replaced by
+portable repository paths. Text logs/reports were converted to UTF-8 LF and
+machine-specific workspace paths were replaced with `<original-workspace>`.
+CPU, OS, Python/NumPy, parameters, seeds, and historical source hashes remain.
+
+Original source ZIP backups and the old workspace manifest are omitted to
+avoid duplicate code and hashes referring to a different folder layout.
+The official C files and license were moved to `third_party/` and `LICENSES/`.
+The original compiled executable and debug symbols are not distributed.
+
+Portable checkpoint pairs are additional representations, not new samples.
+Each JSON points to its original pickle and records that pickle's hash.
+Dictionary keys become JSON strings; numeric dtypes, shapes and values stay
+the same. No object arrays are stored. Use `scripts/read_checkpoint.py` to
+decode them without pickle.
+
+`provenance/SHA256SUMS.json` covers the packaged code, documentation, data,
+figures and portable exports. It excludes itself, Git internals and ignored
+working outputs. Git newline conversion is disabled so checksums survive
+Windows/Linux clones. The manifest is an integrity inventory, not a signed
+authenticity statement. Update it deliberately if tracked content is changed.
+
+Original environment manifests contain source hashes for the particular
+measurement version used for each run. Early scalar and later batch versions
+can differ; current source cannot simultaneously match every historical hash.
+The scalar/batch equality record is in
+`data/reference/validasi/kesetaraan_batch.json`.
+
+No author ORCID, GitHub account, article DOI, funding source, release date or
+license choice was invented. Citation names and affiliation come from the
+draft manuscript and should be reviewed by its authors before publication.

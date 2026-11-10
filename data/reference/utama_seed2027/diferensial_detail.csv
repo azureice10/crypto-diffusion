@@ -1,0 +1,307 @@
+round,input_diff,dx_hex,top_dy_count,distinct_dy_frac,dp_log2,top_dy_hw,diff_null_p_bound,primitif
+1,1 bit,0x1,260,0.005859375,-1.978,2,1.7036372312873027e-13,RECTANGLE-80
+2,1 bit,0x1,22,0.5068359375,-5.541,6,1.7036372312873027e-13,RECTANGLE-80
+3,1 bit,0x1,2,0.9990234375,,10,1.0,RECTANGLE-80
+4,1 bit,0x1,1,1.0,,11,1.0,RECTANGLE-80
+5,1 bit,0x1,1,1.0,,17,1.0,RECTANGLE-80
+6,1 bit,0x1,1,1.0,,27,1.0,RECTANGLE-80
+7,1 bit,0x1,1,1.0,,23,1.0,RECTANGLE-80
+8,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+9,1 bit,0x1,1,1.0,,36,1.0,RECTANGLE-80
+10,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+11,1 bit,0x1,1,1.0,,41,1.0,RECTANGLE-80
+12,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+13,1 bit,0x1,1,1.0,,38,1.0,RECTANGLE-80
+14,1 bit,0x1,1,1.0,,29,1.0,RECTANGLE-80
+15,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+16,1 bit,0x1,1,1.0,,33,1.0,RECTANGLE-80
+17,1 bit,0x1,1,1.0,,28,1.0,RECTANGLE-80
+18,1 bit,0x1,1,1.0,,28,1.0,RECTANGLE-80
+19,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+20,1 bit,0x1,1,1.0,,30,1.0,RECTANGLE-80
+21,1 bit,0x1,1,1.0,,38,1.0,RECTANGLE-80
+22,1 bit,0x1,1,1.0,,33,1.0,RECTANGLE-80
+23,1 bit,0x1,1,1.0,,31,1.0,RECTANGLE-80
+24,1 bit,0x1,1,1.0,,27,1.0,RECTANGLE-80
+25,1 bit,0x1,1,1.0,,39,1.0,RECTANGLE-80
+1,1 unit (4 bit),0x1000100010001,269,0.0068359375,-1.929,1,1.7036372312873027e-13,RECTANGLE-80
+2,1 unit (4 bit),0x1000100010001,61,0.2490234375,-4.069,3,1.7036372312873027e-13,RECTANGLE-80
+3,1 unit (4 bit),0x1000100010001,7,0.87890625,-7.193,1,1.7036372312873027e-13,RECTANGLE-80
+4,1 unit (4 bit),0x1000100010001,3,0.99609375,-8.415,2,1.7036372312873027e-13,RECTANGLE-80
+5,1 unit (4 bit),0x1000100010001,1,1.0,,23,1.0,RECTANGLE-80
+6,1 unit (4 bit),0x1000100010001,1,1.0,,26,1.0,RECTANGLE-80
+7,1 unit (4 bit),0x1000100010001,1,1.0,,35,1.0,RECTANGLE-80
+8,1 unit (4 bit),0x1000100010001,1,1.0,,31,1.0,RECTANGLE-80
+9,1 unit (4 bit),0x1000100010001,1,1.0,,34,1.0,RECTANGLE-80
+10,1 unit (4 bit),0x1000100010001,1,1.0,,29,1.0,RECTANGLE-80
+11,1 unit (4 bit),0x1000100010001,1,1.0,,29,1.0,RECTANGLE-80
+12,1 unit (4 bit),0x1000100010001,1,1.0,,31,1.0,RECTANGLE-80
+13,1 unit (4 bit),0x1000100010001,1,1.0,,28,1.0,RECTANGLE-80
+14,1 unit (4 bit),0x1000100010001,1,1.0,,37,1.0,RECTANGLE-80
+15,1 unit (4 bit),0x1000100010001,1,1.0,,33,1.0,RECTANGLE-80
+16,1 unit (4 bit),0x1000100010001,1,1.0,,31,1.0,RECTANGLE-80
+17,1 unit (4 bit),0x1000100010001,1,1.0,,29,1.0,RECTANGLE-80
+18,1 unit (4 bit),0x1000100010001,1,1.0,,25,1.0,RECTANGLE-80
+19,1 unit (4 bit),0x1000100010001,1,1.0,,28,1.0,RECTANGLE-80
+20,1 unit (4 bit),0x1000100010001,1,1.0,,33,1.0,RECTANGLE-80
+21,1 unit (4 bit),0x1000100010001,1,1.0,,28,1.0,RECTANGLE-80
+22,1 unit (4 bit),0x1000100010001,1,1.0,,37,1.0,RECTANGLE-80
+23,1 unit (4 bit),0x1000100010001,1,1.0,,33,1.0,RECTANGLE-80
+24,1 unit (4 bit),0x1000100010001,1,1.0,,29,1.0,RECTANGLE-80
+25,1 unit (4 bit),0x1000100010001,1,1.0,,41,1.0,RECTANGLE-80
+1,8 bit selaras,0x3000300030003,58,0.0478515625,-4.142,2,1.7036372312873027e-13,RECTANGLE-80
+2,8 bit selaras,0x3000300030003,12,0.7890625,-6.415,7,1.7036372312873027e-13,RECTANGLE-80
+3,8 bit selaras,0x3000300030003,2,0.9990234375,,2,1.0,RECTANGLE-80
+4,8 bit selaras,0x3000300030003,1,1.0,,9,1.0,RECTANGLE-80
+5,8 bit selaras,0x3000300030003,1,1.0,,14,1.0,RECTANGLE-80
+6,8 bit selaras,0x3000300030003,1,1.0,,25,1.0,RECTANGLE-80
+7,8 bit selaras,0x3000300030003,1,1.0,,30,1.0,RECTANGLE-80
+8,8 bit selaras,0x3000300030003,1,1.0,,32,1.0,RECTANGLE-80
+9,8 bit selaras,0x3000300030003,1,1.0,,35,1.0,RECTANGLE-80
+10,8 bit selaras,0x3000300030003,1,1.0,,27,1.0,RECTANGLE-80
+11,8 bit selaras,0x3000300030003,1,1.0,,27,1.0,RECTANGLE-80
+12,8 bit selaras,0x3000300030003,1,1.0,,35,1.0,RECTANGLE-80
+13,8 bit selaras,0x3000300030003,1,1.0,,30,1.0,RECTANGLE-80
+14,8 bit selaras,0x3000300030003,1,1.0,,35,1.0,RECTANGLE-80
+15,8 bit selaras,0x3000300030003,1,1.0,,25,1.0,RECTANGLE-80
+16,8 bit selaras,0x3000300030003,1,1.0,,41,1.0,RECTANGLE-80
+17,8 bit selaras,0x3000300030003,1,1.0,,30,1.0,RECTANGLE-80
+18,8 bit selaras,0x3000300030003,1,1.0,,30,1.0,RECTANGLE-80
+19,8 bit selaras,0x3000300030003,1,1.0,,36,1.0,RECTANGLE-80
+20,8 bit selaras,0x3000300030003,1,1.0,,30,1.0,RECTANGLE-80
+21,8 bit selaras,0x3000300030003,1,1.0,,35,1.0,RECTANGLE-80
+22,8 bit selaras,0x3000300030003,1,1.0,,29,1.0,RECTANGLE-80
+23,8 bit selaras,0x3000300030003,1,1.0,,27,1.0,RECTANGLE-80
+24,8 bit selaras,0x3000300030003,1,1.0,,42,1.0,RECTANGLE-80
+25,8 bit selaras,0x3000300030003,1,1.0,,34,1.0,RECTANGLE-80
+1,1 bit,0x10000000000000000000000,1024,0.0009765625,0.0,1,9.235435936444417e-33,CLEFIA-128
+2,1 bit,0x10000000000000000000000,27,0.095703125,-5.245,19,9.235435936444417e-33,CLEFIA-128
+3,1 bit,0x10000000000000000000000,1,1.0,,32,1.0,CLEFIA-128
+4,1 bit,0x10000000000000000000000,1,1.0,,50,1.0,CLEFIA-128
+5,1 bit,0x10000000000000000000000,1,1.0,,60,1.0,CLEFIA-128
+6,1 bit,0x10000000000000000000000,1,1.0,,60,1.0,CLEFIA-128
+7,1 bit,0x10000000000000000000000,1,1.0,,63,1.0,CLEFIA-128
+8,1 bit,0x10000000000000000000000,1,1.0,,58,1.0,CLEFIA-128
+9,1 bit,0x10000000000000000000000,1,1.0,,59,1.0,CLEFIA-128
+10,1 bit,0x10000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+11,1 bit,0x10000000000000000000000,1,1.0,,58,1.0,CLEFIA-128
+12,1 bit,0x10000000000000000000000,1,1.0,,53,1.0,CLEFIA-128
+13,1 bit,0x10000000000000000000000,1,1.0,,52,1.0,CLEFIA-128
+14,1 bit,0x10000000000000000000000,1,1.0,,59,1.0,CLEFIA-128
+15,1 bit,0x10000000000000000000000,1,1.0,,65,1.0,CLEFIA-128
+16,1 bit,0x10000000000000000000000,1,1.0,,65,1.0,CLEFIA-128
+17,1 bit,0x10000000000000000000000,1,1.0,,68,1.0,CLEFIA-128
+18,1 bit,0x10000000000000000000000,1,1.0,,68,1.0,CLEFIA-128
+1,1 unit (4 bit),0xf0000000000000000000000,1024,0.0009765625,0.0,4,9.235435936444417e-33,CLEFIA-128
+2,1 unit (4 bit),0xf0000000000000000000000,28,0.1005859375,-5.193,21,9.235435936444417e-33,CLEFIA-128
+3,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,43,1.0,CLEFIA-128
+4,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,59,1.0,CLEFIA-128
+5,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,63,1.0,CLEFIA-128
+6,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,59,1.0,CLEFIA-128
+7,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,65,1.0,CLEFIA-128
+8,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+9,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+10,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+11,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,58,1.0,CLEFIA-128
+12,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,62,1.0,CLEFIA-128
+13,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,65,1.0,CLEFIA-128
+14,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+15,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,64,1.0,CLEFIA-128
+16,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,69,1.0,CLEFIA-128
+17,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,62,1.0,CLEFIA-128
+18,1 unit (4 bit),0xf0000000000000000000000,1,1.0,,60,1.0,CLEFIA-128
+1,8 bit selaras,0xff0000000000000000000000,1024,0.0009765625,0.0,8,9.235435936444417e-33,CLEFIA-128
+2,8 bit selaras,0xff0000000000000000000000,32,0.095703125,-5.0,24,9.235435936444417e-33,CLEFIA-128
+3,8 bit selaras,0xff0000000000000000000000,1,1.0,,38,1.0,CLEFIA-128
+4,8 bit selaras,0xff0000000000000000000000,1,1.0,,56,1.0,CLEFIA-128
+5,8 bit selaras,0xff0000000000000000000000,1,1.0,,70,1.0,CLEFIA-128
+6,8 bit selaras,0xff0000000000000000000000,1,1.0,,67,1.0,CLEFIA-128
+7,8 bit selaras,0xff0000000000000000000000,1,1.0,,62,1.0,CLEFIA-128
+8,8 bit selaras,0xff0000000000000000000000,1,1.0,,70,1.0,CLEFIA-128
+9,8 bit selaras,0xff0000000000000000000000,1,1.0,,73,1.0,CLEFIA-128
+10,8 bit selaras,0xff0000000000000000000000,1,1.0,,71,1.0,CLEFIA-128
+11,8 bit selaras,0xff0000000000000000000000,1,1.0,,65,1.0,CLEFIA-128
+12,8 bit selaras,0xff0000000000000000000000,1,1.0,,62,1.0,CLEFIA-128
+13,8 bit selaras,0xff0000000000000000000000,1,1.0,,61,1.0,CLEFIA-128
+14,8 bit selaras,0xff0000000000000000000000,1,1.0,,63,1.0,CLEFIA-128
+15,8 bit selaras,0xff0000000000000000000000,1,1.0,,66,1.0,CLEFIA-128
+16,8 bit selaras,0xff0000000000000000000000,1,1.0,,64,1.0,CLEFIA-128
+17,8 bit selaras,0xff0000000000000000000000,1,1.0,,67,1.0,CLEFIA-128
+18,8 bit selaras,0xff0000000000000000000000,1,1.0,,69,1.0,CLEFIA-128
+1,1 bit,0x1,1,1.0,,60,1.0,Sparkle256
+2,1 bit,0x1,1,1.0,,132,1.0,Sparkle256
+3,1 bit,0x1,1,1.0,,143,1.0,Sparkle256
+4,1 bit,0x1,1,1.0,,121,1.0,Sparkle256
+5,1 bit,0x1,1,1.0,,129,1.0,Sparkle256
+6,1 bit,0x1,1,1.0,,127,1.0,Sparkle256
+7,1 bit,0x1,1,1.0,,129,1.0,Sparkle256
+8,1 bit,0x1,1,1.0,,135,1.0,Sparkle256
+9,1 bit,0x1,1,1.0,,111,1.0,Sparkle256
+10,1 bit,0x1,1,1.0,,121,1.0,Sparkle256
+1,1 unit (4 bit),0xf,1,1.0,,102,1.0,Sparkle256
+2,1 unit (4 bit),0xf,1,1.0,,129,1.0,Sparkle256
+3,1 unit (4 bit),0xf,1,1.0,,118,1.0,Sparkle256
+4,1 unit (4 bit),0xf,1,1.0,,121,1.0,Sparkle256
+5,1 unit (4 bit),0xf,1,1.0,,137,1.0,Sparkle256
+6,1 unit (4 bit),0xf,1,1.0,,115,1.0,Sparkle256
+7,1 unit (4 bit),0xf,1,1.0,,132,1.0,Sparkle256
+8,1 unit (4 bit),0xf,1,1.0,,125,1.0,Sparkle256
+9,1 unit (4 bit),0xf,1,1.0,,118,1.0,Sparkle256
+10,1 unit (4 bit),0xf,1,1.0,,127,1.0,Sparkle256
+1,8 bit selaras,0xff,1,1.0,,84,1.0,Sparkle256
+2,8 bit selaras,0xff,1,1.0,,131,1.0,Sparkle256
+3,8 bit selaras,0xff,1,1.0,,120,1.0,Sparkle256
+4,8 bit selaras,0xff,1,1.0,,148,1.0,Sparkle256
+5,8 bit selaras,0xff,1,1.0,,120,1.0,Sparkle256
+6,8 bit selaras,0xff,1,1.0,,114,1.0,Sparkle256
+7,8 bit selaras,0xff,1,1.0,,140,1.0,Sparkle256
+8,8 bit selaras,0xff,1,1.0,,129,1.0,Sparkle256
+9,8 bit selaras,0xff,1,1.0,,130,1.0,Sparkle256
+10,8 bit selaras,0xff,1,1.0,,128,1.0,Sparkle256
+1,1 bit,0x1,1,1.0,,60,1.0,Sparkle256-slim
+2,1 bit,0x1,1,1.0,,132,1.0,Sparkle256-slim
+3,1 bit,0x1,1,1.0,,143,1.0,Sparkle256-slim
+4,1 bit,0x1,1,1.0,,121,1.0,Sparkle256-slim
+5,1 bit,0x1,1,1.0,,129,1.0,Sparkle256-slim
+6,1 bit,0x1,1,1.0,,127,1.0,Sparkle256-slim
+7,1 bit,0x1,1,1.0,,129,1.0,Sparkle256-slim
+1,1 unit (4 bit),0xf,1,1.0,,102,1.0,Sparkle256-slim
+2,1 unit (4 bit),0xf,1,1.0,,129,1.0,Sparkle256-slim
+3,1 unit (4 bit),0xf,1,1.0,,118,1.0,Sparkle256-slim
+4,1 unit (4 bit),0xf,1,1.0,,121,1.0,Sparkle256-slim
+5,1 unit (4 bit),0xf,1,1.0,,137,1.0,Sparkle256-slim
+6,1 unit (4 bit),0xf,1,1.0,,115,1.0,Sparkle256-slim
+7,1 unit (4 bit),0xf,1,1.0,,132,1.0,Sparkle256-slim
+1,8 bit selaras,0xff,1,1.0,,84,1.0,Sparkle256-slim
+2,8 bit selaras,0xff,1,1.0,,131,1.0,Sparkle256-slim
+3,8 bit selaras,0xff,1,1.0,,120,1.0,Sparkle256-slim
+4,8 bit selaras,0xff,1,1.0,,148,1.0,Sparkle256-slim
+5,8 bit selaras,0xff,1,1.0,,120,1.0,Sparkle256-slim
+6,8 bit selaras,0xff,1,1.0,,114,1.0,Sparkle256-slim
+7,8 bit selaras,0xff,1,1.0,,140,1.0,Sparkle256-slim
+1,1 bit,0x1,1,1.0,,128,1.0,Sparkle384
+2,1 bit,0x1,1,1.0,,195,1.0,Sparkle384
+3,1 bit,0x1,1,1.0,,197,1.0,Sparkle384
+4,1 bit,0x1,1,1.0,,182,1.0,Sparkle384
+5,1 bit,0x1,1,1.0,,213,1.0,Sparkle384
+6,1 bit,0x1,1,1.0,,208,1.0,Sparkle384
+7,1 bit,0x1,1,1.0,,200,1.0,Sparkle384
+8,1 bit,0x1,1,1.0,,193,1.0,Sparkle384
+9,1 bit,0x1,1,1.0,,187,1.0,Sparkle384
+10,1 bit,0x1,1,1.0,,193,1.0,Sparkle384
+11,1 bit,0x1,1,1.0,,198,1.0,Sparkle384
+1,1 unit (4 bit),0xf,1,1.0,,105,1.0,Sparkle384
+2,1 unit (4 bit),0xf,1,1.0,,189,1.0,Sparkle384
+3,1 unit (4 bit),0xf,1,1.0,,183,1.0,Sparkle384
+4,1 unit (4 bit),0xf,1,1.0,,184,1.0,Sparkle384
+5,1 unit (4 bit),0xf,1,1.0,,193,1.0,Sparkle384
+6,1 unit (4 bit),0xf,1,1.0,,195,1.0,Sparkle384
+7,1 unit (4 bit),0xf,1,1.0,,211,1.0,Sparkle384
+8,1 unit (4 bit),0xf,1,1.0,,197,1.0,Sparkle384
+9,1 unit (4 bit),0xf,1,1.0,,209,1.0,Sparkle384
+10,1 unit (4 bit),0xf,1,1.0,,192,1.0,Sparkle384
+11,1 unit (4 bit),0xf,1,1.0,,184,1.0,Sparkle384
+1,8 bit selaras,0xff,1,1.0,,122,1.0,Sparkle384
+2,8 bit selaras,0xff,1,1.0,,189,1.0,Sparkle384
+3,8 bit selaras,0xff,1,1.0,,198,1.0,Sparkle384
+4,8 bit selaras,0xff,1,1.0,,192,1.0,Sparkle384
+5,8 bit selaras,0xff,1,1.0,,183,1.0,Sparkle384
+6,8 bit selaras,0xff,1,1.0,,179,1.0,Sparkle384
+7,8 bit selaras,0xff,1,1.0,,189,1.0,Sparkle384
+8,8 bit selaras,0xff,1,1.0,,207,1.0,Sparkle384
+9,8 bit selaras,0xff,1,1.0,,200,1.0,Sparkle384
+10,8 bit selaras,0xff,1,1.0,,195,1.0,Sparkle384
+11,8 bit selaras,0xff,1,1.0,,189,1.0,Sparkle384
+1,1 bit,0x1,1,1.0,,128,1.0,Sparkle384-slim
+2,1 bit,0x1,1,1.0,,195,1.0,Sparkle384-slim
+3,1 bit,0x1,1,1.0,,197,1.0,Sparkle384-slim
+4,1 bit,0x1,1,1.0,,182,1.0,Sparkle384-slim
+5,1 bit,0x1,1,1.0,,213,1.0,Sparkle384-slim
+6,1 bit,0x1,1,1.0,,208,1.0,Sparkle384-slim
+7,1 bit,0x1,1,1.0,,200,1.0,Sparkle384-slim
+1,1 unit (4 bit),0xf,1,1.0,,105,1.0,Sparkle384-slim
+2,1 unit (4 bit),0xf,1,1.0,,189,1.0,Sparkle384-slim
+3,1 unit (4 bit),0xf,1,1.0,,183,1.0,Sparkle384-slim
+4,1 unit (4 bit),0xf,1,1.0,,184,1.0,Sparkle384-slim
+5,1 unit (4 bit),0xf,1,1.0,,193,1.0,Sparkle384-slim
+6,1 unit (4 bit),0xf,1,1.0,,195,1.0,Sparkle384-slim
+7,1 unit (4 bit),0xf,1,1.0,,211,1.0,Sparkle384-slim
+1,8 bit selaras,0xff,1,1.0,,122,1.0,Sparkle384-slim
+2,8 bit selaras,0xff,1,1.0,,189,1.0,Sparkle384-slim
+3,8 bit selaras,0xff,1,1.0,,198,1.0,Sparkle384-slim
+4,8 bit selaras,0xff,1,1.0,,192,1.0,Sparkle384-slim
+5,8 bit selaras,0xff,1,1.0,,183,1.0,Sparkle384-slim
+6,8 bit selaras,0xff,1,1.0,,179,1.0,Sparkle384-slim
+7,8 bit selaras,0xff,1,1.0,,189,1.0,Sparkle384-slim
+1,1 bit,0x1,1,1.0,,166,1.0,Sparkle512
+2,1 bit,0x1,1,1.0,,265,1.0,Sparkle512
+3,1 bit,0x1,1,1.0,,259,1.0,Sparkle512
+4,1 bit,0x1,1,1.0,,246,1.0,Sparkle512
+5,1 bit,0x1,1,1.0,,269,1.0,Sparkle512
+6,1 bit,0x1,1,1.0,,291,1.0,Sparkle512
+7,1 bit,0x1,1,1.0,,276,1.0,Sparkle512
+8,1 bit,0x1,1,1.0,,259,1.0,Sparkle512
+9,1 bit,0x1,1,1.0,,257,1.0,Sparkle512
+10,1 bit,0x1,1,1.0,,262,1.0,Sparkle512
+11,1 bit,0x1,1,1.0,,238,1.0,Sparkle512
+12,1 bit,0x1,1,1.0,,261,1.0,Sparkle512
+1,1 unit (4 bit),0xf,1,1.0,,160,1.0,Sparkle512
+2,1 unit (4 bit),0xf,1,1.0,,274,1.0,Sparkle512
+3,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512
+4,1 unit (4 bit),0xf,1,1.0,,249,1.0,Sparkle512
+5,1 unit (4 bit),0xf,1,1.0,,244,1.0,Sparkle512
+6,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512
+7,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512
+8,1 unit (4 bit),0xf,1,1.0,,264,1.0,Sparkle512
+9,1 unit (4 bit),0xf,1,1.0,,264,1.0,Sparkle512
+10,1 unit (4 bit),0xf,1,1.0,,265,1.0,Sparkle512
+11,1 unit (4 bit),0xf,1,1.0,,260,1.0,Sparkle512
+12,1 unit (4 bit),0xf,1,1.0,,258,1.0,Sparkle512
+1,8 bit selaras,0xff,1,1.0,,170,1.0,Sparkle512
+2,8 bit selaras,0xff,1,1.0,,241,1.0,Sparkle512
+3,8 bit selaras,0xff,1,1.0,,271,1.0,Sparkle512
+4,8 bit selaras,0xff,1,1.0,,275,1.0,Sparkle512
+5,8 bit selaras,0xff,1,1.0,,267,1.0,Sparkle512
+6,8 bit selaras,0xff,1,1.0,,275,1.0,Sparkle512
+7,8 bit selaras,0xff,1,1.0,,263,1.0,Sparkle512
+8,8 bit selaras,0xff,1,1.0,,244,1.0,Sparkle512
+9,8 bit selaras,0xff,1,1.0,,252,1.0,Sparkle512
+10,8 bit selaras,0xff,1,1.0,,255,1.0,Sparkle512
+11,8 bit selaras,0xff,1,1.0,,257,1.0,Sparkle512
+12,8 bit selaras,0xff,1,1.0,,250,1.0,Sparkle512
+1,1 bit,0x1,1,1.0,,166,1.0,Sparkle512-slim
+2,1 bit,0x1,1,1.0,,265,1.0,Sparkle512-slim
+3,1 bit,0x1,1,1.0,,259,1.0,Sparkle512-slim
+4,1 bit,0x1,1,1.0,,246,1.0,Sparkle512-slim
+5,1 bit,0x1,1,1.0,,269,1.0,Sparkle512-slim
+6,1 bit,0x1,1,1.0,,291,1.0,Sparkle512-slim
+7,1 bit,0x1,1,1.0,,276,1.0,Sparkle512-slim
+8,1 bit,0x1,1,1.0,,259,1.0,Sparkle512-slim
+1,1 unit (4 bit),0xf,1,1.0,,160,1.0,Sparkle512-slim
+2,1 unit (4 bit),0xf,1,1.0,,274,1.0,Sparkle512-slim
+3,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512-slim
+4,1 unit (4 bit),0xf,1,1.0,,249,1.0,Sparkle512-slim
+5,1 unit (4 bit),0xf,1,1.0,,244,1.0,Sparkle512-slim
+6,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512-slim
+7,1 unit (4 bit),0xf,1,1.0,,271,1.0,Sparkle512-slim
+8,1 unit (4 bit),0xf,1,1.0,,264,1.0,Sparkle512-slim
+1,8 bit selaras,0xff,1,1.0,,170,1.0,Sparkle512-slim
+2,8 bit selaras,0xff,1,1.0,,241,1.0,Sparkle512-slim
+3,8 bit selaras,0xff,1,1.0,,271,1.0,Sparkle512-slim
+4,8 bit selaras,0xff,1,1.0,,275,1.0,Sparkle512-slim
+5,8 bit selaras,0xff,1,1.0,,267,1.0,Sparkle512-slim
+6,8 bit selaras,0xff,1,1.0,,275,1.0,Sparkle512-slim
+7,8 bit selaras,0xff,1,1.0,,263,1.0,Sparkle512-slim
+8,8 bit selaras,0xff,1,1.0,,244,1.0,Sparkle512-slim
+1,1 bit,0x1,474,0.0107421875,-1.111,2,1.7036372312873027e-13,Alzette
+2,1 bit,0x1,107,0.3154296875,-3.259,5,1.7036372312873027e-13,Alzette
+3,1 bit,0x1,4,0.974609375,-8.0,15,1.7036372312873027e-13,Alzette
+4,1 bit,0x1,1,1.0,,38,1.0,Alzette
+1,1 unit (4 bit),0xf,87,0.0546875,-3.557,4,1.7036372312873027e-13,Alzette
+2,1 unit (4 bit),0xf,16,0.8330078125,-6.0,5,1.7036372312873027e-13,Alzette
+3,1 unit (4 bit),0xf,2,0.9990234375,,12,1.0,Alzette
+4,1 unit (4 bit),0xf,1,1.0,,36,1.0,Alzette
+1,8 bit selaras,0xff,11,0.4140625,-6.541,10,1.7036372312873027e-13,Alzette
+2,8 bit selaras,0xff,2,0.998046875,,13,1.0,Alzette
+3,8 bit selaras,0xff,1,1.0,,42,1.0,Alzette
+4,8 bit selaras,0xff,1,1.0,,32,1.0,Alzette

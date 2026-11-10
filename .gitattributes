@@ -1,0 +1,13 @@
+# Preserve archived bytes across Windows/Linux clones for SHA-256 verification.
+# -text disables newline conversion, not ordinary textual diffs.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Archived bytes may contain original whitespace; validate these by checksum.
+MODEL2C/** -whitespace
+data/reference/** -whitespace
+third_party/** -whitespace
+LICENSES/** -whitespace
+*.png binary
+*.pdf binary
+*.npz binary
+*.gz binary
+*.zip binary

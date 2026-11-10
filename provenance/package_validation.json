@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Jakarta",
+  "portable_full_roundtrip_checkpoints": 52,
+  "numeric_arrays": "same dtype, shape, and values",
+  "scalar_values": "equal after JSON dictionary-key string conversion",
+  "regression_tests": 12,
+  "reference_runs": 6,
+  "primitive_configurations": 54,
+  "linked_local_documents": "all resolve",
+  "citation_yaml": "parsed",
+  "workflow_yaml": "parsed; remote GitHub Actions has not been run",
+  "source_inventory_entries_verified": 241,
+  "local_username_paths_in_archived_text": 0,
+  "smoke_run": "passed: Alzette quick mode; not used as paper evidence",
+  "license_scope": "component-specific; unresolved rights retained"
+}

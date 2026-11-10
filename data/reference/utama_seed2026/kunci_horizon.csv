@@ -1,0 +1,17 @@
+primitif,kunci,kunci_hex,difusi_lengkap_ronde,sac_horizon,linear_horizon,diferensial_horizon,zero_sum4_horizon,zero_sum8_horizon,deteksi_terisolasi,distinguisher_horizon,horizon_frac,margin_ronde,margin_frac
+RECTANGLE-80,default,10203040506070809,5,5,1,3,5,6,,6,0.24,19,0.76
+RECTANGLE-80,semua 0,0,5,6,1,3,6,6,,6,0.24,19,0.76
+RECTANGLE-80,semua 1,ffffffffffffffffffff,5,5,1,3,6,6,,6,0.24,19,0.76
+RECTANGLE-80,acak 1,8260147dbe4dc72d06ed,5,6,1,3,6,6,,6,0.24,19,0.76
+RECTANGLE-80,acak 2,bf830fa6fa1054912154,5,6,1,3,6,6,,6,0.24,19,0.76
+RECTANGLE-80,acak 3,69c0b9515c59af8ba825,5,5,1,3,6,6,,6,0.24,19,0.76
+RECTANGLE-80,acak 4,422899a049d50dfbb5cf,5,5,1,4,6,6,,6,0.24,19,0.76
+RECTANGLE-80,acak 5,99226f0d02fac86c90af,5,5,1,4,6,6,,6,0.24,19,0.76
+CLEFIA-128,default,ffeeddccbbaa99887766554433221100,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,semua 0,0,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,semua 1,ffffffffffffffffffffffffffffffff,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,acak 1,7c4ad8d73462a349863e09f12eeda06a,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,acak 2,b3349442a4e537a667382e01bf8689d5,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,acak 3,8d0d554d8f73e9205ad438bdfef303a6,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,acak 4,24dd956d6e2e54702c65dd0eec1dd1c9,5,4,1,2,4,5,,5,0.278,13,0.722
+CLEFIA-128,acak 5,7e231e8c5880d91bed2d4b492932e464,5,4,1,2,4,5,,5,0.278,13,0.722

@@ -1,0 +1,5 @@
+sbox,bits,bijective,differential_uniformity,max_dp_log2,linearity,nonlinearity,max_correlation_log2,algebraic_degree,fixed_points
+RECTANGLE S,4,True,4,-2.0,8,4,-1.0,3,0
+CLEFIA S0,8,True,10,-4.678,56,100,-2.193,6,0
+CLEFIA S1,8,True,4,-6.0,32,112,-3.0,7,0
+"Alzette (ARX, bukan tabel)",64,True,,,,,,,
