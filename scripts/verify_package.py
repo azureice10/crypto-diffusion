@@ -106,7 +106,22 @@ def main():
         input_hashes.add(report["C_input_transcript_sha256"])
     assert combinations=={("3.12","O0"),("3.12","O2"),("3.13","O0"),("3.13","O2")}
     assert len(output_hashes)==len(input_hashes)==1
-    print(f"PASS: {len(manifest['files'])} checksummed files; 6 runs; 54 configurations; 52 portable checkpoints; held-out results; 4 archived Linux C conformance reports.")
+    followup=ROOT/"data/followup/sac_directed_2026-11-10"
+    sac_audit=load_json(followup/"verification.json")
+    assert sac_audit["status"]=="PASS" and sac_audit["raw_cipher_condition_rows"]==15000
+    assert sac_audit["source_commit"]=="b36f15ed785755be8068b898b59dc0aea8747b2a"
+    sac_summary=load_json(followup/"analysis_summary.json")
+    assert sac_summary["primary_paired_contrasts"]==90
+    assert digest(ROOT/"experiments/sac/analyze_comparison.py")==sac_summary["analysis_source_sha256"]
+    with (followup/"paired_comparisons.csv").open(encoding="utf-8",newline="") as stream:
+        paired=list(csv.DictReader(stream))
+    primary=[r for r in paired if r["interpretation"]=="primary"]
+    assert len(paired)==360 and len(primary)==90
+    significant=[r for r in primary if float(r["holm_adjusted_p"])<0.05]
+    assert len(significant)==sac_summary["primary_holm_significant_contrasts"]==7
+    assert sum(float(r["comparator_minus_count_rate"])>0 for r in significant)==6
+    assert sum(float(r["comparator_minus_count_rate"])<0 for r in significant)==1
+    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC evidence (1000 replications, 90 primary contrasts).")
 
 
 if __name__=="__main__":

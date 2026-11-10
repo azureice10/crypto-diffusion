@@ -30,6 +30,15 @@ validation of Schwaemm/Esch and all standalone Alzette rounds.
 
 ## Scientific interpretation
 
+The [directed SAC follow-up](SAC_COMPARISON.md) now supplies a direct,
+query-matched comparison against sample-adapted Basic/Row/Column histogram
+tests on two default keys and selected round windows. It does not establish
+behavior over all keys, replicate the source paper's full 2^20-input protocol,
+or compare SAC-2/neural/exhaustive methods. Histogram calibration uses finite
+independent simulation; realized null sizes are not exactly identical to the
+discrete count test. Conditional validation intervals exclude retraining
+uncertainty. These limits must accompany conditional detection-rate claims.
+
 - Failure to detect a property does not establish cryptographic security.
 - Round/step counts have different meanings and costs across constructions.
 - The combined horizon is an operational summary of five selected tests,

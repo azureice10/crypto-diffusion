@@ -91,4 +91,5 @@ supplement."
 
 The earlier sentence that independent SPARKLE C execution remains incomplete
 can be removed from the manuscript after incorporating this result. The
-separate absence of a direct detector-power comparison remains unchanged.
+separate detector-power question was subsequently examined in the bounded
+[directed SAC comparison](SAC_COMPARISON.md).

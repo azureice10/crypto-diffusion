@@ -25,6 +25,19 @@ uses the 500-replicate protocol default. Each output contains source hashes,
 environment metadata, individual test statistics, input/matrix checksums,
 selected count-matrix snapshots and independent null-calibration arrays.
 
+After all four commands finish:
+
+```bash
+python experiments/sac/analyze_comparison.py --input results/sac-directed
+python experiments/sac/verify_comparison.py --input results/sac-directed
+```
+
+The completed [results and interpretation](../../docs/SAC_COMPARISON.md)
+and [permanent data](../../data/followup/sac_directed_2026-11-10) are available.
+`python experiments/sac/test_comparison.py` checks vector/scalar conformance,
+count-matrix construction, histogram aggregation, transpose symmetry and
+finite-MC tie handling before reproducing the main study.
+
 The corrected-count test is the manuscript's existing rule. The histogram
 tests use exact discrete bin masses at the selected smaller sample sizes.
 Both nominal chi-square/Sidak p-values and independent Monte Carlo calibrated

@@ -1,0 +1,14 @@
+{
+  "schema": "directed-sac-verification/1",
+  "status": "PASS",
+  "raw_cipher_condition_rows": 15000,
+  "cipher_replicates": 1000,
+  "input_prefix_hashes_checked": 3000,
+  "snapshot_condition_checks": 120,
+  "detection_rate_rows": 480,
+  "paired_comparison_rows": 360,
+  "null_validation_rows": 96,
+  "source_metadata_records": 4,
+  "source_commit": "b36f15ed785755be8068b898b59dc0aea8747b2a",
+  "analysis_checks": "All rejection counts, paired outcomes, exact McNemar p-values and Holm adjustments recomputed from raw statistics"
+}

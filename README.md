@@ -18,6 +18,7 @@ An article DOI has not yet been assigned.
 - CSV/JSON results, original checkpoints, portable JSON/NPZ exports, and figures.
 - Measurement source, regression tests, environment metadata, and SHA-256 checksums.
 - Follow-up Linux validation of SPARKLE scalar/batch traces against official C.
+- A directed, paired SAC detector comparison with 500 replications per cipher.
 
 The combined horizons were unchanged across the five seeds and the larger
 sample configuration: RECTANGLE 6/25 native rounds, CLEFIA 5/18 native rounds,
@@ -102,6 +103,7 @@ explicitly select the ignored `results/` directory instead.
 - [Main figures](data/reference/utama_seed2026/grafik)
 - [Validation status](data/reference/validasi/verifikasi_hasil.json)
 - [Successful Linux SPARKLE C validation and execution evidence](docs/SPARKLE_C_VALIDATION.md)
+- [Directed SAC comparison: results, calibration and interpretation](docs/SAC_COMPARISON.md)
 
 The Indonesian report describes the original workspace layout. Its
 `eksperimen_ulang/` paths correspond to `data/reference/` in this repository;
@@ -119,6 +121,15 @@ on Python 3.12/3.13 and GCC -O0/-O2: 59,846 C states per build and 199,316
 scalar/batch comparisons including slim prefixes, with zero mismatches.
 The four builds use the same 5,394 input cases; their counts are not independent
 statistical replications. See the [protocol and archived JSON evidence](docs/SPARKLE_C_VALIDATION.md).
+
+A subsequent [paired SAC comparison](docs/SAC_COMPARISON.md) uses identical
+query budgets for corrected-count and sample-adapted Basic/Row/Column tests
+on RECTANGLE and CLEFIA. At RECTANGLE round 7, N=256, calibrated Basic detects
+489/500 versus count 3/500. Seven of 90 primary contrasts remain significant
+after Holm correction; six favor a histogram comparator and one favors count.
+Null sizes, uncertainty and fixed-key/small-budget limitations are reported
+separately. The comparison does not turn original horizons into universal
+diffusion boundaries or demonstrate a new full-round attack.
 
 The original `.pkl.gz` files are retained for the original audit scripts.
 Prefer the JSON/NPZ exports for inspection. The portable reader uses

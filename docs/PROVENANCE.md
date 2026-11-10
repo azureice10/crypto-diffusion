@@ -50,6 +50,15 @@ continues to describe the original package, while the current checksum manifest
 also covers this added evidence. None of `data/reference/` or the retained
 official C sources was modified by the follow-up.
 
+The directed SAC comparison is a second follow-up under
+`data/followup/sac_directed_2026-11-10/`. Its protocol and generation code were
+frozen in commit `b36f15ed785755be8068b898b59dc0aea8747b2a` before main
+results were inspected. Execution metadata record the exact hashes of those
+sources. Analysis and verification were added after generation and have their
+own tracked source. Original `data/reference/`, production cipher/metric code
+and the retained C reference remain unchanged. The new vector evaluators are
+experiment-local scheduling implementations checked against scalar traces.
+
 No author ORCID, GitHub account, article DOI, funding source, release date or
 license choice was invented. Citation names and affiliation come from the
 draft manuscript and should be reviewed by its authors before publication.

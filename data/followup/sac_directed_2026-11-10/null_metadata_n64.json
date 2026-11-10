@@ -1,0 +1,24 @@
+{
+  "schema": "directed-sac-execution/1",
+  "stage": "null",
+  "cipher": null,
+  "bits": 64,
+  "git_commit": "b36f15ed785755be8068b898b59dc0aea8747b2a",
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "elapsed_seconds": 138.38332830008585,
+  "source_sha256": {
+    "experiments/sac/batch_ciphers.py": "97e322eb27ccaf373c065c3f0464b25ce57274ef81a5707ef36dc0eb4500e44f",
+    "experiments/sac/run_comparison.py": "e02f7e9d6b549bdc2fabf4b9dc0a19fad3f84d8e37a2f44aaaed5168e2e1ce1d",
+    "experiments/sac/sac_statistics.py": "c9659a049e747a1c99358c04bc667b03a7f9ce3c3f4a42e604804886c7e86d68",
+    "experiments/sac/test_comparison.py": "8afd00972c0f7201da15f48ae34201d886590cabd82af331e04805ab74ae28aa",
+    "experiments/sac/protocol.json": "23dd5caa42fd8dbd45f02380554270db7d28e553011a9773025c10690be0db29",
+    "experiments/sac/requirements.txt": "58439cce56e3604df0686f792e2a8f5397d1e6d4a33900a8473da2b04a5cac18",
+    "MODEL2C/primitif.py": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+    "MODEL2C/rectangle.py": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85",
+    "MODEL2C/clefia.py": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+    "MODEL2C/metrik.py": "05a38eed3d32c70093f43f58394d64ac03c5c5d0f7145bd110682cbaf369a704"
+  }
+}
