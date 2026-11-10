@@ -1,0 +1,31 @@
+{
+  "schema": "directed-sac-protocol/1",
+  "date": "2026-11-10",
+  "purpose": "Paired, query-matched comparison of the study's corrected rejected-cell SAC count against sample-adapted SAC-Basic/Row/Column histogram tests",
+  "source_paper_doi": "10.1109/ACCESS.2026.3659273",
+  "source_paper_url": "https://open.metu.edu.tr/bitstream/handle/11511/118617/Cryptographic_Randomness_Testing_of_Block_Ciphers_SAC_Tests.pdf",
+  "source_code_url": "https://github.com/srmnckn/SACtests/tree/1a2c4f4e3a81a4e8b019fb980817133304038746",
+  "adaptation": "Published tests use 2^20 inputs, eight bins and alpha 0.01. This follow-up uses exact Bin(N,1/2) quantile bins at smaller N and a primary alpha of 0.001. It is not a full numerical replication of the published cipher experiments. No upstream implementation is copied.",
+  "sample_sizes": [64, 256, 1024],
+  "replications_per_cipher": 500,
+  "sample_design": "Nested prefixes within a replicate; new independent pseudorandom input sequence for each replicate. All methods use the same full SAC count matrix, requiring N(n+1) trace inputs. Query budgets are matched within each cipher, not across state widths.",
+  "base_seed": 20261110,
+  "rng": "NumPy PCG64; SeedSequence([base_seed, stage_id, state_bits, sample_size_or_replicate])",
+  "ciphers": {
+    "rectangle": {"key_hex": "00010203040506070809", "native_rounds_computed": 8, "analysis_rounds": [4, 5, 6, 7, 8]},
+    "clefia": {"key_hex": "ffeeddccbbaa99887766554433221100", "native_rounds_computed": 7, "analysis_rounds": [3, 4, 5, 6, 7]}
+  },
+  "cell_rejection_alpha": 0.001,
+  "primary_alpha": 0.001,
+  "sensitivity_alpha": 0.01,
+  "histogram_bins": "Eight contiguous count bins; cuts at Bin(N,1/2) first integer CDF >= j/8 for j=1..7, inclusive upper boundary. Exact unequal discrete bin masses are retained. Pearson df=7; minimum row-bin expected count exceeds five for specified designs.",
+  "nominal_policy": "Corrected SAC count uses its exact Bin(n^2,q_N) upper tail. Basic uses chi-square sf(7 df); Row/Column use Sidak aggregation of the smallest row/column chi-square p-value, following the paper's rule. Add the same finite-domain coupling bound to all family p-values.",
+  "primary_policy": "Corrected SAC count retains exact tail. Basic and maximum row/column Pearson statistics use plus-one Monte Carlo rank p-values against 100000 independent calibration matrices, including ties. Row and column maxima have the same ideal-label marginal null law. Add the same finite-domain bound. These are MC-calibrated variants of the histogram tests, explicitly distinct from the published asymptotic rules.",
+  "null_calibration_repetitions": 100000,
+  "null_validation_repetitions": 200000,
+  "null_model": "Independent uniform output labels on disjoint input stars; count cells are iid Bin(N,1/2). Simulate row multinomial bin histograms as sufficient statistics for Basic and maximum-axis tests. Simulate rejected-cell counts from their exact binomial null. These draws evaluate marginal null sizes, not joint cross-detector behavior or full cipher/permutation executions.",
+  "finite_domain_bound": "delta_A = min(1,[N(n+1)]^2/2^n), covering input-star overlaps and random-function/permutation switching under the ideal-permutation reference",
+  "reporting": "Per-condition rejection frequencies and Wilson 95% intervals; paired discordant outcomes and exact McNemar tests; Holm correction over 90 baseline-vs-comparator contrasts for primary MC-calibrated alpha=0.001 analysis. Other policy/alpha families are labeled sensitivity analyses. No hypothesis treats serial rounds or nested samples as independent observations.",
+  "snapshot_replicates": [0, 1, 2, 499],
+  "limitations": "Conditional on two fixed default keys and chosen round windows. Does not estimate behavior over all keys or establish cipher security, universal superiority, or equivalence from a nonsignificant difference. Null calibration is checked on held-out simulation with finite uncertainty; nominal alpha is a ceiling, not identical realized size across discrete tests. No SAC-2 or neural comparison is included."
+}

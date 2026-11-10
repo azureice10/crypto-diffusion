@@ -1454,6 +1454,34 @@
       "bytes": 5257,
       "sha256": "04c7c5d7b6cbdc6d3a08deb0269ec9e54163466bd7d4eb49dd75696257febaf4"
     },
+    "experiments/sac/README.md": {
+      "bytes": 2059,
+      "sha256": "e342217d8ef7d6dac72cb6a0f0015237b3a96f4e289a6afad3931456303cdb5c"
+    },
+    "experiments/sac/batch_ciphers.py": {
+      "bytes": 4672,
+      "sha256": "97e322eb27ccaf373c065c3f0464b25ce57274ef81a5707ef36dc0eb4500e44f"
+    },
+    "experiments/sac/protocol.json": {
+      "bytes": 4101,
+      "sha256": "23dd5caa42fd8dbd45f02380554270db7d28e553011a9773025c10690be0db29"
+    },
+    "experiments/sac/requirements.txt": {
+      "bytes": 46,
+      "sha256": "58439cce56e3604df0686f792e2a8f5397d1e6d4a33900a8473da2b04a5cac18"
+    },
+    "experiments/sac/run_comparison.py": {
+      "bytes": 7022,
+      "sha256": "e02f7e9d6b549bdc2fabf4b9dc0a19fad3f84d8e37a2f44aaaed5168e2e1ce1d"
+    },
+    "experiments/sac/sac_statistics.py": {
+      "bytes": 4263,
+      "sha256": "c9659a049e747a1c99358c04bc667b03a7f9ce3c3f4a42e604804886c7e86d68"
+    },
+    "experiments/sac/test_comparison.py": {
+      "bytes": 3947,
+      "sha256": "8afd00972c0f7201da15f48ae34201d886590cabd82af331e04805ab74ae28aa"
+    },
     "provenance/package_validation.json": {
       "bytes": 700,
       "sha256": "5546841308c634f2b8b97a1c9d9136fec56aa2d6e1c3b94d3a8e80c59af6d1fc"
