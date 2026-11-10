@@ -14,14 +14,19 @@
 - Conversion of 52 original checkpoints into numeric JSON/NPZ exports with
   equality checks for every exported array.
 
-## Unsuccessful independent validation
+## Independent C execution: historical block and successful follow-up
 
 Official SPARKLE C code was downloaded, retained with its license, and compiled
 using Zig 0.13.0. Windows Application Control blocked execution with WinError
 4551. The corresponding JSON status records zero successful comparisons.
-There is no claim that the Python SPARKLE implementation passed an independently
-executed C comparison in this study. Historical source comments describe
-other earlier checks that were not supplied or re-executed here.
+This historical attempt has been followed by successful Linux execution on
+10 November 2026. All scalar/batch big/slim trace comparisons passed against
+the retained official C v1.2.1 under Python 3.12/3.13 and GCC -O0/-O2.
+The [protocol and permanent reports](SPARKLE_C_VALIDATION.md) document 59,846
+C reference states and 199,316 Python state comparisons per build, with zero
+mismatches. Shared prefixes and repeated builds are not independent statistical
+replications. This is finite conformance evidence, not an exhaustive proof or
+validation of Schwaemm/Esch and all standalone Alzette rounds.
 
 ## Scientific interpretation
 

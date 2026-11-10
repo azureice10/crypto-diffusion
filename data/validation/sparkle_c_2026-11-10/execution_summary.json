@@ -1,0 +1,91 @@
+{
+  "schema": "sparkle-c-execution-evidence/1",
+  "status": "all passed",
+  "collected_at_utc": "2026-11-10T09:27:44.732995+00:00",
+  "source_commit": "88ef6a22417e67f508c72652e347e7747c4775e6",
+  "workflow_run_id": 42790712675,
+  "workflow_url": "https://github.com/azureice10/crypto-diffusion/actions/runs/42790712675",
+  "workflow_jobs": [
+    {
+      "name": "validate (3.12)",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:37Z"
+    },
+    {
+      "name": "SPARKLE C / Python 3.12 / O2",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:38Z"
+    },
+    {
+      "name": "SPARKLE C / Python 3.13 / O0",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:38Z"
+    },
+    {
+      "name": "SPARKLE C / Python 3.12 / O0",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:39Z"
+    },
+    {
+      "name": "validate (3.13)",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:41Z"
+    },
+    {
+      "name": "SPARKLE C / Python 3.13 / O2",
+      "conclusion": "success",
+      "started_at": "2026-11-10T09:26:24Z",
+      "completed_at": "2026-11-10T09:26:37Z"
+    }
+  ],
+  "environment_builds": 4,
+  "inputs_per_build": 5394,
+  "C_state_comparisons_per_build": 59846,
+  "Python_state_checks_per_build": 199316,
+  "mismatches": 0,
+  "cross_build_input_and_C_output_hash_agreement": true,
+  "scope": "Repeated builds use the same deterministic input suite. Slim checks reuse big prefixes; scalar and batch checks are two execution paths. Counts are not independent statistical replications. Frozen research measurements are unchanged.",
+  "reports": [
+    {
+      "file": "sparkle-c-py3.12-O0.json",
+      "sha256": "a827bafbe024d8f522856e75541e7991d85ff6aa88b421efd611f685fa912dc4",
+      "artifact_id": 13751198436,
+      "artifact_archive_sha256": "188893e82a4b715a72cd61e241eeeb348237eec2234b3f492ec5f19d8a4aaea7",
+      "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "python": "3.12.16",
+      "optimization": "O0"
+    },
+    {
+      "file": "sparkle-c-py3.12-O2.json",
+      "sha256": "78bcf9771f390a8632c47c146163914cb8503f77e89c7bd0a8cc654f3683a798",
+      "artifact_id": 13749999097,
+      "artifact_archive_sha256": "e97489a0f937fe12e770b8e86d72ce3f737f892f75692edac05f296be23a4cbe",
+      "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "python": "3.12.16",
+      "optimization": "O2"
+    },
+    {
+      "file": "sparkle-c-py3.13-O0.json",
+      "sha256": "cf4093d4fc15a4bc459193e950f7df5bb47f59d377a7c9b98854e6114e121d9a",
+      "artifact_id": 13750273988,
+      "artifact_archive_sha256": "1ebb807d2292bf4cc4e0d236fac6ba697c990c67e2237db1cfc4eda2463d68a6",
+      "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "python": "3.13.18",
+      "optimization": "O0"
+    },
+    {
+      "file": "sparkle-c-py3.13-O2.json",
+      "sha256": "9ab587fe44f6a357e74b30cd08571f52815df3ad0b930eff79da0fb0cb5a9591",
+      "artifact_id": 13751273402,
+      "artifact_archive_sha256": "0ccacb545d5cfe98062242866860f4853555e1112aa4217137145a0637c2c7d1",
+      "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+      "python": "3.13.18",
+      "optimization": "O2"
+    }
+  ]
+}

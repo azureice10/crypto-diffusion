@@ -1,5 +1,10 @@
 # Hasil eksperimen ulang dan klarifikasi makalah
 
+**Pembaruan validasi:** laporan di bawah mempertahankan catatan eksekusi awal.
+Validasi C SPARKLE yang semula terblokir di Windows telah berhasil dijalankan
+di Linux pada 10 November 2026, tanpa perbedaan state. Lihat
+[protokol dan bukti eksekusi lanjutan](SPARKLE_C_VALIDATION.md).
+
 Tanggal: 10 November 2026 (Asia/Jakarta). Semua angka di bawah berasal dari eksekusi lokal yang disimpan, kecuali kolom draf yang disalin dari naskah awal.
 
 ## Desain

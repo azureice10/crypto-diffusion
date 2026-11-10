@@ -1,0 +1,132 @@
+{
+  "schema": "sparkle-c-conformance/1",
+  "status": "all passed",
+  "timestamp_utc": "2026-11-10T09:26:34.969421+00:00",
+  "seed": 752026,
+  "random_seed_rule": "base seed + state bits, Python random.Random",
+  "random_inputs_per_width": 1024,
+  "total_inputs_across_widths": 5394,
+  "C_state_comparisons": 59846,
+  "python_state_checks": 199316,
+  "mismatches": 0,
+  "groups": [
+    {
+      "state_bits": 256,
+      "input_count": 1542,
+      "input_categories": {
+        "zero": 1,
+        "ones": 1,
+        "alternating_55": 1,
+        "alternating_aa": 1,
+        "ascending_bytes": 1,
+        "descending_bytes": 1,
+        "single_bit": 256,
+        "single_zero": 256,
+        "random": 1024
+      },
+      "C_step_count": 10,
+      "C_state_comparisons": 15420,
+      "input_sha256": "3438405cb5e7641e81e0539b753b82cd1b17ba5a9a672232f0b16bbee02d639c",
+      "configurations": [
+        {
+          "primitive": "sparkle256",
+          "steps": 10,
+          "scalar_states_matched": 15420,
+          "batch_states_matched": 15420
+        },
+        {
+          "primitive": "sparkle256s",
+          "steps": 7,
+          "scalar_states_matched": 10794,
+          "batch_states_matched": 10794
+        }
+      ]
+    },
+    {
+      "state_bits": 384,
+      "input_count": 1798,
+      "input_categories": {
+        "zero": 1,
+        "ones": 1,
+        "alternating_55": 1,
+        "alternating_aa": 1,
+        "ascending_bytes": 1,
+        "descending_bytes": 1,
+        "single_bit": 384,
+        "single_zero": 384,
+        "random": 1024
+      },
+      "C_step_count": 11,
+      "C_state_comparisons": 19778,
+      "input_sha256": "5858ac5b36dba705c84dd34fdb23f945d770ebbc9202625f22c60b3cc5923012",
+      "configurations": [
+        {
+          "primitive": "sparkle384",
+          "steps": 11,
+          "scalar_states_matched": 19778,
+          "batch_states_matched": 19778
+        },
+        {
+          "primitive": "sparkle384s",
+          "steps": 7,
+          "scalar_states_matched": 12586,
+          "batch_states_matched": 12586
+        }
+      ]
+    },
+    {
+      "state_bits": 512,
+      "input_count": 2054,
+      "input_categories": {
+        "zero": 1,
+        "ones": 1,
+        "alternating_55": 1,
+        "alternating_aa": 1,
+        "ascending_bytes": 1,
+        "descending_bytes": 1,
+        "single_bit": 512,
+        "single_zero": 512,
+        "random": 1024
+      },
+      "C_step_count": 12,
+      "C_state_comparisons": 24648,
+      "input_sha256": "fb445eba6a53bdbd587030b17aca9ad668cd04603184f7e901f25982cc527154",
+      "configurations": [
+        {
+          "primitive": "sparkle512",
+          "steps": 12,
+          "scalar_states_matched": 24648,
+          "batch_states_matched": 24648
+        },
+        {
+          "primitive": "sparkle512s",
+          "steps": 8,
+          "scalar_states_matched": 16432,
+          "batch_states_matched": 16432
+        }
+      ]
+    }
+  ],
+  "scope": "Every big step; explicit slim-prefix checks; Python scalar and uint32 batch against retained official C v1.2.1. Shared prefixes are not independent replications. No exhaustive proof, Schwaemm/Esch validation or standalone Alzette validation is claimed.",
+  "source": "https://github.com/cryptolu/sparkle/tree/master/software/sparkle",
+  "source_sha256": {
+    "third_party/sparkle/sparkle_ref.c": "a670d9ae8084270eda2de955d4225212d01672778303ca16e33ef850da9a3c79",
+    "third_party/sparkle/sparkle.h": "3976b367bd30f1cf0973bd3e76f07769049fedc69ec723b0705231b07b0cc996",
+    "third_party/sparkle/driver.c": "11012191050a7f3b548efd5062dccda677dc94fbbabebb0e6773bbd89fa53384",
+    "MODEL2C/validasi_referensi_linux.py": "74237308872008d297cdc97ccd70b34dd005fee6d8b6d352a0793652c6f4fdd9",
+    "MODEL2C/primitif.py": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+    "MODEL2C/sparkle.py": "71963cefd560a95968d65f09fbd59345a95efc43ed9102debcdaab7f578a590e"
+  },
+  "C_executable_sha256": "7e1f046596e52dffc826c07d28266803df0c2e441649578fbd1943f9e8a2bf30",
+  "C_input_transcript_sha256": "acffa4d5fcfba67707f3ebfb6a595ac955b77d0ac3dcc75f2be615d1a2604df6",
+  "C_output_transcript_sha256": "a7666ed5ef7aa4cf248654fefff9fb2fc2fa16774dbc8353553ccfb9fd386f57",
+  "compiler": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "build_command": "gcc -std=c99 -Wall -Wextra -Werror -O2 third_party/sparkle/sparkle_ref.c third_party/sparkle/driver.c -o results/sparkle-c/sparkle_ref",
+  "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "python": "3.12.16 (main, Oct 26 2026, 02:50:49) [GCC 13.3.0]",
+  "numpy": "2.2.6",
+  "git_commit": "88ef6a22417e67f508c72652e347e7747c4775e6",
+  "github_run_url": "https://github.com/azureice10/crypto-diffusion/actions/runs/42790712675",
+  "github_run_attempt": "1"
+}

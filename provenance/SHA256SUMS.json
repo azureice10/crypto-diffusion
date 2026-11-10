@@ -87,8 +87,8 @@
       "sha256": "74237308872008d297cdc97ccd70b34dd005fee6d8b6d352a0793652c6f4fdd9"
     },
     "README.md": {
-      "bytes": 6448,
-      "sha256": "460d67c7d77fb97030d375acec0958bb14769d2196b9da7745e8b076943907d5"
+      "bytes": 6906,
+      "sha256": "a10024058862d79e9dfc17e801f1fec9b5a1db1e0f6f0ed6dbad50162cbee4cf"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 1908,
@@ -1394,6 +1394,26 @@
       "bytes": 502,
       "sha256": "6b8d2eb7bbbae318e7e87bda7f89a80156debb5292adbedd56585ac4889387b8"
     },
+    "data/validation/sparkle_c_2026-11-10/execution_summary.json": {
+      "bytes": 3542,
+      "sha256": "576311b0abc7009a21db044d7e9abe0fc1c2fb3c427cdfa4f1217232b3088f0a"
+    },
+    "data/validation/sparkle_c_2026-11-10/sparkle-c-py3.12-O0.json": {
+      "bytes": 4785,
+      "sha256": "a827bafbe024d8f522856e75541e7991d85ff6aa88b421efd611f685fa912dc4"
+    },
+    "data/validation/sparkle_c_2026-11-10/sparkle-c-py3.12-O2.json": {
+      "bytes": 4785,
+      "sha256": "78bcf9771f390a8632c47c146163914cb8503f77e89c7bd0a8cc654f3683a798"
+    },
+    "data/validation/sparkle_c_2026-11-10/sparkle-c-py3.13-O0.json": {
+      "bytes": 4785,
+      "sha256": "cf4093d4fc15a4bc459193e950f7df5bb47f59d377a7c9b98854e6114e121d9a"
+    },
+    "data/validation/sparkle_c_2026-11-10/sparkle-c-py3.13-O2.json": {
+      "bytes": 4785,
+      "sha256": "9ab587fe44f6a357e74b30cd08571f52815df3ad0b930eff79da0fb0cb5a9591"
+    },
     "docs/AI_ASSISTANCE.md": {
       "bytes": 1158,
       "sha256": "d600b1d56d8ede28a0b9dbfa1d663d157faf855834afa2757bd4c38b53c4e348"
@@ -1407,12 +1427,12 @@
       "sha256": "b71173f3f76ef775a3fcf8448f58ea5d18253a5c413fda3d3e0006a1fe46f99b"
     },
     "docs/EXPERIMENT_REPORT_ID.md": {
-      "bytes": 12439,
-      "sha256": "774d8a5a4beaf8d58fe7a901f639bebffcd81a6c574f33dcf39fc969cdf6eb51"
+      "bytes": 12728,
+      "sha256": "c0b9e31c2ab194f95a5e6eca8f1f4b6c97c318c495206b810aa96d9c1fd2d77a"
     },
     "docs/LIMITATIONS.md": {
-      "bytes": 3661,
-      "sha256": "3ec23a2177daa19250f28283448e9e9eb9323dfbde2d08c3ea04594001cc0ae6"
+      "bytes": 4072,
+      "sha256": "19a09ba073c3a54093ecc643865f3b87f7670f7ac242b538dbddb39318785fed"
     },
     "docs/METHODOLOGY_ID.md": {
       "bytes": 6156,
@@ -1423,16 +1443,16 @@
       "sha256": "bf22814cca0e97b463f9005452022db03747c8925d0859a5633696aba239a39c"
     },
     "docs/PROVENANCE.md": {
-      "bytes": 2519,
-      "sha256": "b2baddec2d107f8b4c10d350957388d93d1c53fee9e750d0e0c318eaf9cd9052"
+      "bytes": 3037,
+      "sha256": "d852d46b6b00efd363d62b57010d8e15fec2b2a156c8f6092a3ac32a0ac53845"
     },
     "docs/REPRODUCING.md": {
-      "bytes": 4782,
-      "sha256": "3d3afc47d08221dc837993f72510667b638dcd958e88c0116ad3214850e3b3d9"
+      "bytes": 5280,
+      "sha256": "096e6c9192fcba2079beac4edadb87d05d639d6e50c60b1acc693d2f81c146c1"
     },
     "docs/SPARKLE_C_VALIDATION.md": {
-      "bytes": 2718,
-      "sha256": "72d29fd9c92930f266d4f15dea84f0a4028dde225eaec810c97b5e530da7f2ce"
+      "bytes": 5257,
+      "sha256": "04c7c5d7b6cbdc6d3a08deb0269ec9e54163466bd7d4eb49dd75696257febaf4"
     },
     "provenance/package_validation.json": {
       "bytes": 700,
@@ -1455,8 +1475,8 @@
       "sha256": "3867a39084ac6c5f3ff22eab35cd54eb03e4e64ba5023042764c0cb8b26c4cbd"
     },
     "scripts/verify_package.py": {
-      "bytes": 3679,
-      "sha256": "663500687e616003080ce5b87cc2b03b28176a9f79fc760e9eb730c7793e116b"
+      "bytes": 5832,
+      "sha256": "92a2f0ec10ce5ab16dd069648f9bf360a8ca9faef500218bf7c2bf91da54315b"
     },
     "third_party/sparkle/driver.c": {
       "bytes": 523,

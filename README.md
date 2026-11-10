@@ -17,6 +17,7 @@ An article DOI has not yet been assigned.
 - Four detection policies, null calibration, and held-out confirmation.
 - CSV/JSON results, original checkpoints, portable JSON/NPZ exports, and figures.
 - Measurement source, regression tests, environment metadata, and SHA-256 checksums.
+- Follow-up Linux validation of SPARKLE scalar/batch traces against official C.
 
 The combined horizons were unchanged across the five seeds and the larger
 sample configuration: RECTANGLE 6/25 native rounds, CLEFIA 5/18 native rounds,
@@ -100,6 +101,7 @@ explicitly select the ignored `results/` directory instead.
 - [Held-out CLEFIA confirmation](data/reference/audit/linear_deteksi_terisolasi_konfirmasi.csv)
 - [Main figures](data/reference/utama_seed2026/grafik)
 - [Validation status](data/reference/validasi/verifikasi_hasil.json)
+- [Successful Linux SPARKLE C validation and execution evidence](docs/SPARKLE_C_VALIDATION.md)
 
 The Indonesian report describes the original workspace layout. Its
 `eksperimen_ulang/` paths correspond to `data/reference/` in this repository;
@@ -110,10 +112,13 @@ provided, with source hashes and a packaging inventory.
 ## Validation and limits
 
 Adapter tests, official RECTANGLE/CLEFIA vectors, rank/tie handling, and batch
-equivalence checks passed in the recorded execution. Independently compiled
-official SPARKLE C validation was **not completed**: Windows Application Control
-blocked its executable. The C sources and recorded status are included; no
-successful independent C comparison is claimed.
+equivalence checks passed in the recorded execution. The initial official
+SPARKLE C execution was blocked by Windows Application Control; the historical
+status is retained unchanged. A Linux follow-up on 10 November 2026 **passed**
+on Python 3.12/3.13 and GCC -O0/-O2: 59,846 C states per build and 199,316
+scalar/batch comparisons including slim prefixes, with zero mismatches.
+The four builds use the same 5,394 input cases; their counts are not independent
+statistical replications. See the [protocol and archived JSON evidence](docs/SPARKLE_C_VALIDATION.md).
 
 The original `.pkl.gz` files are retained for the original audit scripts.
 Prefer the JSON/NPZ exports for inspection. The portable reader uses

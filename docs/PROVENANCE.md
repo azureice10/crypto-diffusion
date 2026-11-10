@@ -42,6 +42,14 @@ can differ; current source cannot simultaneously match every historical hash.
 The scalar/batch equality record is in
 `data/reference/validasi/kesetaraan_batch.json`.
 
+The Linux C validation added on 10 November 2026 is new follow-up evidence,
+stored under `data/validation/sparkle_c_2026-11-10/`. Reports are the exact JSON
+bytes downloaded from workflow run 42790712675; the execution summary records
+their hashes, artifact IDs and artifact archive hashes. The source inventory
+continues to describe the original package, while the current checksum manifest
+also covers this added evidence. None of `data/reference/` or the retained
+official C sources was modified by the follow-up.
+
 No author ORCID, GitHub account, article DOI, funding source, release date or
 license choice was invented. Citation names and affiliation come from the
 draft manuscript and should be reviewed by its authors before publication.

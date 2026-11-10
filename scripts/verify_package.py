@@ -69,7 +69,44 @@ def main():
     with (reference/"audit/linear_deteksi_terisolasi_konfirmasi.csv").open(encoding="utf-8",newline="") as stream:
         checks=list(csv.DictReader(stream))
     assert len(checks)==2 and all(r["confirmed_at_001"]=="False" and int(r["holdout_n"])==65536 for r in checks)
-    print(f"PASS: {len(manifest['files'])} checksummed files; 6 runs; 54 configurations; 52 portable checkpoints; held-out results.")
+    evidence=ROOT/"data/validation/sparkle_c_2026-11-10"
+    summary=load_json(evidence/"execution_summary.json")
+    assert summary["status"]=="all passed" and summary["mismatches"]==0
+    assert len(summary["reports"])==4
+    assert len(summary["workflow_jobs"])==6 and all(j["conclusion"]=="success" for j in summary["workflow_jobs"])
+    output_hashes=set()
+    input_hashes=set()
+    combinations=set()
+    for item in summary["reports"]:
+        path=evidence/item["file"]
+        assert digest(path)==item["sha256"]
+        report=load_json(path)
+        assert report["status"]=="all passed" and report["mismatches"]==0
+        assert report["git_commit"]==summary["source_commit"]
+        assert report["github_run_url"]==summary["workflow_url"]
+        assert report["total_inputs_across_widths"]==5394
+        assert report["C_state_comparisons"]==59846
+        assert report["python_state_checks"]==199316
+        assert report["numpy"]=="2.2.6"
+        assert sum(g["input_count"] for g in report["groups"])==5394
+        assert sum(g["C_state_comparisons"] for g in report["groups"])==59846
+        for group in report["groups"]:
+            n=group["state_bits"]
+            assert group["input_count"]==1030+2*n
+            assert group["input_categories"]["single_bit"]==n
+            assert group["input_categories"]["single_zero"]==n
+            assert group["input_categories"]["random"]==1024
+            for config in group["configurations"]:
+                assert config["scalar_states_matched"]==group["input_count"]*config["steps"]
+                assert config["batch_states_matched"]==config["scalar_states_matched"]
+        for relative,expected in report["source_sha256"].items():
+            assert digest(ROOT/relative)==expected,relative
+        combinations.add((item["python"].rsplit(".",1)[0],item["optimization"]))
+        output_hashes.add(report["C_output_transcript_sha256"])
+        input_hashes.add(report["C_input_transcript_sha256"])
+    assert combinations=={("3.12","O0"),("3.12","O2"),("3.13","O0"),("3.13","O2")}
+    assert len(output_hashes)==len(input_hashes)==1
+    print(f"PASS: {len(manifest['files'])} checksummed files; 6 runs; 54 configurations; 52 portable checkpoints; held-out results; 4 archived Linux C conformance reports.")
 
 
 if __name__=="__main__":

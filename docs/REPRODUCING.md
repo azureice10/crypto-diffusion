@@ -81,19 +81,23 @@ To export **newly generated trusted checkpoints**:
 python -B scripts/export_checkpoints.py --reference-dir results/reproduced
 ```
 
-## Optional official C comparison
+## Official C comparison and successful Linux follow-up
 
 The official C source and local driver are provided in `third_party/sparkle/`.
 In an environment with an authorized C compiler, a typical build is:
 
 ```bash
-cc -O2 third_party/sparkle/sparkle_ref.c third_party/sparkle/driver.c -o results/sparkle_ref
-python -B MODEL2C/validasi_referensi.py --executable results/sparkle_ref
+mkdir -p results/sparkle-c
+gcc -std=c99 -Wall -Wextra -Werror -O2 third_party/sparkle/sparkle_ref.c third_party/sparkle/driver.c -o results/sparkle-c/sparkle_ref
+python -B MODEL2C/validasi_referensi_linux.py --executable results/sparkle-c/sparkle_ref --output results/sparkle-c/validation.json --compiler gcc --build-command "gcc -std=c99 -Wall -Wextra -Werror -O2 third_party/sparkle/sparkle_ref.c third_party/sparkle/driver.c -o results/sparkle-c/sparkle_ref"
 ```
 
-Create `results/` first if needed. The Windows execution originally attempted
-for this supplement was blocked by Application Control. The frozen JSON
-records that block and zero successful C comparisons. No executable is shipped.
+The Windows execution originally attempted for this supplement was blocked
+by Application Control. The frozen JSON records that block. A subsequent
+Linux execution passed all four Python/compiler combinations; see
+[SPARKLE_C_VALIDATION.md](SPARKLE_C_VALIDATION.md) for the protocol, counts,
+workflow and permanent evidence. The workflow reruns this check on pushes
+and pull requests. No executable is shipped.
 
 ## Expected agreement
 
