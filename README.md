@@ -170,5 +170,12 @@ notice. The supplied RECTANGLE/CLEFIA modules did not include verifiable license
 grants, and no blanket MIT or other license has been invented for them or for
 the research data. See [LICENSE.md](LICENSE.md) and
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before public redistribution.
-The folder is prepared for local Git commit; unresolved publication/reuse rights
-are explicitly recorded rather than silently assumed.
+Unresolved third-party reuse rights are explicitly recorded; public access
+does not create a blanket reuse license.
+
+## Manuscript supplement index
+
+The revised manuscript's [Supplement S1–S8](docs/MANUSCRIPT_SUPPLEMENT.md)
+links definitions, complete contrast tables, null validation, key confirmation,
+mechanism diagnostics and reproduction evidence. Historical results remain
+unchanged and distinct from subsequent reanalyses.

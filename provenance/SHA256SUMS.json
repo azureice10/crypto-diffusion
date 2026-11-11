@@ -87,8 +87,8 @@
       "sha256": "74237308872008d297cdc97ccd70b34dd005fee6d8b6d352a0793652c6f4fdd9"
     },
     "README.md": {
-      "bytes": 9274,
-      "sha256": "b11af76c0d29c4b3a3a9a25c6c5ccc1b0758bb49631fe650443b4fdb6c8a05b2"
+      "bytes": 9571,
+      "sha256": "8359d061d40404110ff2186747b9789cd0252fb769e600671e6f3371cfaf2214"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 1908,
@@ -1955,8 +1955,8 @@
       "sha256": "9ab587fe44f6a357e74b30cd08571f52815df3ad0b930eff79da0fb0cb5a9591"
     },
     "docs/AI_ASSISTANCE.md": {
-      "bytes": 1158,
-      "sha256": "d600b1d56d8ede28a0b9dbfa1d663d157faf855834afa2757bd4c38b53c4e348"
+      "bytes": 1844,
+      "sha256": "c8947b700e025a19e9a97433891fdbaa59ab4e7fea647000744a2e1e5384c2ec"
     },
     "docs/COMMIT_AND_RELEASE.md": {
       "bytes": 1771,
@@ -1971,8 +1971,12 @@
       "sha256": "c0b9e31c2ab194f95a5e6eca8f1f4b6c97c318c495206b810aa96d9c1fd2d77a"
     },
     "docs/LIMITATIONS.md": {
-      "bytes": 6380,
-      "sha256": "48bd017b034f8b061529300ca0569989424a0aacf29cb1dce8f607f8bb875acd"
+      "bytes": 6837,
+      "sha256": "faada3e859fa064fd47350ef4e4d668d3373243a13ce5eac5099e21bda0b9109"
+    },
+    "docs/MANUSCRIPT_SUPPLEMENT.md": {
+      "bytes": 16746,
+      "sha256": "7cc0da73b2e5fa0ec9042066762713ef5a9b4ff95458369bdddccb1d2897fb3d"
     },
     "docs/METHODOLOGY_ID.md": {
       "bytes": 6156,

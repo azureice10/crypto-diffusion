@@ -97,10 +97,16 @@ single current code snapshot; measured scalar/batch equality is documented.
 Packaging normalizes only portable paths and text encoding where recorded in
 the inventory. It does not revise numeric measurements.
 
-CI performs integrity/regression checks and a small pipeline smoke run. It
-does not rerun every expensive study, the million-statistic calibration, all
-eight-key experiments, or the independently blocked C test on each commit.
+CI performs integrity/regression checks, a small pipeline smoke run, successful
+Linux official-reference C conformance, and retained SAC inference checks for
+the directed comparison, size matching, fresh-key confirmation (including
+native snapshots) and mechanism diagnostics. It does not regenerate all
+million-draw calibration arrays or all 4,500 fresh cipher input replications
+on every commit. The historical Windows execution block does not apply to
+the successful Linux conformance job.
 
-The draft paper still requires author review and journal formatting. No
-journal acceptance, public-repository publication, or blanket reuse license
-is implied by this local supplementary package.
+The public repository supplies evidence for the manuscript; its presence does
+not imply journal acceptance or a blanket reuse license. Component-specific
+rights remain documented. Final scientific claims and submission formatting
+require author review. [Supplement S1–S8](MANUSCRIPT_SUPPLEMENT.md) consolidates
+the methods, complete selected contrast tables and interpretation limits.
