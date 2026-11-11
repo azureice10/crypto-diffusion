@@ -1,0 +1,78 @@
+{
+  "schema": "sac-key-confirmation-execution/1",
+  "key": {
+    "key_index": 7,
+    "key_id": "random_07",
+    "key_type": "random",
+    "key_hex": "97cbd2e6025131a4bb0f"
+  },
+  "execution_commit": "71853e7dbf0a1dfccb4d80146f29a824ead217a4",
+  "source_sha256": {
+    "data/followup/sac_directed_2026-11-10/inputs_rectangle.csv": "6d75c35e84ce0388881fbf1aa50e43ce25b5973614d5a09fcd4ac11255f17642",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank0.json": "81133c028d28bcd10140b5824189d0d66b593873114e17a337e5dac2ff2be1ad",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank0.npz": "af03258d9734c639479cf540c26e2cb280194a5a0761fba999284270e9a3c332",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank1.json": "dd97fafcb0adab12530dcff568b81fe4bf4741823a80a8413718da25a5215cc9",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank1.npz": "6f0adb4890c5623f38a86063ffc6bb91c87f074302ad090b6ccd1ac6ade969dd",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank2.json": "70c6ff5ae3caa3cbd5a8ae9f776beaa21db74b135341d6195ce3399a5dee1189",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N1024_bank2.npz": "1c67799aec959e06de0d76e976637228fb7477ec20f282af348348733bbed806",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank0.json": "468f740b8da1e8f1139e38cf2123e538ce3f5f50698a00284881848a94edced3",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank0.npz": "e40777ff20dd3204e112e6f8a53278e6f00c2978218d22a845900c8eb96bb45e",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank1.json": "780bfe2547e185cad9fd7f5d8bdbcdd1b74d16050f5725574599aa860d426306",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank1.npz": "81e790a0dc140910e0bd809591ed6c094b75d1da2205197e7a917d3ba3e100c4",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank2.json": "b8656bc5e36c4a7691ac64de372730b481513669cbf03e70aa03d4d7fcf6d424",
+    "data/followup/sac_size_matched_2026-11-11/calibration_N256_bank2.npz": "8ccd0dc4d24a83e80bca22ffffab8717d1f1a47a9e915943ba1b2f0a374301de",
+    "data/reference/utama_seed2026/kunci_horizon.csv": "59adcd76af6a7ce393ea6040af8c0215cf48804b43bd3537cf39ba256ce0b20c",
+    "experiments/sac/batch_ciphers.py": "97e322eb27ccaf373c065c3f0464b25ce57274ef81a5707ef36dc0eb4500e44f",
+    "experiments/sac/sac_statistics.py": "c9659a049e747a1c99358c04bc667b03a7f9ce3c3f4a42e604804886c7e86d68",
+    "experiments/sac_confirm/analyze_confirmation.py": "2b042cf34103ecc96dc3675739686a05b69c5efe83d2f7a9c9dd2dff13c917b8",
+    "experiments/sac_confirm/confirmation.py": "9669281d4d1c0dc3b9551e1708b3b48a43f83c128cbbef019e0e920ac99988e0",
+    "experiments/sac_confirm/keys.json": "7374b6414137e1809a10bb14480c1d3d431f5b0507a48484a294c0f4cef9ada8",
+    "experiments/sac_confirm/plot_confirmation.py": "648859486a3b34111985af1146eab1bb01e45b41f9a62811764fa84e27c03da6",
+    "experiments/sac_confirm/prepare_keys.py": "b9aaa082ff49f104962a7b5d8359f9bc35c6518bd38432a5c13e44a0d590cedd",
+    "experiments/sac_confirm/protocol.json": "8e1a2932360e012f6a76ba6538702a652515a2e8f424d4bc6efb66234789306e",
+    "experiments/sac_confirm/requirements.txt": "58439cce56e3604df0686f792e2a8f5397d1e6d4a33900a8473da2b04a5cac18",
+    "experiments/sac_confirm/run_confirmation.py": "bd3c449a015f1b023118c8d695d8bab8e9c35a167fec1196b1834816993ac493",
+    "experiments/sac_confirm/test_confirmation.py": "d6e322cbcb91b9979697ac727c3d9e21c27a324d2bec528a4bcd3ff1fe99958f",
+    "experiments/sac_confirm/verify_confirmation.py": "b63154cb97d3b4fa25e46ff04690aaec26cb4306b9fa7f1ad0410b905912fede",
+    "experiments/sac_size/protocol.json": "3e03e55875d3c77932f741dd8cb5edc7bbe3b8faf742aa14747311538db51f3c",
+    "experiments/sac_size/size_statistics.py": "21b4cdc5c8158249fac5f86a943ac2f72df116034f996896e82837cf22bb2f03",
+    "MODEL2C/clefia.py": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+    "MODEL2C/primitif.py": "25c88440b1fff429bdc6201ed59e12ad1068593772c3cc283c2e99648248abf4",
+    "MODEL2C/rectangle.py": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85"
+  },
+  "replications": 500,
+  "sample_sizes": [
+    256,
+    1024
+  ],
+  "analysis_rounds": [
+    6,
+    7,
+    8
+  ],
+  "snapshot_replicates": [
+    0,
+    1,
+    2,
+    499
+  ],
+  "input_bases": 512000,
+  "unique_input_bases": 512000,
+  "duplicate_input_bases": 0,
+  "discovery_base_intersection": 0,
+  "sorted_unique_base_sha256": "b64407c69846b6f58af0e652c1d56b635e19a76c0d6a5617057c2221f120f271",
+  "freshness_scope": "Base inputs only; does not exhaustively compare every one-bit-neighbor query",
+  "scheduled_trace_inputs": 33280000,
+  "raw_rows": 3000,
+  "input_prefix_rows": 1000,
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "elapsed_seconds": 150.10263089998625,
+  "output_sha256": {
+    "random_07_arrays.npz": "219248ee077473bb317b0c670fde44a8b50a81071c27c2f652f81aef87787865",
+    "random_07_raw.csv": "b171512f97a161931c998363764706e98b4bb4ec705d5aa113eb6e60c6756582",
+    "random_07_inputs.csv": "2a716fde986dfe074dc2fd8019d69e6c40ee02f35ff202f4a64d20eb75c6088b"
+  }
+}

@@ -105,6 +105,7 @@ explicitly select the ignored `results/` directory instead.
 - [Successful Linux SPARKLE C validation and execution evidence](docs/SPARKLE_C_VALIDATION.md)
 - [Directed SAC comparison: results, calibration and interpretation](docs/SAC_COMPARISON.md)
 - [Size-matched SAC reanalysis and calibration-bank sensitivity](docs/SAC_SIZE_MATCHING.md)
+- [Fresh-input SAC confirmation and eight random keys](docs/SAC_FRESH_KEYS.md)
 
 The Indonesian report describes the original workspace layout. Its
 `eksperimen_ulang/` paths correspond to `data/reference/` in this repository;
@@ -139,6 +140,13 @@ separately labeled randomized alpha=0.001 sensitivity. Nine million calibration
 and three million held-out null-statistic draws assess actual sizes and
 retraining variation. Existing cipher inputs are reused; this is not an
 independent cipher replication or a multiple-key study.
+
+The [fresh-input key confirmation](docs/SAC_FRESH_KEYS.md) subsequently tests
+the default key and eight new random RECTANGLE keys using 500 new input
+replications per key. It reuses frozen calibration and reports the default
+control separately from per-key results and descriptive random-key summaries.
+Two preselected contrasts per key receive Holm correction over 18 tests;
+the full 162-contrast grid is also retained and corrected separately.
 
 The original `.pkl.gz` files are retained for the original audit scripts.
 Prefer the JSON/NPZ exports for inspection. The portable reader uses

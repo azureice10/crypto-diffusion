@@ -23,7 +23,7 @@ python -B experiments/sac_confirm/run_confirmation.py --key-indices 3 4 5 --outp
 python -B experiments/sac_confirm/run_confirmation.py --key-indices 6 7 8 --output results/sac-key-confirmation
 python -B experiments/sac_confirm/analyze_confirmation.py --input results/sac-key-confirmation
 python -B experiments/sac_confirm/verify_confirmation.py --input results/sac-key-confirmation --regenerate-snapshots
-python -B experiments/sac_confirm/plot_confirmation.py --input results/sac-key-confirmation
+python -B experiments/render_sac_confirmation.py --input results/sac-key-confirmation
 ```
 
 The three generation commands are independent and may run concurrently. Each
@@ -48,3 +48,8 @@ Historical measurements, cipher code, statistical decision implementations
 and the three reused calibration banks remain unchanged. Conditional null
 sizes from the size-matching study still apply. Full-key-space generalization,
 mechanistic attribution and new contiguous horizons are outside this protocol.
+
+The post-generation export wrapper sets `savefig.bbox=tight` so long axis
+labels fit in the exported figure. Its hash and rendering configuration are
+recorded separately in plot provenance; frozen statistical/plotting sources
+and numeric figure data remain unchanged.

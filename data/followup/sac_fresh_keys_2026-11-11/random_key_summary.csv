@@ -1,0 +1,13 @@
+bank,policy,N,native_round,comparator,random_keys,effect_mean,effect_min,effect_max,count_rate_mean,comparator_rate_mean,keys_in_planned_direction,keys_significant_planned_holm18,keys_significant_opposite_holm18,keys_significant_planned_holm162
+0,match_count_nonrandom,256,7,basic,8,0.9557499999999999,0.946,0.97,0.0025,0.9582499999999999,8,8,0,8
+0,match_count_nonrandom,1024,7,column,8,-0.07100000000000001,-0.108,-0.03,0.12575,0.05475000000000001,8,7,0,5
+0,equal_alpha_randomized,256,7,basic,8,0.9717499999999999,0.966,0.978,0.0045000000000000005,0.97625,8,8,0,8
+0,equal_alpha_randomized,1024,7,column,8,-0.07550000000000001,-0.102,-0.038,0.1395,0.064,8,8,0,4
+1,match_count_nonrandom,256,7,basic,8,0.9564999999999999,0.946,0.97,0.0025,0.959,8,8,0,8
+1,match_count_nonrandom,1024,7,column,8,-0.07200000000000001,-0.11,-0.032,0.12575,0.053750000000000006,8,7,0,5
+1,equal_alpha_randomized,256,7,basic,8,0.973,0.966,0.978,0.0045000000000000005,0.9775,8,8,0,8
+1,equal_alpha_randomized,1024,7,column,8,-0.07575000000000001,-0.102,-0.038,0.1395,0.06375,8,8,0,5
+2,match_count_nonrandom,256,7,basic,8,0.9574999999999999,0.948,0.97,0.0025,0.96,8,8,0,8
+2,match_count_nonrandom,1024,7,column,8,-0.07325000000000001,-0.11,-0.034,0.12575,0.052500000000000005,8,8,0,5
+2,equal_alpha_randomized,256,7,basic,8,0.97225,0.966,0.978,0.0045000000000000005,0.97675,8,8,0,8
+2,equal_alpha_randomized,1024,7,column,8,-0.07700000000000001,-0.102,-0.042,0.1395,0.0625,8,8,0,5

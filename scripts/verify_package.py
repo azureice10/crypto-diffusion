@@ -133,7 +133,20 @@ def main():
     assert size_audit['execution_commits']==['1e3b424da936cb148dc7b536c990cdfb36a36e4f']
     for relative,expected in size_summary['source_sha256'].items():
         assert digest(ROOT/relative)==expected,relative
-    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC evidence (1000 replications, 90 primary contrasts); size-matched reanalysis (9M calibration, 3M validation draws).")
+    key_folder=ROOT/'data/followup/sac_fresh_keys_2026-11-11'
+    key_summary=load_json(key_folder/'analysis_summary.json')
+    key_audit=load_json(key_folder/'verification.json')
+    assert key_audit['status']=='PASS'
+    assert key_summary['execution_commits']==['71853e7dbf0a1dfccb4d80146f29a824ead217a4']
+    assert key_summary['new_cipher_replications']==4500 and key_summary['new_null_draws']==0
+    assert key_summary['new_keys_random']==8 and key_summary['default_controls']==1
+    assert key_summary['raw_rows']==27000 and key_summary['input_prefix_rows']==9000
+    assert key_summary['rate_rows']==1296 and key_summary['paired_rows']==972
+    assert key_summary['primary_family_size']==18
+    assert key_audit['regenerated_native_snapshot_matrices']==72
+    for relative,expected in key_summary['source_sha256'].items():
+        assert digest(ROOT/relative)==expected,relative
+    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC and size-matching evidence; fresh key confirmation (4500 replications, 9 keys).")
 
 
 if __name__=="__main__":

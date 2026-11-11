@@ -1,0 +1,21 @@
+{
+  "schema": "sac-key-confirmation-verification/1",
+  "status": "PASS",
+  "execution_commits": [
+    "71853e7dbf0a1dfccb4d80146f29a824ead217a4"
+  ],
+  "keys": 9,
+  "random_keys": 8,
+  "new_cipher_replications": 4500,
+  "raw_rows": 27000,
+  "input_prefix_hashes": 9000,
+  "histogram_reconstructed_conditions": 27000,
+  "snapshot_conditions": 216,
+  "regenerated_native_snapshot_matrices": 72,
+  "rate_rows": 1296,
+  "paired_rows": 972,
+  "primary_family": 18,
+  "full_grid_family": 162,
+  "source_records_checked": 9,
+  "scope": "Frozen source/key/calibration hashes, all fresh input prefixes and overlaps, raw statistics independently reconstructed from complete value/row/column histograms; all paired decisions, bootstrap intervals and both Holm families recomputed. Optional snapshot regeneration links retained matrices to new inputs."
+}

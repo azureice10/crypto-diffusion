@@ -1,0 +1,14 @@
+{
+  "schema": "sac-key-plot-provenance/1",
+  "source_sha256": "648859486a3b34111985af1146eab1bb01e45b41f9a62811764fa84e27c03da6",
+  "input_sha256": "dd868f9162809f9ab902c9ae6ae1e10604772da11a38a4a388765a7e9117c3b5",
+  "output_sha256": {
+    "key_confirmation.png": "4711dc5fa0c136b4e4c9742aeabfb383fa3dcbf0875d9569cd86bafde4e905df",
+    "key_confirmation.svg": "56d2f6e71deb9922059f032d2617b24127f2858ab5afea32ed0d8f3383fca699"
+  },
+  "intervals": "Pointwise paired bootstrap, conditional on bank/key; key order fixed before outcomes.",
+  "render_configuration": {
+    "savefig.bbox": "tight"
+  },
+  "export_wrapper_sha256": "0d6e689ed93b4e4b7bd459c58a74ac390b5ed31e7a0f52ec1f8403c57b589f10"
+}

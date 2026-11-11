@@ -72,6 +72,18 @@ were checked at execution; fast verification recomputes all archived inference
 from sufficient records. The historical data and experiment sources remain
 unchanged. See [interpretation and scope](SAC_SIZE_MATCHING.md).
 
+The fresh-input RECTANGLE confirmation on 11 November 2026 freezes its plan,
+key list, explicit-key evaluator, inference, tests and verifier in commit
+`71853e7dbf0a1dfccb4d80146f29a824ead217a4` before main input generation.
+It uses the same default key plus eight seed-selected random keys, and new
+input streams. The targets were selected from prior results; fresh samples
+provide independent input confirmation conditional on the reused calibration.
+Evidence under `data/followup/sac_fresh_keys_2026-11-11/` records raw statistics,
+complete count-value/axis-bin histograms, input-prefix hashes, matrix aggregates,
+snapshots and source/calibration hashes. The historic data, production code,
+prior experiment code and trained null banks remain unchanged. See
+[scope and per-key interpretation](SAC_FRESH_KEYS.md).
+
 No author ORCID, GitHub account, article DOI, funding source, release date or
 license choice was invented. Citation names and affiliation come from the
 draft manuscript and should be reviewed by its authors before publication.

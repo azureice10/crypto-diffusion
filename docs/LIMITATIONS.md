@@ -46,6 +46,15 @@ labeled randomized policy; it does not establish exactly identical conditional
 sizes, generalize to all keys, or independently confirm the reused cipher
 samples. CLEFIA is not size-matched again in this targeted follow-up.
 
+The [fresh-input confirmation](SAC_FRESH_KEYS.md) adds a separate default-key
+control and eight new random RECTANGLE keys. It addresses input replication
+and provides limited random-key evidence under reused calibration. Eight key
+clusters do not establish behavior across the full key space. Per-key
+intervals condition on the key/calibration; equal-key averages and observed
+ranges are descriptive. Inputs differ across keys, so cross-key variation
+also includes finite-input sampling variation. No mechanism or new contiguous
+horizon is inferred from this experiment.
+
 - Failure to detect a property does not establish cryptographic security.
 - Round/step counts have different meanings and costs across constructions.
 - The combined horizon is an operational summary of five selected tests,
