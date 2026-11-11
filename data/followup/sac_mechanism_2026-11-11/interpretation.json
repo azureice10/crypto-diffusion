@@ -1,0 +1,42 @@
+{
+  "schema": "sac-mechanism-interpretation/1",
+  "report_source_sha256": "dbe9ba959e8ae510abce24fef83ba4561b5ba6991e1cdf27c9b3072796bbb30e",
+  "scientific_source_commit": "6d60cfb6c84a4cc02717e1896ec0d19671f08693",
+  "default_N256_r7": {
+    "mean_basic": 48.98521203783554,
+    "shape": 41.78944029277724,
+    "scatter": 7.195771745058279,
+    "shape_fraction": 0.8531031826605053,
+    "independent_empirical_scatter": 6.904999565663022,
+    "net_empirical_covariance": 0.2907721793952561,
+    "net_covariance_fraction_of_mean": 0.005935917541209528,
+    "mean_flip_probability": 0.4967604122161865,
+    "count_statistic_mean": 4.2940000000000005,
+    "count_critical_cells": 12,
+    "marginal_significant_negative": 588,
+    "marginal_significant_positive": 0,
+    "outer_histogram_bins_mean_contribution_fraction": 0.6729414427212387,
+    "input_word_squared_bias_energy_fractions": [
+      0.07580382680872581,
+      0.5493157631251911,
+      0.09253953791313162,
+      0.2823408721529514
+    ],
+    "output_word_squared_bias_energy_fractions": [
+      0.14263594043617958,
+      0.19075030909185395,
+      0.3450662218839894,
+      0.321547528587977
+    ]
+  },
+  "source_input_sha256": {
+    "condition_metrics.csv": "6a0d76f8283e7ee358ea0364d1a10b8bc87bc142fd86ad9cf0e8124f2f6f2543",
+    "bin_contributions.csv": "89eae7e2ff5898b76c8bc4b5048d4d249305983a6ece93436365418390f93c3d",
+    "dependence_decomposition.csv": "c1ee872b891a8eb889c41f79e2479f135d78a73ed6e00623183d2c700154a535",
+    "surrogate_summary.csv": "f7ddff99267f953750dfe185b77c8b9d236780f3a4dbd56bf5cc085c110072db",
+    "layout_summary.csv": "93c39e25671640610d3b410cc3da461de370a07652f64ce9c336ff31d5c42e4d",
+    "coordinate_maps.npz": "75e0598a67bf0b20a72863e2f6eee7248c1f396a43e58620378fcfdfe6f0fe11",
+    "verification.json": "82103e0ff9f6ef7cc675bd98890dc3c8841973622cf8836e323e936561685181"
+  },
+  "scope": "Interpretation of an exploratory statistical diagnostic; covariance is a signed net contribution to mean Basic, not a measure of all dependence or a percent of power explained."
+}

@@ -84,6 +84,18 @@ snapshots and source/calibration hashes. The historic data, production code,
 prior experiment code and trained null banks remain unchanged. See
 [scope and per-key interpretation](SAC_FRESH_KEYS.md).
 
+The exploratory Basic mechanism diagnostics freeze their statistical code and
+plan in `6d60cfb6c84a4cc02717e1896ec0d19671f08693`. They reuse all 54
+confirmation conditions for descriptive distributions/maps, replay the 500
+default input sets with 3000 original matrix-hash checks, and retain three
+conditions for detailed diagnostics. Evidence under
+`data/followup/sac_mechanism_2026-11-11/` includes 90000 fitted/fair surrogate
+matrices represented by their statistics, and 30000 position permutations
+clustered within genuine holdout parents. This is not fresh input confirmation.
+Visualization and explanatory reporting are post-generation transformations
+with separate provenance. Historic code/data and calibration bytes remain
+unchanged. See [mechanism evidence and limits](SAC_MECHANISM.md).
+
 No author ORCID, GitHub account, article DOI, funding source, release date or
 license choice was invented. Citation names and affiliation come from the
 draft manuscript and should be reviewed by its authors before publication.

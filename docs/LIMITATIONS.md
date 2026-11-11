@@ -55,6 +55,16 @@ ranges are descriptive. Inputs differ across keys, so cross-key variation
 also includes finite-input sampling variation. No mechanism or new contiguous
 horizon is inferred from this experiment.
 
+The [mechanism diagnosis](SAC_MECHANISM.md) is exploratory and reuses the
+confirmation data. Detailed surrogate and position-permutation diagnostics
+are limited to the default key. Conditional model intervals omit fit
+uncertainty; position-permutation intervals resample genuine parents and
+rare outcomes limit their interpretation. A small signed covariance term in
+mean Basic does not imply independent cells or explain every detector's tail.
+Pooled SAC-marginal tests use a much larger budget than one detector run and a
+different null from the ideal-permutation reference. No S-box/ShiftRows cause,
+new contiguous horizon, optimal detector or full-round security claim follows.
+
 - Failure to detect a property does not establish cryptographic security.
 - Round/step counts have different meanings and costs across constructions.
 - The combined horizon is an operational summary of five selected tests,

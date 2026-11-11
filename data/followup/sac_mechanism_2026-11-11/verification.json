@@ -1,0 +1,15 @@
+{
+  "schema": "sac-mechanism-verification/1",
+  "status": "PASS",
+  "execution_commits": [
+    "6d60cfb6c84a4cc02717e1896ec0d19671f08693"
+  ],
+  "descriptive_conditions": 54,
+  "bin_rows": 432,
+  "coordinate_tests": 221184,
+  "retained_original_matrix_hashes": 1500,
+  "surrogate_first_chunk_replays": 1152,
+  "layout_parent_rows": 750,
+  "layout_draws_with_exact_basic_count_invariance": 30000,
+  "scope": "Source and raw-matrix hashes, independent bin identities/maps, signed covariance decomposition, all retained synthetic statistics and conditional rates, first surrogate chunks and first-parent permutations, clustered layout intervals. Full synthetic-count replay is reproducible from frozen seeds but is not repeated by this fast verifier."
+}

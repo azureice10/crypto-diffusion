@@ -101,3 +101,7 @@ jobs:
         run: python -B experiments/sac_confirm/test_confirmation.py
       - name: Verify fresh-input key confirmation and native snapshots
         run: python -B experiments/sac_confirm/verify_confirmation.py --input data/followup/sac_fresh_keys_2026-11-11 --regenerate-snapshots
+      - name: Check mechanism identities and synthetic diagnostic pipeline
+        run: python -B experiments/sac_mechanism/test_mechanism.py
+      - name: Verify archived mechanism diagnostics
+        run: python -B experiments/sac_mechanism/verify_mechanism.py --input data/followup/sac_mechanism_2026-11-11

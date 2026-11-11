@@ -106,6 +106,7 @@ explicitly select the ignored `results/` directory instead.
 - [Directed SAC comparison: results, calibration and interpretation](docs/SAC_COMPARISON.md)
 - [Size-matched SAC reanalysis and calibration-bank sensitivity](docs/SAC_SIZE_MATCHING.md)
 - [Fresh-input SAC confirmation and eight random keys](docs/SAC_FRESH_KEYS.md)
+- [Basic mechanism: marginal shape, covariance and layout diagnostics](docs/SAC_MECHANISM.md)
 
 The Indonesian report describes the original workspace layout. Its
 `eksperimen_ulang/` paths correspond to `data/reference/` in this repository;
@@ -147,6 +148,12 @@ replications per key. It reuses frozen calibration and reports the default
 control separately from per-key results and descriptive random-key summaries.
 Two preselected contrasts per key receive Holm correction over 18 tests;
 the full 162-contrast grid is also retained and corrected separately.
+
+An [exploratory mechanism analysis](docs/SAC_MECHANISM.md) reuses this archive
+to study complete histograms, pooled marginal maps, independent-marginal
+surrogates and spatial permutations. It explains the statistical source of
+Basic's detection and distinguishes that evidence from unique cryptographic
+causation. No new cipher input replications or calibration banks are claimed.
 
 The original `.pkl.gz` files are retained for the original audit scripts.
 Prefer the JSON/NPZ exports for inspection. The portable reader uses

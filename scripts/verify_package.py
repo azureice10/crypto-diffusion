@@ -146,7 +146,18 @@ def main():
     assert key_audit['regenerated_native_snapshot_matrices']==72
     for relative,expected in key_summary['source_sha256'].items():
         assert digest(ROOT/relative)==expected,relative
-    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC and size-matching evidence; fresh key confirmation (4500 replications, 9 keys).")
+    mechanism_folder=ROOT/'data/followup/sac_mechanism_2026-11-11'
+    mechanism_summary=load_json(mechanism_folder/'analysis_summary.json')
+    mechanism_audit=load_json(mechanism_folder/'verification.json')
+    assert mechanism_audit['status']=='PASS'
+    assert mechanism_summary['execution_commits']==['6d60cfb6c84a4cc02717e1896ec0d19671f08693']
+    assert mechanism_summary['new_cipher_input_replications']==0
+    assert mechanism_summary['replayed_cipher_input_replications']==500
+    assert mechanism_summary['surrogate_matrix_draws']==90000 and mechanism_summary['layout_matrix_draws']==30000
+    assert mechanism_audit['coordinate_tests']==221184 and mechanism_audit['retained_original_matrix_hashes']==1500
+    for relative,expected in mechanism_summary['source_sha256'].items():
+        assert digest(ROOT/relative)==expected,relative
+    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 checkpoints; 4 Linux C reports; directed SAC, size matching, fresh keys and mechanism diagnostics.")
 
 
 if __name__=="__main__":

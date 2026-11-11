@@ -1,0 +1,23 @@
+{
+  "schema": "sac-mechanism-plot-provenance/1",
+  "source_sha256": "2b11417d3aed3371dd2a9bb93ab4d351c2371a913a569fb085b7fec5085c6914",
+  "input_sha256": {
+    "bin_contributions.csv": "89eae7e2ff5898b76c8bc4b5048d4d249305983a6ece93436365418390f93c3d",
+    "count_distributions.csv": "95637ace8e52ee9d41ed35564a8f1f1d695db7e15864114e9b74a83505c501e6",
+    "condition_metrics.csv": "6a0d76f8283e7ee358ea0364d1a10b8bc87bc142fd86ad9cf0e8124f2f6f2543",
+    "coordinate_maps.npz": "75e0598a67bf0b20a72863e2f6eee7248c1f396a43e58620378fcfdfe6f0fe11",
+    "surrogate_summary.csv": "f7ddff99267f953750dfe185b77c8b9d236780f3a4dbd56bf5cc085c110072db",
+    "layout_summary.csv": "93c39e25671640610d3b410cc3da461de370a07652f64ce9c336ff31d5c42e4d"
+  },
+  "output_sha256": {
+    "bin_distribution.png": "fcdbeddc3cb21f3119dbdd2fb388b5ec225cacded155a55dea8807b49cb26e93",
+    "bin_distribution.svg": "24e7d9a449e20bab8f92662191996341439075d8632ccc1e9848449c739007fc",
+    "marginal_bias_maps.png": "05aeb6d1741f56ff7429fcba228b32f6ce0d055243becfc0b21e5ccd8905bc64",
+    "marginal_bias_maps.svg": "bcb60c78f7edf7ee6a86d4c75fbf547454d94045f3a7995cb5f56b6e9e001d15",
+    "surrogate_diagnostics.png": "8002148402a0a87745e87204cfd0b61fa6c155c3edca48bc40e8d04216c874c4",
+    "surrogate_diagnostics.svg": "fca26212ab7ae6bf27047e9d35a45850da3e7d8ab92fc4184634fb0297e00151",
+    "layout_ablation.png": "3426e992aaac8315cd55fe650d93dccd0b3a7537c82ef4b69f957fbe10c3a63d",
+    "layout_ablation.svg": "901112003865024868a7decdbfd7ce2a09dc9477b7accc2b285572c498629d48"
+  },
+  "notes": "PMF window is 88-168 counts at N=256. Bin residual bars show replicate SD, not confidence intervals. Surrogate Wilson intervals omit fit uncertainty. Layout intervals resample genuine parents. Gray-map scale is symmetric and shared across rounds."
+}

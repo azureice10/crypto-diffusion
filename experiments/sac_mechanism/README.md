@@ -14,6 +14,8 @@ From a full-history clone, install `requirements.txt`, then run:
 python -B experiments/sac_mechanism/test_mechanism.py
 python -B experiments/sac_mechanism/run_mechanism.py all --output results/sac-mechanism
 python -B experiments/sac_mechanism/verify_mechanism.py --input results/sac-mechanism
+python -B experiments/plot_sac_mechanism.py --input results/sac-mechanism
+python -B experiments/report_sac_mechanism.py --input results/sac-mechanism --report-root results/reports
 ```
 
 Individual stages `descriptive`, `replay`, `surrogates`, `layouts`, `finalize`
@@ -33,3 +35,8 @@ surrogate removes all cross-cell dependence, not specifically shared-base
 dependence. Pooled-coordinate tests target SAC marginals rather than the
 original ideal-permutation null. Neither fitted models nor spatial shuffling
 identify an S-box/ShiftRows cause without further cryptographic analysis.
+
+The plot/report transformations are separate from frozen statistical code;
+their hashes and inputs are recorded in plot/interpretation provenance.
+The report command also refreshes `docs/SAC_MECHANISM.md` from the supplied
+evidence. Archived evidence uses `data/followup/sac_mechanism_2026-11-11/`.
