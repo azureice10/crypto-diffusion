@@ -1,0 +1,66 @@
+{
+  "schema": "sac-confirmation-keys/1",
+  "seed_entropy": [
+    2026111151,
+    501
+  ],
+  "historical_keys_source": "data/reference/utama_seed2026/kunci_horizon.csv",
+  "historical_keys_source_sha256": "59adcd76af6a7ce393ea6040af8c0215cf48804b43bd3537cf39ba256ce0b20c",
+  "duplicate_or_historical_draws_rejected": 0,
+  "keys": [
+    {
+      "key_index": 0,
+      "key_id": "default",
+      "key_type": "default_control",
+      "key_hex": "00010203040506070809"
+    },
+    {
+      "key_index": 1,
+      "key_id": "random_01",
+      "key_type": "random",
+      "key_hex": "913a9371e6cedf778eb9"
+    },
+    {
+      "key_index": 2,
+      "key_id": "random_02",
+      "key_type": "random",
+      "key_hex": "8aa991f6b8207f94d14a"
+    },
+    {
+      "key_index": 3,
+      "key_id": "random_03",
+      "key_type": "random",
+      "key_hex": "64cbcc56fab6986f5c54"
+    },
+    {
+      "key_index": 4,
+      "key_id": "random_04",
+      "key_type": "random",
+      "key_hex": "e0928c8cf484bfd67284"
+    },
+    {
+      "key_index": 5,
+      "key_id": "random_05",
+      "key_type": "random",
+      "key_hex": "747c09c5a4ab4e000d79"
+    },
+    {
+      "key_index": 6,
+      "key_id": "random_06",
+      "key_type": "random",
+      "key_hex": "613d45df438636559e50"
+    },
+    {
+      "key_index": 7,
+      "key_id": "random_07",
+      "key_type": "random",
+      "key_hex": "97cbd2e6025131a4bb0f"
+    },
+    {
+      "key_index": 8,
+      "key_id": "random_08",
+      "key_type": "random",
+      "key_hex": "8bdc7b870ad57ae77433"
+    }
+  ]
+}
