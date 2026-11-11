@@ -1,5 +1,10 @@
 # Directed SAC comparison: results and interpretation
 
+The historical results below are preserved. A subsequent
+[size-matched sensitivity analysis](SAC_SIZE_MATCHING.md), dated 11 November
+2026, addresses unequal null sizes for RECTANGLE using new independent
+calibration/validation simulations and the same archived cipher statistics.
+
 Executed on 10 November 2026. The design and measurement implementation were
 frozen before the main results in commit
 `b36f15ed785755be8068b898b59dc0aea8747b2a`.

@@ -121,7 +121,19 @@ def main():
     assert len(significant)==sac_summary["primary_holm_significant_contrasts"]==7
     assert sum(float(r["comparator_minus_count_rate"])>0 for r in significant)==6
     assert sum(float(r["comparator_minus_count_rate"])<0 for r in significant)==1
-    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC evidence (1000 replications, 90 primary contrasts).")
+    size_folder=ROOT/'data/followup/sac_size_matched_2026-11-11'
+    size_summary=load_json(size_folder/'analysis_summary.json')
+    size_audit=load_json(size_folder/'verification.json')
+    assert size_audit['status']=='PASS'
+    assert size_summary['new_cipher_evaluations']==0
+    assert size_summary['total_calibration_statistic_draws']==9000000
+    assert size_summary['total_held_out_statistic_draws']==3000000
+    assert size_summary['primary_tested_contrasts']==45 and size_summary['holm_family_slots']==90
+    assert size_summary['rate_rows']==360 and size_summary['paired_comparison_rows']==270
+    assert size_audit['execution_commits']==['1e3b424da936cb148dc7b536c990cdfb36a36e4f']
+    for relative,expected in size_summary['source_sha256'].items():
+        assert digest(ROOT/relative)==expected,relative
+    print(f"PASS: {len(manifest['files'])} checksummed files; 6 frozen runs; 52 portable checkpoints; 4 Linux C conformance reports; directed SAC evidence (1000 replications, 90 primary contrasts); size-matched reanalysis (9M calibration, 3M validation draws).")
 
 
 if __name__=="__main__":

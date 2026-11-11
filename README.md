@@ -104,6 +104,7 @@ explicitly select the ignored `results/` directory instead.
 - [Validation status](data/reference/validasi/verifikasi_hasil.json)
 - [Successful Linux SPARKLE C validation and execution evidence](docs/SPARKLE_C_VALIDATION.md)
 - [Directed SAC comparison: results, calibration and interpretation](docs/SAC_COMPARISON.md)
+- [Size-matched SAC reanalysis and calibration-bank sensitivity](docs/SAC_SIZE_MATCHING.md)
 
 The Indonesian report describes the original workspace layout. Its
 `eksperimen_ulang/` paths correspond to `data/reference/` in this repository;
@@ -130,6 +131,14 @@ after Holm correction; six favor a histogram comparator and one favors count.
 Null sizes, uncertainty and fixed-key/small-budget limitations are reported
 separately. The comparison does not turn original horizons into universal
 diffusion boundaries or demonstrate a new full-round attack.
+
+A [size-matched reanalysis](docs/SAC_SIZE_MATCHING.md) dated 11 November 2026
+addresses unequal null sizes on the archived RECTANGLE grid. It preserves
+Count and matches histogram targets to its exact discrete size, with a
+separately labeled randomized alpha=0.001 sensitivity. Nine million calibration
+and three million held-out null-statistic draws assess actual sizes and
+retraining variation. Existing cipher inputs are reused; this is not an
+independent cipher replication or a multiple-key study.
 
 The original `.pkl.gz` files are retained for the original audit scripts.
 Prefer the JSON/NPZ exports for inspection. The portable reader uses

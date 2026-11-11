@@ -15,8 +15,9 @@ python -B experiments/sac_size/test_size_match.py
 python -B experiments/sac_size/run_size_match.py all --samples 64 --output results/sac-size
 python -B experiments/sac_size/run_size_match.py all --samples 256 --output results/sac-size
 python -B experiments/sac_size/run_size_match.py all --samples 1024 --output results/sac-size
-python -B experiments/sac_size/analyze_size_match.py --input results/sac-size --plots
+python -B experiments/sac_size/analyze_size_match.py --input results/sac-size
 python -B experiments/sac_size/verify_size_match.py --input results/sac-size
+python -B experiments/plot_sac_size.py --input results/sac-size
 ```
 
 The three `all` commands are independent and may run concurrently. Each runs
@@ -43,3 +44,16 @@ analyses. Conditional null intervals do not include retraining uncertainty;
 three banks characterize an observed range rather than a precise uncertainty
 distribution. No original measurements or detector implementation in
 `experiments/sac/` are modified.
+
+Use the separate post-generation renderer shown above. The frozen analyzer's
+optional `--plots` path encounters microscopic negative errorbar extents from
+floating-point Wilson endpoints at a zero rate. The separate renderer clamps
+only these plot extents, preserves recorded intervals, and records its own
+source/input/output hashes. Frozen statistical sources remain byte-identical.
+
+Archive verification (a full-history Git clone is required for comparing the
+original raw-statistic bytes with their source commit):
+
+```text
+python -B experiments/sac_size/verify_size_match.py --input data/followup/sac_size_matched_2026-11-11
+```

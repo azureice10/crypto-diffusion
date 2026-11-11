@@ -59,6 +59,19 @@ own tracked source. Original `data/reference/`, production cipher/metric code
 and the retained C reference remain unchanged. The new vector evaluators are
 experiment-local scheduling implementations checked against scalar traces.
 
+The size-matched SAC reanalysis on 11 November 2026 uses the unchanged archived
+RECTANGLE sufficient statistics and new null simulations. Its plan, generator,
+analysis, tests and verifier were frozen together in commit
+`1e3b424da936cb148dc7b536c990cdfb36a36e4f` before the main null generation.
+Selection was informed by the historical cipher findings, so this is a post
+hoc reanalysis rather than independent confirmation. Evidence under
+`data/followup/sac_size_matched_2026-11-11/` retains sufficient upper tails,
+validation indices, count frequencies, seeds, source and complete-array hashes.
+No cipher was evaluated again. Full-array versus compressed-record decisions
+were checked at execution; fast verification recomputes all archived inference
+from sufficient records. The historical data and experiment sources remain
+unchanged. See [interpretation and scope](SAC_SIZE_MATCHING.md).
+
 No author ORCID, GitHub account, article DOI, funding source, release date or
 license choice was invented. Citation names and affiliation come from the
 draft manuscript and should be reviewed by its authors before publication.

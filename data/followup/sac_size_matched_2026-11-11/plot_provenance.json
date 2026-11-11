@@ -1,0 +1,13 @@
+{
+  "schema": "sac-size-plot-provenance/1",
+  "note": "Post-generation renderer. Frozen analyzer numeric output is unchanged. Only microscopic negative Wilson errorbar extents at endpoints are clamped to zero for plotting; recorded intervals are preserved.",
+  "sha256": {
+    "experiments/plot_sac_size.py": "4fd367485a71f2d3dd16298975eae93ff33011cd17179180e581cdbc2bca689d",
+    "data/followup/sac_size_matched_2026-11-11/detection_rates.csv": "0bb4ed7344f47bd705d27cdc6e2632a95c15c5b69779fb2826f55b07fafc0360",
+    "data/followup/sac_size_matched_2026-11-11/null_validation.csv": "6d4efa5501d8bed97de888a7949607c18f792b1f6a439e17bac65b1d07f5ee37",
+    "data/followup/sac_size_matched_2026-11-11/size_matched_detection.png": "3715fa7d318d9713c9977580fa01a8f6e58c5023c768f0bb826564477955b44d",
+    "data/followup/sac_size_matched_2026-11-11/size_matched_detection.svg": "b437e663f917671a95f9d06f285fed61b3401b17ac9894ef7471dfd819971671",
+    "data/followup/sac_size_matched_2026-11-11/size_matched_null.png": "8b3898ce83c5a9870454d043fef4859df0f116902df7b87556fe189a2cb59acf",
+    "data/followup/sac_size_matched_2026-11-11/size_matched_null.svg": "52cd907502e0ce938d131a3b490302d450e701238762de3792a0ef415750df47"
+  }
+}

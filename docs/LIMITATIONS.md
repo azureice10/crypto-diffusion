@@ -39,6 +39,13 @@ independent simulation; realized null sizes are not exactly identical to the
 discrete count test. Conditional validation intervals exclude retraining
 uncertainty. These limits must accompany conditional detection-rate claims.
 
+The [size-matched reanalysis](SAC_SIZE_MATCHING.md) further examines the
+RECTANGLE cases using three independent calibration banks and new held-out
+null draws. It reports residual conditional size mismatch and a separately
+labeled randomized policy; it does not establish exactly identical conditional
+sizes, generalize to all keys, or independently confirm the reused cipher
+samples. CLEFIA is not size-matched again in this targeted follow-up.
+
 - Failure to detect a property does not establish cryptographic security.
 - Round/step counts have different meanings and costs across constructions.
 - The combined horizon is an operational summary of five selected tests,

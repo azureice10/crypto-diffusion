@@ -1,0 +1,46 @@
+{
+  "schema": "sac-size-execution/1",
+  "execution_commit": "1e3b424da936cb148dc7b536c990cdfb36a36e4f",
+  "source_data_commit": "24e26f0f392bc43d7802738822eed19e255f5b66",
+  "source_sha256": {
+    "experiments/sac_size/analyze_size_match.py": "2db0116a8c9753f9f0f4b1f3b35c973600ba82c65e12c8ea9acf61e2d137ac88",
+    "experiments/sac_size/run_size_match.py": "b15f7bdca96f10a4d1d24a5376a7ef69c2a544f43f80a19b5e7c759b181fae6a",
+    "experiments/sac_size/size_statistics.py": "21b4cdc5c8158249fac5f86a943ac2f72df116034f996896e82837cf22bb2f03",
+    "experiments/sac_size/test_size_match.py": "06cfeab42bd0e457e15be82e293b3c7d966528fc2bcba15d7c5a2b3813d1b6c5",
+    "experiments/sac_size/verify_size_match.py": "67fde6f3b53041aabd1321bec43fd86f88368a3c3cebf416517a458335635822",
+    "experiments/sac_size/protocol.json": "3e03e55875d3c77932f741dd8cb5edc7bbe3b8faf742aa14747311538db51f3c",
+    "experiments/sac_size/requirements.txt": "58439cce56e3604df0686f792e2a8f5397d1e6d4a33900a8473da2b04a5cac18",
+    "experiments/sac/sac_statistics.py": "c9659a049e747a1c99358c04bc667b03a7f9ce3c3f4a42e604804886c7e86d68",
+    "data/followup/sac_directed_2026-11-10/cipher_raw_rectangle.csv": "1ef173c55038daf0fbb58274a3b579fefd0d6d556a6cce9f175a7d65489a342e",
+    "data/followup/sac_directed_2026-11-10/detection_rates.csv": "c398ecf8af1a0488f8bc8705b0f2c558b050bc9ea88dfd231d6cf1cfdc02d1b0",
+    "experiments/sac/protocol.json": "23dd5caa42fd8dbd45f02380554270db7d28e553011a9773025c10690be0db29"
+  },
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "elapsed_seconds": 131.32597749994602,
+  "stage": "calibration",
+  "N": 64,
+  "bank": 1,
+  "draws": 1000000,
+  "seed_entropy": [
+    20261111,
+    401,
+    64,
+    64,
+    1
+  ],
+  "complete_array_sha256": "a2ead01b149a7802fc3d9473c2f8b8f3e578bbc40cf7c9f05384f1275a6d2668",
+  "retained_upper_tail": 5000,
+  "compression_probe_decisions_checked": 24004,
+  "count_reference": {
+    "critical": 10,
+    "iid_size": 0.0003012821948146635,
+    "delta": 9.381384558082573e-13,
+    "randomized_label_target": 0.0009999999990618616,
+    "randomized_boundary": 9,
+    "randomized_boundary_probability": 0.7548211572408963
+  },
+  "archive_sha256": "6c71755a89471e0f44bca0c1bfa4179009724b0a32da317b986a0f57ef672c00"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "sac-size-verification/1",
+  "status": "PASS",
+  "execution_commits": [
+    "1e3b424da936cb148dc7b536c990cdfb36a36e4f"
+  ],
+  "training_archives": 9,
+  "validation_archives": 3,
+  "calibration_draws": 9000000,
+  "held_out_draws": 3000000,
+  "training_compression_probe_decisions": 216036,
+  "validation_full_compression_decisions": 54000000,
+  "raw_cipher_rows_verified_unchanged": 7500,
+  "rate_rows": 360,
+  "paired_rows": 270,
+  "null_rows": 54,
+  "source_sha256_records_checked": 12,
+  "verification_scope": "Integrity of frozen sources and sufficient records; all rate counts, paired outcomes, bootstrap intervals, exact McNemar tests, Holm90 and conditional null summaries recomputed. Full null replay is available through the frozen generator and seeds; not repeated by this fast verifier."
+}
