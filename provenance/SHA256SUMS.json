@@ -7,8 +7,8 @@
       "sha256": "d055aa43216ed587a67e93e4629f7e3e44eb9bec059dcc86310f5f4e71529671"
     },
     ".github/workflows/validate.yml": {
-      "bytes": 5007,
-      "sha256": "379fcc72c6e0e5da8699f3048ebf2f5b6b833f0f6a1a2e461b5c50a26a4b127a"
+      "bytes": 5005,
+      "sha256": "60c4006dda4083cc47bbda7cc48506c86708bcaf190567470bd01bc9fe899206"
     },
     ".gitignore": {
       "bytes": 465,
@@ -2135,8 +2135,8 @@
       "sha256": "acf4ec948fc4e4ad05a2ace6cd8d5631f60a52dc58028c4b8b94657cd2d02787"
     },
     "experiments/sac_size/README.md": {
-      "bytes": 3407,
-      "sha256": "8f6be9453b623fbee9b081db4227d37c1b0a1a03f15bae3f8aa02f068c813d07"
+      "bytes": 3926,
+      "sha256": "07afe541e8525999fda93372f47148244e0cde926faf4b2c738999c5bbbd7fea"
     },
     "experiments/sac_size/analyze_size_match.py": {
       "bytes": 11610,
@@ -2165,6 +2165,10 @@
     "experiments/sac_size/verify_size_match.py": {
       "bytes": 10920,
       "sha256": "67fde6f3b53041aabd1321bec43fd86f88368a3c3cebf416517a458335635822"
+    },
+    "experiments/verify_sac_size_portable.py": {
+      "bytes": 1463,
+      "sha256": "f875622c37ac61388b78c64c0e6065667dffb2c3003030e5fece4937edf4033f"
     },
     "provenance/package_validation.json": {
       "bytes": 700,

@@ -96,7 +96,7 @@ jobs:
       - name: Check size-matching rules and small end-to-end pipeline
         run: python -B experiments/sac_size/test_size_match.py
       - name: Verify size-matched reanalysis and held-out null records
-        run: python -B experiments/sac_size/verify_size_match.py --input data/followup/sac_size_matched_2026-11-11
+        run: python -B experiments/verify_sac_size_portable.py --input data/followup/sac_size_matched_2026-11-11
       - name: Check explicit-key scalar conformance and fresh-input pipeline
         run: python -B experiments/sac_confirm/test_confirmation.py
       - name: Verify fresh-input key confirmation and native snapshots

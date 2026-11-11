@@ -16,7 +16,7 @@ python -B experiments/sac_size/run_size_match.py all --samples 64 --output resul
 python -B experiments/sac_size/run_size_match.py all --samples 256 --output results/sac-size
 python -B experiments/sac_size/run_size_match.py all --samples 1024 --output results/sac-size
 python -B experiments/sac_size/analyze_size_match.py --input results/sac-size
-python -B experiments/sac_size/verify_size_match.py --input results/sac-size
+python -B experiments/verify_sac_size_portable.py --input results/sac-size
 python -B experiments/plot_sac_size.py --input results/sac-size
 ```
 
@@ -55,5 +55,13 @@ Archive verification (a full-history Git clone is required for comparing the
 original raw-statistic bytes with their source commit):
 
 ```text
-python -B experiments/sac_size/verify_size_match.py --input data/followup/sac_size_matched_2026-11-11
+python -B experiments/verify_sac_size_portable.py --input data/followup/sac_size_matched_2026-11-11
 ```
+
+The portable entry point retains and SHA256-checks the frozen verifier before
+running it. It adapts exactly one assertion: the CSV target null size versus
+its recomputed SciPy binomial tail uses relative tolerance 1e-12 and zero
+absolute tolerance. Windows and Linux can differ in the final floating-point
+digits of that tail. All decision rules, counts, source/archive hashes, and
+other verification assertions remain unchanged. The original verifier remains
+available for exact reproduction in its original environment.
