@@ -1975,8 +1975,8 @@
       "sha256": "faada3e859fa064fd47350ef4e4d668d3373243a13ce5eac5099e21bda0b9109"
     },
     "docs/MANUSCRIPT_SUPPLEMENT.md": {
-      "bytes": 16746,
-      "sha256": "7cc0da73b2e5fa0ec9042066762713ef5a9b4ff95458369bdddccb1d2897fb3d"
+      "bytes": 17117,
+      "sha256": "98824d085b84eae1667f5df61f4e8e9baba5220b1d5cdd57a56ef8c6a970ef0a"
     },
     "docs/METHODOLOGY_ID.md": {
       "bytes": 6156,
@@ -2013,6 +2013,10 @@
     "docs/SPARKLE_C_VALIDATION.md": {
       "bytes": 5303,
       "sha256": "bcfe609c2a62a65b00e1042f87572f1d827be27716d4aaca9fa64d8d32f3f968"
+    },
+    "experiments/plot_manuscript_figures.py": {
+      "bytes": 8023,
+      "sha256": "29cc5ed1dd158691f0e59c4e4b8460a75c78171a1a423bc346e5b2c42aaed976"
     },
     "experiments/plot_sac_mechanism.py": {
       "bytes": 8042,

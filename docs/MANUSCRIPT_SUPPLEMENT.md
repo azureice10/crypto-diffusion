@@ -256,6 +256,11 @@ attempt remains recorded separately from successful Linux execution.
 
 [REPRODUCING.md](REPRODUCING.md) and experiment READMEs give commands and pinned
 dependencies. A full-history clone is required for source-commit byte checks.
+The four revised-manuscript figures can be regenerated with
+`python -B experiments/plot_manuscript_figures.py` after installing
+`experiments/sac_confirm/requirements.txt`. PNGs and script/input/output hashes
+are written under ignored `results/manuscript-figures/`; no measurements are
+changed. Their pixels were checked against the figures placed in the manuscript.
 CI checks manifest integrity, regression, C conformance and retained SAC
 inference, including native snapshots and mechanism diagnostics. It does not
 regenerate all expensive training arrays or 4,500 full input replications.
