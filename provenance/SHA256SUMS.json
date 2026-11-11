@@ -1602,6 +1602,38 @@
       "bytes": 6970,
       "sha256": "bae5d7b4504e5a219b88d86ac1446b53d79703a0e6f6bf5a9e43cbf276a98a2c"
     },
+    "experiments/sac_size/README.md": {
+      "bytes": 2716,
+      "sha256": "11b1286fee65a1262d211bf5cae46627a4fd2928edb663b9eec99a075fc85e66"
+    },
+    "experiments/sac_size/analyze_size_match.py": {
+      "bytes": 11610,
+      "sha256": "2db0116a8c9753f9f0f4b1f3b35c973600ba82c65e12c8ea9acf61e2d137ac88"
+    },
+    "experiments/sac_size/protocol.json": {
+      "bytes": 5410,
+      "sha256": "3e03e55875d3c77932f741dd8cb5edc7bbe3b8faf742aa14747311538db51f3c"
+    },
+    "experiments/sac_size/requirements.txt": {
+      "bytes": 46,
+      "sha256": "58439cce56e3604df0686f792e2a8f5397d1e6d4a33900a8473da2b04a5cac18"
+    },
+    "experiments/sac_size/run_size_match.py": {
+      "bytes": 7826,
+      "sha256": "b15f7bdca96f10a4d1d24a5376a7ef69c2a544f43f80a19b5e7c759b181fae6a"
+    },
+    "experiments/sac_size/size_statistics.py": {
+      "bytes": 4359,
+      "sha256": "21b4cdc5c8158249fac5f86a943ac2f72df116034f996896e82837cf22bb2f03"
+    },
+    "experiments/sac_size/test_size_match.py": {
+      "bytes": 4629,
+      "sha256": "06cfeab42bd0e457e15be82e293b3c7d966528fc2bcba15d7c5a2b3813d1b6c5"
+    },
+    "experiments/sac_size/verify_size_match.py": {
+      "bytes": 10920,
+      "sha256": "67fde6f3b53041aabd1321bec43fd86f88368a3c3cebf416517a458335635822"
+    },
     "provenance/package_validation.json": {
       "bytes": 700,
       "sha256": "5546841308c634f2b8b97a1c9d9136fec56aa2d6e1c3b94d3a8e80c59af6d1fc"
