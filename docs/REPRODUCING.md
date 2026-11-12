@@ -107,6 +107,4 @@ Floating-point correlations may differ slightly between numerical-library
 builds. The scalar-to-batch validation in the recorded environment compared
 all six base seed-2026 measurements and found all saved values exactly equal.
 
-The original draft and journal template are not distributed. Repository
-verification does not imply acceptance by the target journal or independent
-validation of every implementation against its specification.
+The manuscript and journal template are separate from the research artifact. The verification scope is defined by the recorded finite conformance checks and the frozen protocols.

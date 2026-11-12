@@ -52,8 +52,7 @@ and provides limited random-key evidence under reused calibration. Eight key
 clusters do not establish behavior across the full key space. Per-key
 intervals condition on the key/calibration; equal-key averages and observed
 ranges are descriptive. Inputs differ across keys, so cross-key variation
-also includes finite-input sampling variation. No mechanism or new contiguous
-horizon is inferred from this experiment.
+also includes finite-input sampling variation. This experiment supplies key/input confirmation; Stage E supplies separate exploratory mechanism evidence.
 
 The [mechanism diagnosis](SAC_MECHANISM.md) is exploratory and reuses the
 confirmation data. Detailed surrogate and position-permutation diagnostics
@@ -107,6 +106,5 @@ the successful Linux conformance job.
 
 The public repository supplies evidence for the manuscript; its presence does
 not imply journal acceptance or a blanket reuse license. Component-specific
-rights remain documented. Final scientific claims and submission formatting
-require author review. [Supplement S1–S8](MANUSCRIPT_SUPPLEMENT.md) consolidates
+rights remain documented. The author review of assisted work is recorded in AI_ASSISTANCE.md. [Supplement S1–S8](MANUSCRIPT_SUPPLEMENT.md) consolidates
 the methods, complete selected contrast tables and interpretation limits.

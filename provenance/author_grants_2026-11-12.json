@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "confirmation": "Authors selected these grants during manuscript revision",
+  "author_owned_code": "MIT",
+  "author_owned_data_figures_documentation": "CC-BY-4.0",
+  "scope": "Only rights owned by the manuscript authors; see LICENSE.md for exclusions",
+  "excluded_legacy_modules": {
+    "MODEL2C/rectangle.py": "b2781a4e7bc95fc83aba08c326f898b9f3a9e93d08da6ae7805e45ce74174e85",
+    "MODEL2C/clefia.py": "1136b85a17c684375d70595adcb38b388f7c4607647a50837905911d3d72e2e9",
+    "MODEL2C/sparkle.py": "71963cefd560a95968d65f09fbd59345a95efc43ed9102debcdaab7f578a590e"
+  },
+  "upstream_permission_status": "RECTANGLE/CLEFIA source permission remains unresolved; no upstream grant is asserted",
+  "clefia_recheck": {
+    "repository": "https://github.com/fedescarpa/clefia",
+    "inspected_blob": "9ee52be938203c3619c59f4b9fa56f655a8f6ec5",
+    "findings": "Inspected root, README and C header supplied no explicit license grant"
+  },
+  "license_sources": {
+    "MIT": "https://opensource.org/license/mit",
+    "CC-BY-4.0": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "CC-BY-text-mirror": "https://github.com/spdx/license-list-data/blob/main/text/CC-BY-4.0.txt"
+  }
+}

@@ -1,8 +1,7 @@
 # Provenance and packaging
 
 The supplied research workspace was measured and audited on 10 November 2026
-(Asia/Jakarta). This package is a separate local copy; the draft manuscript,
-journal template, and original experiment folders remain outside it.
+(Asia/Jakarta). The repository preserves the measured artifacts separately from the manuscript, journal template and working experiment folders.
 
 `provenance/source_inventory.json` records, for every copied source artifact:
 
@@ -96,6 +95,4 @@ Visualization and explanatory reporting are post-generation transformations
 with separate provenance. Historic code/data and calibration bytes remain
 unchanged. See [mechanism evidence and limits](SAC_MECHANISM.md).
 
-No author ORCID, GitHub account, article DOI, funding source, release date or
-license choice was invented. Citation names and affiliation come from the
-draft manuscript and should be reviewed by its authors before publication.
+Author names, affiliation and grant information were supplied by the authors. On 12 November 2026 the authors confirmed review of assisted work and selected MIT for their code and CC BY 4.0 for their data/documents, with the exclusions in LICENSE.md. No article DOI or permission from third-party rights holders is fabricated.

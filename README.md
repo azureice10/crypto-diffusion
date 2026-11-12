@@ -1,34 +1,38 @@
-# Cryptographic diffusion and statistical distinguisher experiments
+# Calibrated Strict Avalanche Criterion Comparisons Reveal Detector-Dependent Diffusion Endpoints
 
-Research supplement for **Empirical Comparison of Diffusion and Statistical
-Distinguisher Horizons in RECTANGLE-80, CLEFIA-128, SPARKLE and Alzette**.
+**[Supplement S1–S8 and complete evidence index](docs/MANUSCRIPT_SUPPLEMENT.md)**
+· [Standalone supplementary PDF](docs/MANUSCRIPT_SUPPLEMENT.pdf)
 
-Authors listed in the draft: Hermawan Setiawan, Raden Budiarto Hadiprakoso,
-and Sri Rosdiana, Politeknik Siber dan Sandi Negara, Indonesia.
-This repository is a supplementary artifact, not a published journal article.
+Research artifacts by Hermawan Setiawan, Raden Budiarto Hadiprakoso and
+Sri Rosdiana, Politeknik Siber dan Sandi Negara, Indonesia.
 Repository: https://github.com/azureice10/crypto-diffusion.
-An article DOI has not yet been assigned.
+Publication metadata will be added after an article DOI is assigned.
 
 ## What is included
 
-- Five complete sample configurations using seeds 2026–2030.
-- One larger-sample sensitivity run using seed 2026.
-- Eight keys each for RECTANGLE and CLEFIA in the main seed-2026 run.
-- Four detection policies, null calibration, and held-out confirmation.
-- CSV/JSON results, original checkpoints, portable JSON/NPZ exports, and figures.
-- Measurement source, regression tests, environment metadata, and SHA-256 checksums.
-- Follow-up Linux validation of SPARKLE scalar/batch traces against official C.
-- A directed, paired SAC detector comparison with 500 replications per cipher.
+- Stage A: five default-key seeds, a larger-sample sensitivity run, original
+  eight-key analyses, component horizons and restricted five-family probes.
+- Stage B: a query-matched SAC detector comparison on RECTANGLE and CLEFIA.
+- Stage C: Count-size-matched calibration and randomized α = 0.001 sensitivity,
+  with three independent calibration banks and held-out null validation.
+- Stage D: 4,500 fresh RECTANGLE replications across a default control and eight
+  new random keys, with paired and key-specific inference.
+- Stage E: exploratory histogram, marginal-surrogate and layout diagnostics.
+- Complete CSV/JSON/NPZ records, source hashes, frozen protocols, conformance
+  reports, verification scripts and manuscript-figure reproduction.
 
-The combined horizons were unchanged across the five seeds and the larger
-sample configuration: RECTANGLE 6/25 native rounds, CLEFIA 5/18 native rounds,
-SPARKLE 2 steps, and Alzette 4/4 ARX rounds. These describe this protocol;
-they are not security ratings or practical attack bounds.
+Stage-A combined endpoints are RECTANGLE 6/25 native rounds, CLEFIA 5/18
+native rounds and SPARKLE 2 steps. Alzette remains detected through its last
+observed round: **≥4 (right-censored)**. These are protocol-specific endpoints.
 
-The corrected Spearman coefficient between the significant single-bit linear
-fraction and the top differential fraction is approximately 0.583, replacing
-0.838 in the initial draft. Two late CLEFIA correlations found with 8,192
-discovery inputs were not confirmed using 65,536 independent inputs.
+Under Stage-C Count-size matching, Basic detects 480/500 versus Count 3/500
+at RECTANGLE round 7, N = 256. The fresh default control gives 478/500 versus
+1/500. Basic exceeds Count significantly on all eight new random keys; the
+smaller Count–Column contrast is less consistent. Residual conditional size
+mismatch and limited key sampling accompany these claims. Full outcomes,
+including the lost Stage-B Column advantage and nonsignificant results, are
+retained in the supplement. Ancillary correlation/output/timing audits are
+indexed separately in S6.
 
 ## Repository layout
 
@@ -125,19 +129,15 @@ scalar/batch comparisons including slim prefixes, with zero mismatches.
 The four builds use the same 5,394 input cases; their counts are not independent
 statistical replications. See the [protocol and archived JSON evidence](docs/SPARKLE_C_VALIDATION.md).
 
-A subsequent [paired SAC comparison](docs/SAC_COMPARISON.md) uses identical
-query budgets for corrected-count and sample-adapted Basic/Row/Column tests
-on RECTANGLE and CLEFIA. At RECTANGLE round 7, N=256, calibrated Basic detects
-489/500 versus count 3/500. Seven of 90 primary contrasts remain significant
-after Holm correction; six favor a histogram comparator and one favors count.
-Null sizes, uncertainty and fixed-key/small-budget limitations are reported
-separately. The comparison does not turn original horizons into universal
-diffusion boundaries or demonstrate a new full-round attack.
+The [Stage-B paired comparison](docs/SAC_COMPARISON.md) supplies the initial
+RECTANGLE/CLEFIA grid at shared query budgets. Its full results remain archived
+with their initial calibration. The revised manuscript emphasizes the
+subsequent recalibration and independent-input confirmation below.
 
 A [size-matched reanalysis](docs/SAC_SIZE_MATCHING.md) dated 11 November 2026
 addresses unequal null sizes on the archived RECTANGLE grid. It preserves
 Count and matches histogram targets to its exact discrete size, with a
-separately labeled randomized alpha=0.001 sensitivity. Nine million calibration
+separately labeled randomized α = 0.001 sensitivity. Nine million calibration
 and three million held-out null-statistic draws assess actual sizes and
 retraining variation. Existing cipher inputs are reused; this is not an
 independent cipher replication or a multiple-key study.
@@ -165,17 +165,8 @@ Prefer the JSON/NPZ exports for inspection. The portable reader uses
 Use [CITATION.cff](CITATION.cff) for the supplement metadata. Cite the final
 article separately once its publication details exist.
 
-Licenses are component-specific. The official SPARKLE material retains its GPL
-notice. The supplied RECTANGLE/CLEFIA modules did not include verifiable license
-grants, and no blanket MIT or other license has been invented for them or for
-the research data. See [LICENSE.md](LICENSE.md) and
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before public redistribution.
-Unresolved third-party reuse rights are explicitly recorded; public access
-does not create a blanket reuse license.
-
-## Manuscript supplement index
-
-The revised manuscript's [Supplement S1–S8](docs/MANUSCRIPT_SUPPLEMENT.md)
-links definitions, complete contrast tables, null validation, key confirmation,
-mechanism diagnostics and reproduction evidence. Historical results remain
-unchanged and distinct from subsequent reanalyses.
+Author-owned code is MIT-licensed; author-owned data, figures and documents
+are CC BY 4.0. Third-party components retain their own terms. In particular,
+the new grants exclude the historical RECTANGLE/CLEFIA modules whose upstream
+permissions remain unresolved. See [LICENSE.md](LICENSE.md) and
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for exact scope.

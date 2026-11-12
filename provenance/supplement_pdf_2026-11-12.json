@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "reportlab_version": "4.4.9",
+  "source_sha256": {
+    "docs/MANUSCRIPT_SUPPLEMENT.md": "07752031082270d2ee440ed4ee3d1eaddeda6e3daaf35bc8473d176bdff83d3e",
+    "scripts/render_supplement_pdf.py": "d361c28c6805d6a932bf94a11219fcff2565142bcde41350fcee8557b213b0ac",
+    "data/followup/sac_mechanism_2026-11-11/marginal_bias_maps.png": "05aeb6d1741f56ff7429fcba228b32f6ce0d055243becfc0b21e5ccd8905bc64",
+    "data/followup/sac_mechanism_2026-11-11/surrogate_diagnostics.png": "8002148402a0a87745e87204cfd0b61fa6c155c3edca48bc40e8d04216c874c4",
+    "data/followup/sac_mechanism_2026-11-11/layout_ablation.png": "3426e992aaac8315cd55fe650d93dccd0b3a7537c82ef4b69f957fbe10c3a63d"
+  },
+  "pdf": {
+    "path": "docs/MANUSCRIPT_SUPPLEMENT.pdf",
+    "sha256": "b62eac9e2fc40bc9b8bb60ef501242f288243cd5274d355eec7f68ceb74afd13"
+  },
+  "font_family": "Times New Roman",
+  "font_sha256": {
+    "times.ttf": "0bf1b21b27b370039b60eca23d532c3fe3fb308750d8f13816db70a6cb666804",
+    "timesbd.ttf": "cb8f85dedb0ab01792baad20da28d26773485ac9c21e112bb5c511a8b2001eee",
+    "timesi.ttf": "11e6aae7436a5f2442eada66493d1767c78dde02acedc0afa6e7d0afeb0f3a14",
+    "timesbi.ttf": "5d78b5c66ac8e9c3fc94bd4ead792e1127f5f3faa29f768ff9b599339afe95bf"
+  },
+  "deterministic_repeated_render": "PASS",
+  "scope": "Document-only rendering; measurements and frozen experiment sources unchanged"
+}

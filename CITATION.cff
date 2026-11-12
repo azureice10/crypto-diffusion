@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite this supplement and the associated article once its publication details are available."
 type: software
-title: "Supplementary artifacts: Empirical Comparison of Diffusion and Statistical Distinguisher Horizons in RECTANGLE-80, CLEFIA-128, SPARKLE and Alzette"
+title: "Supplementary artifacts: Calibrated Strict Avalanche Criterion Comparisons Reveal Detector-Dependent Diffusion Endpoints"
 repository-code: "https://github.com/azureice10/crypto-diffusion"
 url: "https://github.com/azureice10/crypto-diffusion"
-version: "0.1.0"
+version: "0.2.0"
 authors:
   - family-names: Setiawan
     given-names: Hermawan
@@ -15,7 +15,7 @@ authors:
   - family-names: Rosdiana
     given-names: Sri
     affiliation: Politeknik Siber dan Sandi Negara
-abstract: "Code, synthetic-input measurements, statistical audits, portable checkpoints, and figures for a reproducible empirical study of diffusion and selected statistical distinguishers."
+abstract: "Frozen protocols, data, code and explanatory diagnostics for calibrated SAC comparisons, size-aware reanalysis and fresh-input/random-key confirmation."
 keywords:
   - cryptography
   - diffusion

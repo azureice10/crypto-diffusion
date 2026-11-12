@@ -24,3 +24,20 @@ Historical headers mention earlier C/random-vector checks and a
 for byte-level provenance; they are not evidence that those checks were run
 for this supplement. The current recorded validation scope is described in
 `docs/LIMITATIONS.md`.
+
+## Provenance recheck — 12 November 2026
+
+The fedescarpa/clefia repository root, README and C header were inspected
+again through the GitHub connector. The root contains README.md, clefia.c,
+encript.c and decript.c, with no LICENSE file; the inspected header and README
+contain no explicit source-code license grant. The inspected clefia.c blob is
+`9ee52be938203c3619c59f4b9fa56f655a8f6ec5`. This recheck does not establish
+permission. The supplied RECTANGLE module identifies rectangle_strict_80.c,
+but that source and an explicit grant were not supplied. Citation of an
+algorithm specification alone does not license a previously ported source.
+
+The author-confirmed MIT and CC BY 4.0 grants cover their rights only. The
+historical cipher modules and upstream-derived portions are excluded as
+described in LICENSE.md. No permissions have been requested from upstream
+authors in this workflow. Historical measured sources remain byte-identical;
+an authorized-source replacement is separate implementation work.

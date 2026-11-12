@@ -19,6 +19,11 @@ and replicate indices, and shared across banks/rounds as specified in the
 protocol. Ideal-permutation coupling is retained. Actual conditional sizes are
 validated and must not be called exactly equal.
 
+Manuscript display names are **Count-size-matched** (primary, archived as
+`match_count_nonrandom`) and **randomized α = 0.001** (sensitivity, archived as
+`equal_alpha_randomized`). The archived identifiers and numerical results are
+unchanged.
+
 At round 7, N=256, primary Basic detects 480/500, versus Count
 3/500; difference 95.4 percentage points,
 pointwise paired-bootstrap 95% interval [93.6, 97.2],

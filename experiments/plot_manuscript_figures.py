@@ -66,7 +66,7 @@ def figures():
         axes[0].errorbar([int(r['native_round']) for r in rr],y,yerr=[np.maximum(0,y-lo),np.maximum(0,hi-y)],linestyle=ls,marker=m,color=c,markersize=3,markerfacecolor='white',lw=.8,capsize=1.5,label=f'Basic N={n:,}')
     rr=sorted(selected(rate,N=256,bank=0,policy=POLICY,method='count'),key=lambda r:int(r['native_round']))
     axes[0].plot([int(r['native_round']) for r in rr],[float(r['rate']) for r in rr],'-D',color='.6',markerfacecolor='white',ms=3,lw=.8,label='Count N=256')
-    for method,offset,m,c,label in [('basic',-.08,'s','0','Basic'),('max_axis',.08,'^','.45','Axis max')]:
+    for method,offset,m,c,label in [('basic',-.08,'s','0','Basic'),('max_axis',.08,'^','.45','Maximum-axis')]:
         rr=sorted(selected(null,bank=0,policy=POLICY,method=method),key=lambda r:int(r['N']))
         x=np.arange(3)+offset;y=np.array([float(r['rate_to_target']) for r in rr]);t=np.array([float(r['target_iid_size']) for r in rr])
         lo=np.array([float(r['wilson95_low']) for r in rr])/t;hi=np.array([float(r['wilson95_high']) for r in rr])/t
